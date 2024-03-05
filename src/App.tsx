@@ -1,7 +1,11 @@
+import Navbar from "./Pages/Navbar/Navbar";
+import Profile from "./Pages/Profile/Profile";
+
 function App() {
     return (
-        <main className="py-10">
-            <h1>Hello World</h1>
+        <main>
+            <Navbar />
+            <Profile />
         </main>
     );
 }
