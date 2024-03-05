@@ -1,3 +1,4 @@
+import About from "./Pages/About/About";
 import Navbar from "./Pages/Navbar/Navbar";
 import Profile from "./Pages/Profile/Profile";
 
@@ -6,6 +7,7 @@ function App() {
         <main>
             <Navbar />
             <Profile />
+            <About />
         </main>
     );
 }

@@ -51,7 +51,8 @@
         padding: 1rem;
         border-radius: 2rem;
     }
-    .section-container {
-        display: flex;
+    .icon {
+        cursor: pointer;
+        height: 2rem;
     }
 }

@@ -28,12 +28,12 @@ const Profile = () => {
                     <img
                         src={linkedinPic}
                         alt="My LinkedIn profile"
-                        className="cursor-pointer h-8"
+                        className="icon"
                     />
                     <img
                         src={githubPic}
                         alt="My Github profile"
-                        className="cursor-pointer h-8"
+                        className="icon"
                     />
                 </div>
             </div>
