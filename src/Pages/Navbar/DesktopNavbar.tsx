@@ -6,8 +6,8 @@ export const myLinks = [
         text: "About"
     },
     {
-        link: "#experience",
-        text: "Experience"
+        link: "#skills",
+        text: "Skills"
     },
     {
         link: "#projects",
@@ -21,10 +21,7 @@ export const myLinks = [
 
 const DesktopNavbar = () => {
     return (
-        <nav
-            id="desktop-nav"
-            className="flex justify-around items-center h-[17vh]"
-        >
+        <nav className="flex justify-around items-center py-3">
             <Logo />
             <div>
                 <ul className="nav-links flex gap-8 text-2xl">
