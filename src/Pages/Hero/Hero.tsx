@@ -1,8 +1,8 @@
 import profilePic from "../../assets/myImage.png";
 import linkedinPic from "../../assets/linkedin.png";
 import githubPic from "../../assets/github.png";
-
-const Profile = () => {
+import twitterPic from "../../assets/twitter.png";
+const Hero = () => {
     return (
         <section className=" flex justify-center gap-20 h-[80vh]">
             <div className="flex h-[400px] w-[400px] my-auto mx-0">
@@ -35,10 +35,15 @@ const Profile = () => {
                         alt="My Github profile"
                         className="icon"
                     />
+                    <img
+                        src={twitterPic}
+                        alt="My Twitter profile"
+                        className="icon"
+                    />
                 </div>
             </div>
         </section>
     );
 };
 
-export default Profile;
+export default Hero;

@@ -1,12 +1,12 @@
 import About from "./Pages/About/About";
 import Navbar from "./Pages/Navbar/Navbar";
-import Profile from "./Pages/Profile/Profile";
+import Hero from "./Pages/Hero/Hero";
 
 function App() {
     return (
         <main>
             <Navbar />
-            <Profile />
+            <Hero />
             <About />
         </main>
     );

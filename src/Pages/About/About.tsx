@@ -10,13 +10,13 @@ const About = () => {
     return (
         <section className="relative">
             <p className="text-center mb-6">Get To Know More</p>
-            <h1 className="text-5xl text-center">About Me</h1>
+            <h1 className="text-5xl text-center mb-10">About Me</h1>
             <div className="flex h-[80%] gap-16">
                 <div className="flex my-auto mx-0 ">
                     <img
                         src={myPicture}
                         alt="Profile picture"
-                        className="rounded-[2rem] w-[600px] h-[600px] object-cover max-w-none"
+                        className="rounded-[2rem] w-[600px] h-[700px] object-cover max-w-none"
                     />
                 </div>
                 <div className="flex justify-center flex-col">
