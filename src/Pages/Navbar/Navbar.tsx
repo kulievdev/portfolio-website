@@ -3,7 +3,7 @@ import HamburgerNavbar from "./HamburgerNavbar";
 
 const Navbar = () => {
     return (
-        <div className="bg-gradient-to-tl from-secondary-100 border-2 ">
+        <div className="bg-gradient-to-tl from-secondary-100 border ">
             <DesktopNavbar />
             <HamburgerNavbar />
         </div>
