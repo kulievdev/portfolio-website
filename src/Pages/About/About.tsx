@@ -91,7 +91,7 @@ const About = () => {
                                 meaningful experiences together. 🤝`
                                 ) : (
                                     <button
-                                        className="text-primary-500 font-extrabold animate-pulse"
+                                        className="text-primary-500 font-extrabold animate-pulse transform transition duration-500 ease-in hover:translate-x-4"
                                         onClick={() => setLearnMore(true)}
                                     >
                                         Continue Reading ...
