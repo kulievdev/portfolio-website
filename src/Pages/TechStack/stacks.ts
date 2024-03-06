@@ -41,7 +41,7 @@ const myFrontEndStack = [
         imgSrc: vite
     },
     {
-        name: "Chakra UI",
+        name: "ChakraUI",
         imgSrc: chakra
     },
     {

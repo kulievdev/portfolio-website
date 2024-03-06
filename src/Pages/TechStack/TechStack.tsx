@@ -12,11 +12,11 @@ const TechStack = () => {
                 </h1>
 
                 <div className="flex gap-20 mb-10">
-                    <div className="p-5 border-2 rounded-3xl">
-                        <h2 className="text-gray-600 text-center font-semibold text-3xl mb-16">
+                    <div className="p-10 border border-gray-500 hover:shadow-2xl rounded-3xl">
+                        <h2 className="text-gray-600 text-center font-semibold text-3xl mb-10">
                             Frontend
                         </h2>
-                        <div className="grid grid-cols-5 gap-8">
+                        <div className="grid grid-cols-5 gap-10">
                             {myFrontEndStack.map((stack, idx) => {
                                 return (
                                     <Skill
@@ -28,11 +28,11 @@ const TechStack = () => {
                             })}
                         </div>
                     </div>
-                    <div className="p-5 border-2 rounded-3xl">
-                        <h2 className="text-gray-600 text-center font-semibold text-3xl mb-16">
+                    <div className="p-10 border border-gray-500 rounded-3xl hover:shadow-2xl">
+                        <h2 className="text-gray-600 text-center font-semibold text-3xl mb-10">
                             Backend
                         </h2>
-                        <div className="grid grid-cols-5 gap-8">
+                        <div className="grid grid-cols-5 gap-10">
                             {myBackEndStack.map((stack, idx) => {
                                 return (
                                     <Skill
@@ -45,11 +45,11 @@ const TechStack = () => {
                         </div>
                     </div>
                 </div>
-                <div className="p-5 w-max border-2 rounded-3xl">
-                    <h2 className="text-gray-600 text-center font-semibold text-3xl mb-16">
+                <div className="p-10 w-max border border-gray-500 rounded-3xl hover:shadow-2xl">
+                    <h2 className="text-gray-600 text-center font-semibold text-3xl mb-10">
                         Overlap
                     </h2>
-                    <div className="grid grid-cols-3 gap-8">
+                    <div className="grid grid-cols-3 gap-10">
                         {myOverLapStack.map((stack, idx) => {
                             return (
                                 <Skill
