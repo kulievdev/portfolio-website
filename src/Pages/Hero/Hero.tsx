@@ -2,6 +2,22 @@ import profilePic from "../../assets/myImageSquare.png";
 import linkedinPic from "../../assets/linkedin.png";
 import githubPic from "../../assets/github.png";
 import twitterPic from "../../assets/twitter.png";
+import SocialMediaIcon from "../../Components/SocialMediaIcon";
+
+const mySocials = [
+    {
+        src: linkedinPic,
+        alt: "My LinkedIn Profile"
+    },
+    {
+        src: githubPic,
+        alt: "My GitHub Profile"
+    },
+    {
+        src: twitterPic,
+        alt: "My Twitter Profile"
+    }
+];
 
 const Hero = () => {
     return (
@@ -27,26 +43,20 @@ const Hero = () => {
                         <button className="btn border-2 border-gray-700  hover:bg-gray-700 hover:text-white ">
                             Download CV
                         </button>
-                        <button className="btn border-2 border-gray-700 bg-gray-700 text-white hover:bg-black">
+                        <button className="btn border-2 border-gray-700 bg-gray-700 text-white hover:bg-black ">
                             Contact Info
                         </button>
                     </div>
                     <div className="flex justify-center mt-4 gap-4">
-                        <img
-                            src={linkedinPic}
-                            alt="My LinkedIn profile"
-                            className="icon"
-                        />
-                        <img
-                            src={githubPic}
-                            alt="My Github profile"
-                            className="icon"
-                        />
-                        <img
-                            src={twitterPic}
-                            alt="My Twitter profile"
-                            className="icon"
-                        />
+                        {mySocials.map((mySocial, idx) => {
+                            return (
+                                <SocialMediaIcon
+                                    key={idx}
+                                    imageSrc={mySocial.src}
+                                    altText={mySocial.alt}
+                                />
+                            );
+                        })}
                     </div>
                 </div>
             </section>

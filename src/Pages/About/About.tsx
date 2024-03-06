@@ -48,7 +48,13 @@ const About = () => {
                                 </p>
                             </div>
                         </div>
-                        <div>
+                        <div
+                            className={
+                                learnMore
+                                    ? "overflow-auto h-44"
+                                    : "overflow-auto"
+                            }
+                        >
                             <p className="text-gray-800">
                                 Hey there again! 👋 My journey has been all
                                 about embracing change and following my
@@ -81,7 +87,7 @@ const About = () => {
                                         className="text-primary-500 font-extrabold animate-pulse"
                                         onClick={() => setLearnMore(true)}
                                     >
-                                        Learn More ...
+                                        Continue Reading ...
                                     </button>
                                 )}
                             </p>
