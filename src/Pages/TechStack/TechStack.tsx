@@ -1,142 +1,73 @@
+import Skill from "../../Components/Skill";
+import { myFrontEndStack, myBackEndStack, myOverLapStack } from "./stacks";
+import arrow from "../../assets/Images/arrow.png";
+
 const TechStack = () => {
     return (
-        <section id="experience">
-            <p className="section__text__p1">Explore My</p>
-            <h1 className="title">Experience</h1>
-            <div className="experience-details-container">
-                <div className="about-containers">
-                    <div className="details-container">
-                        <h2 className="experience-sub-title">
-                            Frontend Development
+        <div className="bg-gradient-to-l from-primary-50 to-gray-50">
+            <section className="relative flex flex-col items-center">
+                <p className="text-center mb-6 font-semibold">Explore My</p>
+                <h1 className="text-5xl text-center font-extrabold mb-16">
+                    Tech Stack
+                </h1>
+
+                <div className="flex gap-20 mb-10">
+                    <div className="p-5 border-2 rounded-3xl">
+                        <h2 className="text-gray-600 text-center font-semibold text-3xl mb-16">
+                            Frontend
                         </h2>
-                        <div className="article-container">
-                            <article>
-                                <img
-                                    src="./assets/checkmark.png"
-                                    alt="Experience icon"
-                                    className="icon"
-                                />
-                                <div>
-                                    <h3>HTML</h3>
-                                    <p>Experienced</p>
-                                </div>
-                            </article>
-                            <article>
-                                <img
-                                    src="./assets/checkmark.png"
-                                    alt="Experience icon"
-                                    className="icon"
-                                />
-                                <div>
-                                    <h3>CSS</h3>
-                                    <p>Experienced</p>
-                                </div>
-                            </article>
-                            <article>
-                                <img
-                                    src="./assets/checkmark.png"
-                                    alt="Experience icon"
-                                    className="icon"
-                                />
-                                <div>
-                                    <h3>SASS</h3>
-                                    <p>Intermediate</p>
-                                </div>
-                            </article>
-                            <article>
-                                <img
-                                    src="./assets/checkmark.png"
-                                    alt="Experience icon"
-                                    className="icon"
-                                />
-                                <div>
-                                    <h3>JavaScript</h3>
-                                    <p>Basic</p>
-                                </div>
-                            </article>
-                            <article>
-                                <img
-                                    src="./assets/checkmark.png"
-                                    alt="Experience icon"
-                                    className="icon"
-                                />
-                                <div>
-                                    <h3>TypeScript</h3>
-                                    <p>Basic</p>
-                                </div>
-                            </article>
-                            <article>
-                                <img
-                                    src="./assets/checkmark.png"
-                                    alt="Experience icon"
-                                    className="icon"
-                                />
-                                <div>
-                                    <h3>Material UI</h3>
-                                    <p>Intermediate</p>
-                                </div>
-                            </article>
+                        <div className="grid grid-cols-5 gap-8">
+                            {myFrontEndStack.map((stack, idx) => {
+                                return (
+                                    <Skill
+                                        key={idx}
+                                        name={stack.name}
+                                        imgSrc={stack.imgSrc}
+                                    />
+                                );
+                            })}
                         </div>
                     </div>
-                    <div className="details-container">
-                        <h2 className="experience-sub-title">
-                            Frontend Development
+                    <div className="p-5 border-2 rounded-3xl">
+                        <h2 className="text-gray-600 text-center font-semibold text-3xl mb-16">
+                            Backend
                         </h2>
-                        <div className="article-container">
-                            <article>
-                                <img
-                                    src="./assets/checkmark.png"
-                                    alt="Experience icon"
-                                    className="icon"
-                                />
-                                <div>
-                                    <h3>PostgreSQL</h3>
-                                    <p>Basic</p>
-                                </div>
-                            </article>
-                            <article>
-                                <img
-                                    src="./assets/checkmark.png"
-                                    alt="Experience icon"
-                                    className="icon"
-                                />
-                                <div>
-                                    <h3>Node JS</h3>
-                                    <p>Intermediate</p>
-                                </div>
-                            </article>
-                            <article>
-                                <img
-                                    src="./assets/checkmark.png"
-                                    alt="Experience icon"
-                                    className="icon"
-                                />
-                                <div>
-                                    <h3>Express JS</h3>
-                                    <p>Intermediate</p>
-                                </div>
-                            </article>
-                            <article>
-                                <img
-                                    src="./assets/checkmark.png"
-                                    alt="Experience icon"
-                                    className="icon"
-                                />
-                                <div>
-                                    <h3>Git</h3>
-                                    <p>Intermediate</p>
-                                </div>
-                            </article>
+                        <div className="grid grid-cols-5 gap-8">
+                            {myBackEndStack.map((stack, idx) => {
+                                return (
+                                    <Skill
+                                        key={idx}
+                                        name={stack.name}
+                                        imgSrc={stack.imgSrc}
+                                    />
+                                );
+                            })}
                         </div>
                     </div>
                 </div>
-            </div>
-            <img
-                src="./assets/arrow.png"
-                alt="Arrow icon"
-                className="icon arrow"
-            />
-        </section>
+                <div className="p-5 w-max border-2 rounded-3xl">
+                    <h2 className="text-gray-600 text-center font-semibold text-3xl mb-16">
+                        Overlap
+                    </h2>
+                    <div className="grid grid-cols-3 gap-8">
+                        {myOverLapStack.map((stack, idx) => {
+                            return (
+                                <Skill
+                                    key={idx}
+                                    name={stack.name}
+                                    imgSrc={stack.imgSrc}
+                                />
+                            );
+                        })}
+                    </div>
+                </div>
+                <img
+                    src={arrow}
+                    alt="Arrow icon"
+                    className="icon absolute right-[-5rem] bottom-10"
+                />
+            </section>
+        </div>
     );
 };
 

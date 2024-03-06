@@ -1,4 +1,4 @@
-import logo from "../assets/logo.png";
+import logo from "../assets/Images/logo.png";
 
 const Logo = () => {
     return <img src={logo} className="w-52 cursor-pointer" />;

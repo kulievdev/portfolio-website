@@ -1,8 +1,8 @@
-import myExperience from "../../assets/experience.png";
-import myEducation from "../../assets/education.png";
-import myHobbies from "../../assets/hobbies.png";
-import myLocation from "../../assets/location.png";
-import arrow from "../../assets/arrow.png";
+import myExperience from "../../assets/Images/experience.png";
+import myEducation from "../../assets/Images/education.png";
+import myHobbies from "../../assets/Images/hobbies.png";
+import myLocation from "../../assets/Images/location.png";
+import arrow from "../../assets/Images/arrow.png";
 import { useState } from "react";
 import AboutMe from "../../Components/AboutMe";
 
@@ -38,13 +38,17 @@ const About = () => {
     const [learnMore, setLearnMore] = useState(false);
 
     return (
-        <div className="bg-gradient-to-l from-primary-50 to-gray-50">
+        <div className="bg-gradient-to-r from-primary-50 to-gray-50">
             <section className="relative py-8">
-                <p className="text-center mb-6">Get To Know More</p>
-                <h1 className="text-5xl text-center">About Me</h1>
+                <p className="text-center mb-6 font-semibold">
+                    Get To Know More
+                </p>
+                <h1 className="text-5xl text-center font-extrabold">
+                    About Me
+                </h1>
                 <div className="flex h-[80%]">
                     <div className="flex justify-center flex-col">
-                        <div className="grid grid-cols-2 gap-8 my-8">
+                        <div className="grid grid-cols-2 gap-8 mb-8">
                             {myInfo.map((info, idx) => {
                                 return (
                                     <AboutMe

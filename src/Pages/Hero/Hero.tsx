@@ -1,7 +1,7 @@
-import profilePic from "../../assets/myImageSquare.png";
-import linkedinPic from "../../assets/linkedin.png";
-import githubPic from "../../assets/github.png";
-import twitterPic from "../../assets/twitter.png";
+import profilePic from "../../assets/Images/myImageSquare.png";
+import linkedinPic from "../../assets/Images/linkedin.png";
+import githubPic from "../../assets/Images/github.png";
+import twitterPic from "../../assets/Images/twitter.png";
 import SocialMediaIcon from "../../Components/SocialMediaIcon";
 import { useState } from "react";
 
