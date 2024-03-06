@@ -3,6 +3,7 @@ import linkedinPic from "../../assets/linkedin.png";
 import githubPic from "../../assets/github.png";
 import twitterPic from "../../assets/twitter.png";
 import SocialMediaIcon from "../../Components/SocialMediaIcon";
+import { useState } from "react";
 
 const mySocials = [
     {
@@ -20,16 +21,27 @@ const mySocials = [
 ];
 
 const Hero = () => {
+    const [pictureInPlace, setPictureInPlace] = useState(false);
+
+    const handleImageHover = () => {
+        setPictureInPlace(!pictureInPlace);
+    };
+
     return (
         <main className="bg-gradient-to-tl from-primary-100 to-gray-50">
-            <section className=" flex justify-center gap-20 h-dvh ">
-                <div className="flex relative h-[400px] w-[400px] my-auto mx-0 ">
+            <section className=" flex justify-center gap-24 h-dvh ">
+                <div className="flex h-[400px] w-[335px] relative my-auto mx-0 ">
                     <img
-                        className="relative rounded-3xl z-10"
+                        className="relative rounded-3xl z-10 cursor-pointer"
                         src={profilePic}
-                        alt="Tohir Kuliev profile picture"
+                        alt="Tohir Kuliev Profile Picture"
+                        onMouseDown={handleImageHover}
                     />
-                    <div className="absolute bg-secondary-200 top-5 left-4 h-[400px] w-[350px] rounded-3xl"></div>
+                    {!pictureInPlace ? (
+                        <div className="absolute bg-secondary-200 h-[400px] w-[335px] rounded-3xl transform transition duration-700 ease-in-out translate-x-4 translate-y-5"></div>
+                    ) : (
+                        <div className="absolute bg-secondary-200 h-[400px] w-[335px] rounded-3xl transform transition duration-700 ease-in-out translate-x-0 translate-y-0"></div>
+                    )}
                 </div>
                 <div className="flex flex-col justify-center items-center gap-3">
                     <p className="font-semibold text-center">Hello, I'm</p>
