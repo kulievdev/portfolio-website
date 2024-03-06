@@ -55,7 +55,7 @@ const Hero = () => {
                         <button className="btn border-2 border-gray-700  hover:bg-gray-700 hover:text-white ">
                             Download CV
                         </button>
-                        <button className="btn border-2 border-gray-700 bg-gray-700 text-white hover:bg-black ">
+                        <button className="btn border-2 border-gray-700 bg-gray-700 text-white hover:bg-black">
                             Contact Info
                         </button>
                     </div>

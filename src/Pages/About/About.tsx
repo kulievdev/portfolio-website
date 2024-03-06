@@ -1,8 +1,38 @@
-import myPicture from "../../assets/myPicture.png";
 import myExperience from "../../assets/experience.png";
 import myEducation from "../../assets/education.png";
+import myHobbies from "../../assets/hobbies.png";
+import myLocation from "../../assets/location.png";
 import arrow from "../../assets/arrow.png";
 import { useState } from "react";
+import AboutMe from "../../Components/AboutMe";
+
+const myInfo = [
+    {
+        imgSrc: myExperience,
+        altText: "Experience Icon",
+        title: "Experience",
+        description: "1+ years Full Stack Development"
+    },
+    {
+        imgSrc: myEducation,
+        altText: "Education Icon",
+        title: "Education",
+        description: "BBA in Corporate Finance and BA in Economics"
+    },
+    {
+        imgSrc: myLocation,
+        altText: "Location Icon",
+        title: "Location",
+        description: "New York, USA"
+    },
+    {
+        imgSrc: myHobbies,
+        altText: "Hobbies Icon",
+        title: "Hobbies",
+        description:
+            "Learning New Technologies, soccer, reading, traveling and photography"
+    }
+];
 
 const About = () => {
     const [learnMore, setLearnMore] = useState(false);
@@ -11,50 +41,23 @@ const About = () => {
         <div className="bg-gradient-to-l from-primary-50 to-gray-50">
             <section className="relative py-8">
                 <p className="text-center mb-6">Get To Know More</p>
-                <h1 className="text-5xl text-center mb-10">About Me</h1>
-                <div className="flex h-[80%] gap-16">
-                    <div className="flex my-auto mx-0 ">
-                        <img
-                            src={myPicture}
-                            alt="Profile picture"
-                            className="rounded-[2rem] w-[500px] h-[500px] object-cover max-w-none"
-                        />
-                    </div>
+                <h1 className="text-5xl text-center">About Me</h1>
+                <div className="flex h-[80%]">
                     <div className="flex justify-center flex-col">
-                        <div className="flex gap-8 my-8">
-                            <div className="p-6 flex-[1] bg-white rounded-[2rem] border border-gray-400 text-center">
-                                <img
-                                    src={myExperience}
-                                    alt="Experience icon"
-                                    className="icon inline-block mb-4"
-                                />
-                                <h3>Experience</h3>
-                                <p>
-                                    1+ years <br />
-                                    Full Stack Development
-                                </p>
-                            </div>
-                            <div className="p-6 flex-[1] bg-white rounded-[2rem] border border-gray-400 text-center">
-                                <img
-                                    src={myEducation}
-                                    alt="Education icon"
-                                    className="icon inline-block mb-4"
-                                />
-                                <h3>Education</h3>
-                                <p>
-                                    BBA in Corporate Finance
-                                    <br />
-                                    BA in Economics
-                                </p>
-                            </div>
+                        <div className="grid grid-cols-2 gap-8 my-8">
+                            {myInfo.map((info, idx) => {
+                                return (
+                                    <AboutMe
+                                        key={idx}
+                                        imgSrc={info.imgSrc}
+                                        altText={info.altText}
+                                        title={info.title}
+                                        description={info.description}
+                                    />
+                                );
+                            })}
                         </div>
-                        <div
-                            className={
-                                learnMore
-                                    ? "overflow-auto h-44"
-                                    : "overflow-auto"
-                            }
-                        >
+                        <div>
                             <p className="text-gray-800">
                                 Hey there again! 👋 My journey has been all
                                 about embracing change and following my
