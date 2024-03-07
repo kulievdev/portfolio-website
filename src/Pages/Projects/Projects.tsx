@@ -1,16 +1,16 @@
 import Project from "./Project";
-import project1 from "../../assets/Images/waterfall.jpg";
+import project1 from "../../assets/Images/project.png";
 
 import arrow from "../../assets/Images/arrow.png";
 
 const Projects = () => {
     return (
         <section className="relative">
-            <div className="section_container relative flex flex-col justify-center">
+            <div className="section_container h-[100vh] relative flex flex-col justify-center">
                 <p className="text-center mb-6 font-semibold">
                     Browse My Recent
                 </p>
-                <h1 className="text-5xl text-center font-extrabold mb-16">
+                <h1 className="text-5xl text-center font-extrabold">
                     Projects
                 </h1>
                 <div className="flex flex-col justify-center">

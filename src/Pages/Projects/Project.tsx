@@ -8,11 +8,11 @@ type ProjectProps = {
 const Project: React.FC<ProjectProps> = ({ projectName, imageSrc }) => {
     return (
         <div className="p-6 flex-1 bg-white rounded-[2rem] border border-secondary-300 text-center">
-            <div className="flex text-justify flex-wrap flex-row gap-10 justify-around">
+            <div className="flex text-justify flex-wrap gap-10 justify-around">
                 <img
                     src={imageSrc}
                     alt={projectName}
-                    className="rounded-[2rem] w-[90%] h-[90%]"
+                    className="rounded-[2rem] w-[90%] h-[80%]"
                 />
             </div>
             <h2 className=" font-semibold text-3xl mb-8 m-4 text-black">

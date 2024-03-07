@@ -8,7 +8,7 @@ import Projects from "./Pages/Projects/Projects";
 
 function App() {
     return (
-        <main className="bg-green-200">
+        <main className="">
             <main className="bg-gradient-to-tl from-primary-50 to-gray-50">
                 <Navbar />
                 <Hero />
