@@ -5,10 +5,10 @@ const Message = () => {
     return (
         <div className="flex flex-col flex-1 justify-between rounded-3xl bg-secondary-100 px-10 py-8">
             <div>
-                <p className="text-left text-xl font-bold mb-6 leading-7 text-gray-900">
+                <p className="text-left text-3xl font-bold mb-6 leading-7 text-gray-900">
                     Say Hello!
                 </p>
-                <p className="w-96 text-base font-semibold leading-6 text-gray-600 ">
+                <p className="w-96 text-base leading-6 text-gray-600 ">
                     Interested in working together or just have a question?
                     Let&apos;s connect and make things happen.
                 </p>
