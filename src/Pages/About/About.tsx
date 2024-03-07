@@ -59,7 +59,7 @@ const About = () => {
                     })}
                 </div>
                 <div>
-                    <p className="text-gray-800 text-xl">
+                    <p className="text-gray-800 text-xl text-justify">
                         Hey there again! 👋 My journey has been all about
                         embracing change and following my passions. Originally,
                         I was on track for a career in law—got admitted to law
