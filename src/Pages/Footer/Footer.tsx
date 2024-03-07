@@ -9,7 +9,12 @@ const Footer = () => {
                         {myLinks.map((myLink, idx) => {
                             return (
                                 <li key={idx}>
-                                    <a href={myLink.link}>{myLink.text}</a>
+                                    <a
+                                        className="hover:nav_links"
+                                        href={myLink.link}
+                                    >
+                                        {myLink.text}
+                                    </a>
                                 </li>
                             );
                         })}

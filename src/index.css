@@ -22,12 +22,6 @@
         transition: all 300ms ease;
         color: black;
     }
-    a:hover {
-        color: grey;
-        text-decoration: underline;
-        text-underline-offset: 1rem;
-        text-decoration-color: rgb(181, 181, 181);
-    }
     /* span {
         width: 100%;
         height: 2px;
@@ -43,6 +37,12 @@
         transition: all 300ms ease;
         padding: 1rem;
         border-radius: 2rem;
+    }
+    .nav_links {
+        color: grey;
+        text-decoration: underline;
+        text-underline-offset: 1rem;
+        text-decoration-color: rgb(181, 181, 181);
     }
     .icon {
         cursor: pointer;

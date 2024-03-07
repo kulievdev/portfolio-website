@@ -2,7 +2,7 @@ import Input from "../../Components/Input";
 
 const Form = () => {
     return (
-        <div className="flex-1 rounded-3xl bg-gradient-to-bl from-primary-100 to-secondary-100 px-32 py-8 2xl:px-52">
+        <div className="flex-1 rounded-3xl bg-gradient-to-bl from-primary-100 to-secondary-100 px-32 py-8 desktop::px-52">
             <form className="flex flex-col flex-1 gap-10 ">
                 <Input type="input" labelText="Name" placeholder="John Doe" />
                 <Input
