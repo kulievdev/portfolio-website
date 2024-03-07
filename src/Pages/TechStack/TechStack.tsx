@@ -49,7 +49,7 @@ const TechStack = () => {
                         <h2 className="text-gray-600 text-center font-semibold text-3xl mb-10">
                             Overlap
                         </h2>
-                        <div className="grid grid-cols-3 gap-10">
+                        <div className="grid grid-cols-4 gap-10">
                             {myOverLapStack.map((stack, idx) => {
                                 return (
                                     <Skill

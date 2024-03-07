@@ -5,6 +5,7 @@ import git from "../../assets/TechStackIcons/git.svg";
 import github from "../../assets/TechStackIcons/github.svg";
 import chakra from "../../assets/TechStackIcons/chakraui.svg";
 import javascript from "../../assets/TechStackIcons/javascript.svg";
+import typescript from "../../assets/TechStackIcons/typescript.svg";
 import mongodb from "../../assets/TechStackIcons/mongodb.svg";
 import nodejs from "../../assets/TechStackIcons/nodejs.svg";
 import postman from "../../assets/TechStackIcons/postman.svg";
@@ -44,6 +45,7 @@ const myFrontEndStack = [
         name: "ChakraUI",
         imgSrc: chakra
     },
+
     {
         name: "Vscode",
         imgSrc: vscode
@@ -85,6 +87,10 @@ const myOverLapStack = [
     {
         name: "Github",
         imgSrc: github
+    },
+    {
+        name: "Typescript",
+        imgSrc: typescript
     }
 ];
 
