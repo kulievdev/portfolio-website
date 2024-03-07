@@ -1,5 +1,7 @@
 import SocialMediaIcon from "../../Components/SocialMediaIcon";
 import { mySocials } from "../Hero/Hero";
+import emailIcon from "../../assets/Images/email.png";
+import phoneIcon from "../../assets/Images/phone.png";
 
 const Message = () => {
     return (
@@ -13,22 +15,37 @@ const Message = () => {
                     Let&apos;s connect and make things happen.
                 </p>
             </div>
-            <div className="flex flex-col gap-6">
-                <p className="text-left text-lg font-medium text-gray-900 ">
-                    Email
-                </p>
+            <div className="flex flex-col gap-10">
+                <div>
+                    <p className="text-left text-lg font-medium text-gray-900 mb-4">
+                        Email
+                    </p>
 
-                <p className="text-left text-sm font-medium text-primary-700">
-                    kuliev.tech@gmail.com
-                </p>
+                    <div className="flex items-center gap-4">
+                        <SocialMediaIcon
+                            imageSrc={emailIcon}
+                            altText="My Email Icon"
+                        />
+                        <p className="text-left text-sm font-medium text-primary-700 cursor-pointer">
+                            kuliev.tech@gmail.com
+                        </p>
+                    </div>
+                </div>
 
-                <p className="text-left text-lg font-medium leading-normal text-gray-900">
-                    Phone Number
-                </p>
-
-                <p className="text-left text-sm font-medium text-primary-700">
-                    646-663-6636
-                </p>
+                <div>
+                    <p className="text-left text-lg font-medium leading-normal text-gray-900 mb-4">
+                        Phone Number
+                    </p>
+                    <div className="flex items-center gap-4">
+                        <SocialMediaIcon
+                            imageSrc={phoneIcon}
+                            altText="My Email Icon"
+                        />
+                        <p className="text-left text-sm font-medium text-primary-700 cursor-pointer">
+                            646-663-6636
+                        </p>
+                    </div>
+                </div>
             </div>
             <div className="flex justify-center gap-8">
                 {mySocials.map((mySocial, idx) => {
