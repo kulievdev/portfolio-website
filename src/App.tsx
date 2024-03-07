@@ -7,10 +7,12 @@ import Contact from "./Pages/Contact/Contact";
 function App() {
     return (
         <main>
-            <Navbar />
-            <Hero />
-            <TechStack />
+            <main className="bg-gradient-to-tl from-primary-50 to-gray-50">
+                <Navbar />
+                <Hero />
+            </main>
             <About />
+            <TechStack />
             <Contact />
         </main>
     );

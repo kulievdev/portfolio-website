@@ -34,7 +34,7 @@ const DesktopNavbar = () => {
                     })}
                 </ul>
             </div>
-            <button className="py-2 px-6 text-lg font-semibold rounded-xl border-2 border-secondary-300  hover:bg-gray-700  hover:text-white ">
+            <button className="py-2 px-6 text-lg font-semibold rounded-xl border-2 border-secondary-300 hover:bg-gray-700 hover:text-white hover:border-gray-700 ">
                 Connect
             </button>
         </nav>
