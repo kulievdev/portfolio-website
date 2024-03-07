@@ -15,7 +15,7 @@ const HeroContent = () => {
                     </span>{" "}
                 </p>
                 <p className="text-center text-lg font-medium leading-normal text-gray-600 tablet:text-xl desktop:text-start desktop:leading-7">
-                    Presenting unique and creative design solutions for a
+                    Presenting unique and creative software solutions for a
                     variety of challenges and needs.
                 </p>
             </header>
