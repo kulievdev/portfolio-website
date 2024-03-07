@@ -105,7 +105,7 @@ const About = () => {
                     className="icon absolute right-[-5rem] bottom-10"
                 />
             </section>
-            <div className="w-full border-t border-gray-300"></div>
+            <div className="w-full border-b border-primary-100"></div>
         </>
         // </section>
     );
