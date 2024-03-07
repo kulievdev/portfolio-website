@@ -12,7 +12,7 @@ const TechStack = () => {
                 </h1>
                 <div className="flex flex-col items-center">
                     <div className="flex gap-20 mb-10">
-                        <div className="p-10 shadow-2xl rounded-3xl hover:border-2 hover:border-secondary-300">
+                        <div className="p-10 shadow-2xl rounded-3xl">
                             <h2 className="text-gray-600 text-center font-semibold text-3xl mb-10">
                                 Frontend
                             </h2>
@@ -28,7 +28,7 @@ const TechStack = () => {
                                 })}
                             </div>
                         </div>
-                        <div className="p-10 rounded-3xl shadow-2xl hover:border-2 hover:border-secondary-300">
+                        <div className="p-10 rounded-3xl shadow-2xl">
                             <h2 className="text-gray-600 text-center font-semibold text-3xl mb-10">
                                 Backend
                             </h2>
@@ -45,7 +45,7 @@ const TechStack = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="p-10 w-max rounded-3xl shadow-2xl hover:border-2 hover:border-secondary-300">
+                    <div className="p-10 w-max rounded-3xl shadow-2xl">
                         <h2 className="text-gray-600 text-center font-semibold text-3xl mb-10">
                             Overlap
                         </h2>
