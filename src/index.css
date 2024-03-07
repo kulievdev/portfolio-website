@@ -34,13 +34,6 @@
         background-color: black;
         transition: all 0.3 ease-in-out;
     } */
-    section {
-        padding-top: 4vh;
-        height: 100vh;
-        margin: 0 10rem;
-        box-sizing: border-box;
-        min-height: fit-content;
-    }
 }
 
 @layer components {
@@ -54,5 +47,11 @@
     .icon {
         cursor: pointer;
         height: 2rem;
+    }
+    .section_container {
+        height: 100vh;
+        margin: 0 10rem;
+        box-sizing: border-box;
+        min-height: fit-content;
     }
 }

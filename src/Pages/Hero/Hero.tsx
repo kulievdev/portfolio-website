@@ -5,7 +5,7 @@ import twitterPic from "../../assets/Images/twitter.png";
 import SocialMediaIcon from "../../Components/SocialMediaIcon";
 import { useState } from "react";
 
-const mySocials = [
+export const mySocials = [
     {
         src: linkedinPic,
         alt: "My LinkedIn Profile"
@@ -28,8 +28,8 @@ const Hero = () => {
     };
 
     return (
-        <main className="bg-gradient-to-tl from-primary-100 to-gray-50">
-            <section className=" flex justify-center gap-24 h-dvh ">
+        <section className="bg-gradient-to-tl from-primary-100 to-gray-50">
+            <div className="section_container flex justify-center gap-24">
                 <div className="flex h-[400px] w-[335px] relative my-auto mx-0 ">
                     <img
                         className="relative rounded-3xl z-10 cursor-pointer"
@@ -71,8 +71,8 @@ const Hero = () => {
                         })}
                     </div>
                 </div>
-            </section>
-        </main>
+            </div>
+        </section>
     );
 };
 
