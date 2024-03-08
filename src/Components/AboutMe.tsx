@@ -1,13 +1,13 @@
 import React from "react";
 
-type AboutMe2Props = {
+type AboutMeProps = {
     imgSrc: string;
     title: string;
     text: string;
     backgroundColor: string;
 };
 
-const AboutMe: React.FC<AboutMe2Props> = ({
+const AboutMe: React.FC<AboutMeProps> = ({
     imgSrc,
     text,
     title,
