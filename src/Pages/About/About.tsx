@@ -3,7 +3,7 @@ import codeIcon from "../../assets/Images/code.png";
 import hobbiesIcon from "../../assets/Images/puzzle.png";
 import educationIcon from "../../assets/Images/university.png";
 import learningIcon from "../../assets/Images/knowledge.png";
-import arrow from "../../assets/Images/arrow.png";
+import ArrowIcon from "../../Components/ArrowIcon";
 
 const About = () => {
     return (
@@ -55,11 +55,7 @@ const About = () => {
                         />
                     </div>
                 </div>
-                <img
-                    src={arrow}
-                    alt="Arrow icon"
-                    className="icon absolute right-[-5rem] bottom-10"
-                />
+                <ArrowIcon />
             </div>
         </section>
     );

@@ -1,7 +1,6 @@
 import Project from "./Project";
 import project1 from "../../assets/Images/project.png";
-
-import arrow from "../../assets/Images/arrow.png";
+import ArrowIcon from "../../Components/ArrowIcon";
 
 const Projects = () => {
     return (
@@ -20,11 +19,7 @@ const Projects = () => {
                         <Project projectName="Project 3" imageSrc={project1} />
                     </div>
                 </div>
-                <img
-                    src={arrow}
-                    alt="Arrow icon"
-                    className="icon absolute right-[-5rem] bottom-10"
-                />
+                <ArrowIcon />
             </div>
         </section>
     );

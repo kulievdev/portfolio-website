@@ -1,6 +1,6 @@
 import Skill from "../../Components/Skill";
 import { myFrontEndStack, myBackEndStack, myOverLapStack } from "./stacks";
-import arrow from "../../assets/Images/arrow.png";
+import ArrowIcon from "../../Components/ArrowIcon";
 
 const TechStack = () => {
     return (
@@ -62,11 +62,7 @@ const TechStack = () => {
                         </div>
                     </div>
                 </div>
-                <img
-                    src={arrow}
-                    alt="Arrow icon"
-                    className="icon absolute right-[-5rem] bottom-10"
-                />
+                <ArrowIcon />
             </div>
         </section>
     );
