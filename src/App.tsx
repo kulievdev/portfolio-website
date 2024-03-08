@@ -5,6 +5,7 @@ import TechStack from "./Pages/TechStack/TechStack";
 import Contact from "./Pages/Contact/Contact";
 import Footer from "./Pages/Footer/Footer";
 import Projects from "./Pages/Projects/Projects";
+import About2 from "./Pages/About/About";
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
             <Projects />
             <TechStack />
             {/* <About /> */}
+            <About2 />
             <Contact />
             <Footer />
         </main>

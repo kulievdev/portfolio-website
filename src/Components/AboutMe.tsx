@@ -1,27 +1,25 @@
 import React from "react";
 
-type AboutMeProps = {
+type AboutMe2Props = {
     imgSrc: string;
-    altText: string;
     title: string;
-    description: string;
+    text: string;
+    backgroundColor: string;
 };
 
-const AboutMe: React.FC<AboutMeProps> = ({
+const AboutMe: React.FC<AboutMe2Props> = ({
     imgSrc,
-    altText,
+    text,
     title,
-    description
+    backgroundColor
 }) => {
     return (
-        <div className="p-6 flex-[1] rounded-[2rem] border border-gray-400 text-center hover:animate-pulse">
-            <img
-                src={imgSrc}
-                alt={altText}
-                className="icon inline-block mb-4"
-            />
-            <h3 className="text-primary-500 font-extrabold">{title}</h3>
-            <p className="font-semibold text-gray-600">{description}</p>
+        <div className={`flex gap-4 p-6 rounded-3xl ${backgroundColor}`}>
+            <img src={imgSrc} className="h-16 inline-block mb-4" />
+            <div>
+                <h3 className="mt-1 font-bold text-xl mb-2">{title}</h3>
+                <p>{text}</p>
+            </div>
         </div>
     );
 };

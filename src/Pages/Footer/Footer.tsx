@@ -2,7 +2,7 @@ import { myLinks } from "../Navbar/DesktopNavbar";
 
 const Footer = () => {
     return (
-        <footer className="p-8">
+        <footer className="py-10 px-20">
             <div className="flex flex-col items-center gap-10 rounded-2xl bg-gradient-to-t from-primary-50 to-gray-50 px-10 py-12">
                 <div className="">
                     <ul className="nav-links flex gap-32 text-xl">

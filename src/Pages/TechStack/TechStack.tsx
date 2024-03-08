@@ -5,7 +5,7 @@ import arrow from "../../assets/Images/arrow.png";
 const TechStack = () => {
     return (
         <section className="bg-gradient-to-br from-primary-50 to-gray-50">
-            <div className="section_container h-[100vh] relative flex flex-col justify-center">
+            <div className="section_container relative flex flex-col justify-center">
                 <p className="text-center mb-6 font-semibold">Explore My</p>
                 <h1 className="text-5xl text-center font-extrabold mb-16">
                     Tech Stack

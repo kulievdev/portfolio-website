@@ -1,102 +1,58 @@
-import myExperience from "../../assets/Images/experience.png";
-import myEducation from "../../assets/Images/education.png";
-import myHobbies from "../../assets/Images/hobbies.png";
-import myLocation from "../../assets/Images/location.png";
-import arrow from "../../assets/Images/arrow.png";
-import { useState } from "react";
 import AboutMe from "../../Components/AboutMe";
-
-const myInfo = [
-    {
-        imgSrc: myExperience,
-        altText: "Experience Icon",
-        title: "Experience",
-        description: "1+ years Full Stack Development"
-    },
-    {
-        imgSrc: myEducation,
-        altText: "Education Icon",
-        title: "Education",
-        description: "BBA in Corporate Finance and BA in Economics"
-    },
-    {
-        imgSrc: myLocation,
-        altText: "Location Icon",
-        title: "Location",
-        description: "New York, USA"
-    },
-    {
-        imgSrc: myHobbies,
-        altText: "Hobbies Icon",
-        title: "Hobbies",
-        description:
-            "Learning New Technologies, soccer, reading, traveling and photography"
-    }
-];
+import codeIcon from "../../assets/Images/code.png";
+import hobbiesIcon from "../../assets/Images/puzzle.png";
+import educationIcon from "../../assets/Images/university.png";
+import learningIcon from "../../assets/Images/knowledge.png";
+import arrow from "../../assets/Images/arrow.png";
 
 const About = () => {
-    const [learnMore, setLearnMore] = useState(false);
-
     return (
-        // <section className="bg-gradient-to-r from-primary-50 to-gray-50">
-        <>
-            <section className="section_container relative flex flex-col justify-center">
-                <p className="text-center mb-6 font-semibold">
-                    Get To Know More
-                </p>
-                <h1 className="text-5xl text-center font-extrabold mb-16">
-                    About Me
-                </h1>
-                <div className="flex flex-col items-center">
-                    <div className="grid grid-cols-2 gap-8 mb-8">
-                        {myInfo.map((info, idx) => {
-                            return (
-                                <AboutMe
-                                    key={idx}
-                                    imgSrc={info.imgSrc}
-                                    altText={info.altText}
-                                    title={info.title}
-                                    description={info.description}
-                                />
-                            );
-                        })}
+        <section>
+            <div className="relative my-0 mx-40 py-16 px-56">
+                <div className="bg-white flex flex-col gap-10 py-16 px-16 rounded-3xl">
+                    <div className="flex items-center gap-8">
+                        <h2 className="font-extrabold text-5xl">About</h2>
+                        <div className="border bg-blue-500 w-60 h-2 rounded-full"></div>
                     </div>
-                    <div>
-                        <p className="text-gray-800 text-xl text-justify">
-                            Hey there again! 👋 My journey has been all about
-                            embracing change and following my passions.
-                            Originally, I was on track for a career in law—got
-                            admitted to law schools and all. But as I delved
-                            deeper into legal world, I realized my heart wasn't
-                            in it. Instead, I found myself drawn to the exciting
-                            world of technology. The endless possibilities
-                            fascinated me, so I made a big decision to switch
-                            gears. 💡 That's when I jumped into software
-                            engineering and enrolled in a software engineering
-                            bootcamp, where I immersed myself in learning the
-                            ins and outs of software development. Now? Well,{" "}
-                            {learnMore ? (
-                                `Fast forward to today, I proudly stand as a
-                            proficient full-stack web developer. With a solid
-                            foundation in front-end and back-end development, I
-                            thrive in crafting intuitive, robust, and
-                            user-centric web solutions that make an impact. 🚀
-                            My journey's taught me a lot about adaptability,
-                            resilience, and the importance of pursuing what
-                            truly lights you up inside. I'm always up for
-                            learning something new, innovating, and using tech
-                            to make positive changes in the world. 🌟 Let's
-                            connect! I'm all about collaboration and creating
-                            meaningful experiences together. 🤝`
-                            ) : (
-                                <button
-                                    className="text-primary-500 font-extrabold animate-pulse transform transition duration-500 ease-in hover:translate-x-4"
-                                    onClick={() => setLearnMore(true)}
-                                >
-                                    Continue Reading ...
-                                </button>
-                            )}
+                    <div className="flex flex-col w-[80%] gap-6">
+                        <p>
+                            I am a Web Developer from New York City,
+                            specializing in building websites and web
+                            applications.
                         </p>
+                        <p>
+                            I use my coding and programming skills to create
+                            user-friendly and responsive web pages. I have
+                            gained web development experience from building many
+                            complex projects.
+                        </p>
+                    </div>
+                    <h2 className="font-bold text-2xl">Quick Summary!</h2>
+                    <div className="grid grid-cols-2 gap-10">
+                        <AboutMe
+                            imgSrc={codeIcon}
+                            title="Web Development"
+                            text="I have been coding for 1+ years now, almost every day honing my skills in web development and design."
+                            backgroundColor="bg-gradient-to-br from-primary-50 to-gray-50"
+                        />
+                        <AboutMe
+                            imgSrc={educationIcon}
+                            title="Education"
+                            text="I hold Bachelor's Degrees in Business Administration (BBA) with a concentration in Corporate Finance and Economics (BA) from CUNY Queens College."
+                            backgroundColor="bg-gradient-to-bl from-primary-50 to-secondary-100"
+                        />
+                        <AboutMe
+                            imgSrc={learningIcon}
+                            title="Continuous Growth"
+                            text="Continuous growth is a fundamental aspect of my professional journey. I am committed to lifelong learning. Skills I am currently learning are Next.js and AWS."
+                            backgroundColor="bg-gradient-to-bl from-primary-50 to-secondary-100"
+                        />
+                        <AboutMe
+                            imgSrc={hobbiesIcon}
+                            title="Hobbies"
+                            text="Outside of work and learning, I like to play soccer, go out with my family, try new food and travel as much as possible."
+                            backgroundColor="bg-gradient-to-br from-primary-50 to-gray-50"
+                        />
                     </div>
                 </div>
                 <img
@@ -104,10 +60,8 @@ const About = () => {
                     alt="Arrow icon"
                     className="icon absolute right-[-5rem] bottom-10"
                 />
-            </section>
-            <div className="w-full border-b border-primary-100"></div>
-        </>
-        // </section>
+            </div>
+        </section>
     );
 };
 
