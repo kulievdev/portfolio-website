@@ -22,7 +22,7 @@ export const myLinks = [
 
 const DesktopNavbar = () => {
   return (
-    <section className="mx-40 my-0">
+    <div className="mx-40 my-0">
       <nav className="flex items-center justify-between py-6">
         <Logo />
         <div>
@@ -40,7 +40,7 @@ const DesktopNavbar = () => {
         </div>
         <Cta type="connect" />
       </nav>
-    </section>
+    </div>
   );
 };
 
