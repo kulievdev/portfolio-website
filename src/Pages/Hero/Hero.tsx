@@ -6,27 +6,27 @@ import HeroImage from "./HeroImage";
 import HeroContent from "./HeroContent";
 
 export const mySocials = [
-    {
-        src: linkedinPic,
-        alt: "My LinkedIn Profile"
-    },
-    {
-        src: githubPic,
-        alt: "My GitHub Profile"
-    },
-    {
-        src: twitterPic,
-        alt: "My Twitter Profile"
-    }
+  {
+    src: linkedinPic,
+    alt: "My LinkedIn Profile",
+  },
+  {
+    src: githubPic,
+    alt: "My GitHub Profile",
+  },
+  {
+    src: twitterPic,
+    alt: "My Twitter Profile",
+  },
 ];
 
 const Hero = () => {
-    return (
-        <section className="section_container h-[90vh] flex justify-between gap-24">
-            <HeroContent />
-            <HeroImage />
-        </section>
-    );
+  return (
+    <section className="section_container mx-4 flex flex-col-reverse items-center justify-center sm:mx-40 sm:h-[90vh] sm:gap-10 laptop:flex laptop:flex-row laptop:justify-between">
+      <HeroContent />
+      <HeroImage />
+    </section>
+  );
 };
 
 export default Hero;

@@ -3,8 +3,25 @@ import { Flex, Button, IconButton } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import Cta from "../../Components/Cta";
 import Logo from "../../Components/Logo";
-import { myLinks } from "./DesktopNavbar";
 
+export const myLinks = [
+  {
+    link: "#skills",
+    text: "Skills",
+  },
+  {
+    link: "#about",
+    text: "About",
+  },
+  {
+    link: "#projects",
+    text: "Projects",
+  },
+  {
+    link: "#contact",
+    text: "Contact",
+  },
+];
 const Navbar = () => {
   const [display, changeDisplay] = useState("none");
   return (
@@ -14,7 +31,7 @@ const Navbar = () => {
         direction="column"
         display={["none", "none", "none", "none", "flex", "flex"]}
       >
-        <div className="mx-40 my-0">
+        <div className="mx-40 my-0 ">
           <nav className="flex items-center justify-between py-6">
             <Logo />
             <div>
@@ -35,11 +52,11 @@ const Navbar = () => {
         </div>
       </Flex>
 
-      <div className="py-6">
+      <div className="px-4 pt-3 sm:px-20 sm:py-6 laptop:hidden">
         <Flex
           display={["flex", "flex", "flex", "flex", "none", "none"]}
           align="center"
-          justify="space-around"
+          justify="space-between"
         >
           <Logo />
           <IconButton
@@ -51,7 +68,7 @@ const Navbar = () => {
           />
         </Flex>
       </div>
-      {/* Mobile Content */}
+      {/* Mobile */}
       <Flex
         w="100vw"
         display={display}
