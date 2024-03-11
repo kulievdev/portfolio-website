@@ -1,36 +1,31 @@
 import React from "react";
+import Cta from "../../Components/Cta";
 
 type ProjectProps = {
-    projectName: string;
-    imageSrc: string;
+  projectName: string;
+  imageSrc: string;
 };
 
 const Project: React.FC<ProjectProps> = ({ projectName, imageSrc }) => {
-    return (
-        <div className="p-6 flex-1 bg-white rounded-[2rem] border border-secondary-300 text-center">
-            <div className="flex text-justify flex-wrap gap-10 justify-around">
-                <img
-                    src={imageSrc}
-                    alt={projectName}
-                    className="rounded-[2rem] w-[90%] h-[80%]"
-                />
-            </div>
-            <h2 className=" font-semibold text-3xl mb-8 m-4 text-black">
-                {projectName}
-            </h2>
-            <div className="flex justify-center gap-4">
-                <button className="py-2 px-6 text-lg font-semibold rounded-xl border-2 border-secondary-300 hover:bg-gray-700 hover:text-white hover:border-gray-700 ">
-                    Github
-                </button>
-                <button className="py-2 px-6 text-lg font-semibold rounded-xl border-2 border-secondary-300 hover:bg-gray-700 hover:text-white hover:border-gray-700 ">
-                    Live Demo
-                </button>
-                <button className="py-2 px-6 text-lg font-semibold rounded-xl border-2 border-secondary-300 hover:bg-gray-700 hover:text-white hover:border-gray-700 ">
-                    Info
-                </button>
-            </div>
-        </div>
-    );
+  return (
+    <div className="flex-1 rounded-[2rem] border border-secondary-300 bg-white p-6 text-center">
+      <div className="flex flex-wrap justify-around gap-10 text-justify">
+        <img
+          src={imageSrc}
+          alt={projectName}
+          className="h-[80%] w-[90%] rounded-[2rem]"
+        />
+      </div>
+      <h2 className=" m-4 mb-8 text-3xl font-semibold text-black">
+        {projectName}
+      </h2>
+      <div className="flex justify-center gap-4">
+        <Cta type="project cta" projectCtaText="Github" />
+        <Cta type="project cta" projectCtaText="Live Demo" />
+        <Cta type="project cta" projectCtaText="Info" />
+      </div>
+    </div>
+  );
 };
 
 export default Project;

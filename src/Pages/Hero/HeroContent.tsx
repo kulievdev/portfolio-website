@@ -1,3 +1,5 @@
+import Cta from "../../Components/Cta";
+
 const HeroContent = () => {
   return (
     <div
@@ -20,12 +22,8 @@ const HeroContent = () => {
         </p>
       </header>
       <nav className="inline-flex w-full items-start justify-center space-x-4 desktop:justify-start desktop:space-x-8">
-        <a className="cursor-pointer rounded-xl bg-primary-700 px-3 py-2.5 text-center text-base font-bold leading-loose tracking-wider text-gray-50 transition-colors duration-300 ease-out hover:bg-primary-600 tablet:px-5 tablet:py-3 tablet:text-lg desktop:px-7 desktop:py-5 desktop:text-xl">
-          Download CV
-        </a>
-        <a className="cursor-pointer rounded-xl border-2 border-secondary-300 px-3 py-2 text-center text-base font-bold leading-loose tracking-wider text-primary-900 transition-colors duration-300 ease-out hover:border-primary-600 hover:text-primary-700 tablet:px-5  tablet:py-2.5 tablet:text-lg desktop:px-7 desktop:py-[18px] desktop:text-xl">
-          My Work
-        </a>
+        <Cta type="download cv" />
+        <Cta type="my work" />
       </nav>
     </div>
   );

@@ -1,3 +1,4 @@
+import Cta from "../../Components/Cta";
 import Logo from "../../Components/Logo";
 
 export const myLinks = [
@@ -37,9 +38,7 @@ const DesktopNavbar = () => {
             })}
           </ul>
         </div>
-        <a className="cursor-pointer rounded-xl border-2 border-secondary-300 px-6 py-2 text-center text-base font-bold leading-loose tracking-wider text-primary-900 transition-colors duration-300 ease-out hover:border-primary-600 hover:text-primary-700 tablet:px-5 tablet:py-2.5 tablet:text-lg desktop:text-xl">
-          Connect
-        </a>
+        <Cta type="connect" />
       </nav>
     </section>
   );
