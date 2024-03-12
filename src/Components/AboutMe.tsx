@@ -14,10 +14,12 @@ const AboutMe: React.FC<AboutMeProps> = ({
   backgroundColor,
 }) => {
   return (
-    <div className={`flex gap-4 p-6 rounded-3xl ${backgroundColor}`}>
-      <img src={imgSrc} className="h-16 inline-block mb-4" />
+    <div
+      className={`xs:p-6 flex gap-4 rounded-3xl px-2 py-4 ${backgroundColor}`}
+    >
+      <img src={imgSrc} className="mb-4 inline-block h-16" />
       <div>
-        <h3 className="mt-1 font-bold text-xl mb-2">{title}</h3>
+        <h3 className="mb-2 mt-1 text-xl font-bold">{title}</h3>
         <p>{text}</p>
       </div>
     </div>

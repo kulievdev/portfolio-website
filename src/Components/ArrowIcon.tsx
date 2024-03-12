@@ -5,7 +5,7 @@ const ArrowIcon = () => {
     <img
       src={arrow}
       alt="Arrow icon"
-      className="laptop:icon hidden laptop:absolute laptop:bottom-10 laptop:right-[-5rem]"
+      className="icon hidden laptop:absolute laptop:bottom-10 laptop:right-[-5rem] laptop:inline-block"
     />
   );
 };
