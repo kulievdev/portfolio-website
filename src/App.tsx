@@ -1,6 +1,6 @@
 import Navbar from "./Pages/Navbar/Navbar";
 import Hero from "./Pages/Hero/Hero";
-// import TechStack from "./Pages/TechStack/TechStack";
+import TechStack from "./Pages/TechStack/TechStack";
 // import About from "./Pages/About/About";
 // import Contact from "./Pages/Contact/Contact";
 // import Footer from "./Pages/Footer/Footer";
@@ -14,7 +14,7 @@ function App() {
         <Hero />
       </main>
       {/* <Projects /> */}
-      {/* <TechStack /> */}
+      <TechStack />
       {/* <About /> */}
       {/* <Contact /> */}
       {/* <Footer /> */}

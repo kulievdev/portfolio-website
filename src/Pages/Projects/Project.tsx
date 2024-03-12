@@ -8,12 +8,12 @@ type ProjectProps = {
 
 const Project: React.FC<ProjectProps> = ({ projectName, imageSrc }) => {
   return (
-    <div className="flex-1 rounded-[2rem] border border-secondary-300 bg-white p-6 text-center">
-      <div className="flex flex-wrap justify-around gap-10 text-justify">
+    <div className="rounded-[2rem] border border-secondary-300 bg-white p-6 text-center">
+      <div className="flex justify-around gap-10 text-justify">
         <img
           src={imageSrc}
           alt={projectName}
-          className="h-[80%] w-[90%] rounded-[2rem]"
+          className="rounded-[2rem] object-cover laptop:h-80 laptop:w-80 desktop:h-96 desktop:w-96"
         />
       </div>
       <h2 className=" m-4 mb-8 text-3xl font-semibold text-black">
