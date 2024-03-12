@@ -7,10 +7,8 @@ export default {
         xs: "400px",
 
         laptop: "1440px",
-        // => @media (min-width: 1024px) { ... }
 
         desktop: "1536px",
-        // => @media (min-width: 1440px) { ... }
       },
       colors: {
         primary: {

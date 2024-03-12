@@ -9,7 +9,7 @@ const About = () => {
   return (
     <section>
       <div className="xs:mx-6 relative mx-4 my-0 py-16 sm:mx-10 md:mx-16 laptop:mx-40 desktop:px-56">
-        <div className="xs:px-4 flex flex-col gap-10 rounded-3xl bg-white py-16 sm:px-16">
+        <div className="xs:px-4 flex flex-col gap-10 rounded-3xl bg-white p-5 py-16 shadow-2xl sm:px-16">
           <div className="flex items-center gap-8">
             <h2 className="text-5xl font-extrabold">About</h2>
             <div className="h-2 w-60 rounded-full border bg-blue-500"></div>
