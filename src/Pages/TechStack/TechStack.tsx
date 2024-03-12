@@ -5,7 +5,7 @@ import ArrowIcon from "../../Components/ArrowIcon";
 const TechStack = () => {
   return (
     <section className="bg-gradient-to-br from-primary-50 to-gray-50">
-      <div className="section_container xs:h-[180vh] xs:mx-6 relative mx-4 flex h-[260vh] flex-col justify-center sm:mx-10 md:mx-16 md:h-[100vh] laptop:mx-40 laptop:h-[120vh]  desktop:flex desktop:flex-col desktop:justify-center ">
+      <div className="section_container xs:h-[180vh] xs:mx-6 relative mx-4 flex h-[280vh] flex-col justify-center sm:mx-10 md:mx-16 md:h-[100vh] laptop:mx-40 laptop:h-[120vh] desktop:flex desktop:flex-col desktop:justify-center ">
         <p className="mb-4 text-center font-semibold desktop:mb-6">
           Explore My
         </p>

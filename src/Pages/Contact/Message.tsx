@@ -10,7 +10,7 @@ const Message = () => {
         <p className="mb-6 text-left text-3xl font-bold leading-7 text-gray-900">
           Say Hello!
         </p>
-        <p className="mb-8 text-base leading-6 text-gray-600 sm:mb-0 sm:w-96 ">
+        <p className="mb-8 text-base leading-6 text-gray-600 sm:w-96 laptop:mb-0 ">
           Interested in working together or just have a question? Let&apos;s
           connect and make things happen.
         </p>
