@@ -3,7 +3,7 @@ import Hero from "./Pages/Hero/Hero";
 import TechStack from "./Pages/TechStack/TechStack";
 import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
-// import Footer from "./Pages/Footer/Footer";
+import Footer from "./Pages/Footer/Footer";
 // import Projects from "./Pages/Projects/Projects";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       <About />
       <TechStack />
       <Contact />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
