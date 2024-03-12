@@ -13,11 +13,11 @@ function App() {
         <Navbar />
         <Hero />
       </main>
-      {/* <Projects />
-            <TechStack />
-            <About />
-            <Contact />
-            <Footer /> */}
+      {/* <Projects /> */}
+      {/* <TechStack /> */}
+      {/* <About /> */}
+      {/* <Contact /> */}
+      {/* <Footer /> */}
     </>
   );
 }

@@ -4,14 +4,7 @@ export default {
   theme: {
     extend: {
       screens: {
-        tablet: "640px",
-        // => @media (min-width: 640px) { ... }
-
-        800: "800px",
-
-        940: "940px",
-
-        1024: "1024px",
+        xs: "400px",
 
         laptop: "1440px",
         // => @media (min-width: 1024px) { ... }

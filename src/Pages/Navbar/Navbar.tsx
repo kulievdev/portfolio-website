@@ -52,7 +52,7 @@ const Navbar = () => {
         </div>
       </Flex>
 
-      <div className="px-4 pt-3 sm:px-20 sm:py-6 laptop:hidden">
+      <div className="xs:px-8 px-4 pt-3 sm:px-12 sm:py-6 md:px-24 laptop:hidden">
         <Flex
           display={["flex", "flex", "flex", "flex", "none", "none"]}
           align="center"
