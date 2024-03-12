@@ -6,6 +6,10 @@ import Logo from "../../Components/Logo";
 
 export const myLinks = [
   {
+    link: "#projects",
+    text: "Projects",
+  },
+  {
     link: "#skills",
     text: "Skills",
   },
@@ -13,10 +17,7 @@ export const myLinks = [
     link: "#about",
     text: "About",
   },
-  {
-    link: "#projects",
-    text: "Projects",
-  },
+
   {
     link: "#contact",
     text: "Contact",
