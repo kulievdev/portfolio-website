@@ -9,6 +9,8 @@ export default {
         laptop: "1440px",
 
         desktop: "1536px",
+
+        bigDesktop: "1920px",
       },
       colors: {
         primary: {

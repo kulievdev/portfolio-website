@@ -85,7 +85,7 @@ const Navbar = () => {
         <Flex justify="flex-end">
           <IconButton
             mt={2}
-            mr={2}
+            mr={6}
             aria-label="Open Menu"
             size="lg"
             icon={<CloseIcon />}
@@ -96,9 +96,10 @@ const Navbar = () => {
         <Flex flexDir="column" align="center">
           {myLinks.map((myLink, idx) => {
             return (
-              <a key={idx} href={myLink.link}>
+              <li key={idx}>
                 <Button
                   as="a"
+                  href={myLink.link}
                   variant="ghost"
                   aria-label={myLink.text}
                   my={5}
@@ -106,7 +107,7 @@ const Navbar = () => {
                 >
                   {myLink.text}
                 </Button>
-              </a>
+              </li>
             );
           })}
         </Flex>
