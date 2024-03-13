@@ -24,7 +24,7 @@ const Message = () => {
           <div className="flex items-center gap-4">
             <SocialMediaIcon imageSrc={emailIcon} altText="My Email Icon" />
             <p className="cursor-pointer text-left text-sm font-medium text-primary-700">
-              kuliev.tech@gmail.com
+              kulievdev@gmail.com
             </p>
           </div>
         </div>
