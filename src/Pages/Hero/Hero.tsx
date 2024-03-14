@@ -22,7 +22,7 @@ export const mySocials = [
 
 const Hero = () => {
   return (
-    <section className="section_container mx-4 flex flex-col-reverse items-center justify-center sm:mx-12 sm:gap-10 md:mx-32 laptop:mx-40 laptop:flex laptop:h-[90vh] laptop:flex-row laptop:justify-between">
+    <section className="section_container mx-4 flex h-[100vh] flex-col-reverse items-center justify-center sm:mx-12 sm:gap-10 md:mx-32 laptop:mx-40 laptop:flex laptop:h-[90vh] laptop:flex-row laptop:justify-between">
       <HeroContent />
       <HeroImage />
     </section>

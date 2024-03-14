@@ -52,7 +52,7 @@
     height: 2rem;
   }
   .section_container {
-    height: 100vh;
+    /* height: 100vh; */
     /* margin: 0 10rem; */
     box-sizing: border-box;
     min-height: fit-content;

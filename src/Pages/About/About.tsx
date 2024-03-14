@@ -8,7 +8,7 @@ import ArrowIcon from "../../Components/ArrowIcon";
 const About = () => {
   return (
     <section className="relative">
-      <div className="section_container bigDesktop:mx-96 xs:h-[140vh] iPhone14:h-[160vh] relative mx-4 flex h-[200vh] flex-col justify-center  sm:h-[100vh] lg:mx-16 laptop:mx-20 desktop:mx-40">
+      <div className="section_container bigDesktop:mx-96 xs:h-[140vh] iPhone14:h-[160vh] relative mx-4 flex h-[200vh] flex-col justify-center sm:h-[130vh] md:h-[120vh] lg:mx-16 lg:h-[100vh] laptop:mx-20 laptop:h-[120vh] desktop:mx-40">
         <div className="bigDesktop:px-64 bigDesktop:py-56 flex flex-col justify-center gap-6 rounded-3xl bg-white p-4 px-6 shadow-2xl sm:px-14 sm:py-16 lg:px-12 lg:py-20 laptop:px-20 laptop:py-20 desktop:gap-10 desktop:px-32 desktop:py-24">
           <div className="flex items-center gap-8">
             <h2 className="xs:text-xl text-lg font-extrabold sm:text-3xl desktop:text-5xl">
