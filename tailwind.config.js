@@ -4,6 +4,8 @@ export default {
   theme: {
     extend: {
       screens: {
+        iPhone14: "376px",
+
         xs: "391px",
 
         laptop: "1440px",

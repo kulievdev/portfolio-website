@@ -5,7 +5,7 @@ import ArrowIcon from "../../Components/ArrowIcon";
 const TechStack = () => {
   return (
     <section className="relative bg-gradient-to-br from-primary-50 to-gray-50">
-      <div className="section_container s:h-[100vh] xs:mx-6 relative mx-4 flex h-[140vh] flex-col justify-center md:mx-10 lg:mx-20 desktop:mx-0">
+      <div className="section_container xs:h-[110vh] s:h-[100vh] xs:mx-6 iPhone14:h-[120vh] relative mx-4 flex h-[140vh] flex-col justify-center md:mx-10 lg:mx-20 desktop:mx-0">
         <p className="xs:text-sm mb-2 text-center text-xs font-semibold sm:mb-4 sm:text-base desktop:mb-6">
           Explore My
         </p>
@@ -15,7 +15,7 @@ const TechStack = () => {
 
         <div className="sm:block sm:gap-0">
           <div className="xs:mb-8 xs:justify-center mb-4 flex flex-row gap-8 sm:mb-10 sm:flex sm:flex-col sm:justify-center sm:gap-10 desktop:flex desktop:flex-row desktop:gap-20">
-            <div className="rounded-3xl p-5 shadow-2xl desktop:p-10">
+            <div className="rounded-3xl p-6 shadow-2xl desktop:p-10">
               <h2 className="xs:text-sm mb-6 text-center text-xs font-semibold text-gray-600 sm:mb-10 sm:text-base desktop:text-3xl">
                 Frontend
               </h2>

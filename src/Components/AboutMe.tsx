@@ -17,12 +17,12 @@ const AboutMe: React.FC<AboutMeProps> = ({
     <div
       className={`flex gap-4 rounded-3xl px-2 py-4 sm:p-6 ${backgroundColor}`}
     >
-      <img src={imgSrc} className="xs:h-8 mb-2 inline-block h-6 desktop:h-16" />
+      <img src={imgSrc} className="mb-2 inline-block h-8 desktop:h-16" />
       <div>
         <h3 className="mb-2 mt-1 text-sm font-bold lg:text-lg desktop:text-xl">
           {title}
         </h3>
-        <p className="text-xs lg:text-sm desktop:text-base">{text}</p>
+        <p className="text-sm desktop:text-base">{text}</p>
       </div>
     </div>
   );
