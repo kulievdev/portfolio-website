@@ -17,81 +17,80 @@ import vite from "../../assets/TechStackIcons/vitejs.svg";
 import vscode from "../../assets/TechStackIcons/vscode.svg";
 
 const myFrontEndStack = [
-    {
-        name: "HTML",
-        imgSrc: html
-    },
-    {
-        name: "CSS",
-        imgSrc: css
-    },
-    {
-        name: "TailwindCss",
-        imgSrc: tailwind
-    },
-    {
-        name: "Figma",
-        imgSrc: figma
-    },
-    {
-        name: "React",
-        imgSrc: react
-    },
-    {
-        name: "Vite",
-        imgSrc: vite
-    },
-    {
-        name: "ChakraUI",
-        imgSrc: chakra
-    },
-
-    {
-        name: "Vscode",
-        imgSrc: vscode
-    }
+  {
+    name: "HTML",
+    imgSrc: html,
+  },
+  {
+    name: "CSS",
+    imgSrc: css,
+  },
+  {
+    name: "Tailwind",
+    imgSrc: tailwind,
+  },
+  {
+    name: "Figma",
+    imgSrc: figma,
+  },
+  {
+    name: "React",
+    imgSrc: react,
+  },
+  {
+    name: "Vite",
+    imgSrc: vite,
+  },
+  {
+    name: "ChakraUI",
+    imgSrc: chakra,
+  },
 ];
 
 const myBackEndStack = [
-    {
-        name: "MongoDB",
-        imgSrc: mongodb
-    },
-    {
-        name: "Prisma",
-        imgSrc: primsa
-    },
-    {
-        name: "Node.js",
-        imgSrc: nodejs
-    },
-    {
-        name: "Postman",
-        imgSrc: postman
-    },
-    {
-        name: "Express.js",
-        imgSrc: expressjs
-    }
+  {
+    name: "MongoDB",
+    imgSrc: mongodb,
+  },
+  {
+    name: "Prisma",
+    imgSrc: primsa,
+  },
+  {
+    name: "Node",
+    imgSrc: nodejs,
+  },
+  {
+    name: "Postman",
+    imgSrc: postman,
+  },
+  {
+    name: "Express",
+    imgSrc: expressjs,
+  },
 ];
 
 const myOverLapStack = [
-    {
-        name: "Javascript",
-        imgSrc: javascript
-    },
-    {
-        name: "Git",
-        imgSrc: git
-    },
-    {
-        name: "Github",
-        imgSrc: github
-    },
-    {
-        name: "Typescript",
-        imgSrc: typescript
-    }
+  {
+    name: "Javascript",
+    imgSrc: javascript,
+  },
+  {
+    name: "Git",
+    imgSrc: git,
+  },
+  {
+    name: "Github",
+    imgSrc: github,
+  },
+  {
+    name: "Typescript",
+    imgSrc: typescript,
+  },
+  {
+    name: "Vscode",
+    imgSrc: vscode,
+  },
 ];
 
 export { myFrontEndStack, myBackEndStack, myOverLapStack };
