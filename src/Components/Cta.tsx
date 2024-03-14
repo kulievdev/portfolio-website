@@ -39,7 +39,7 @@ const Cta: React.FC<CtaProps> = ({ type, projectCtaText }) => {
             );
           case "project cta":
             return (
-              <button className="rounded-xl border-2 border-secondary-300 px-6 py-2 text-lg font-semibold hover:border-gray-700 hover:bg-gray-700 hover:text-white ">
+              <button className="w-[8rem] rounded-xl border-2 border-secondary-300 px-6 py-2 text-sm font-semibold hover:border-gray-700 hover:bg-gray-700 hover:text-white desktop:text-lg ">
                 {projectCtaText}
               </button>
             );

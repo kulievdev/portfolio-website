@@ -1,4 +1,5 @@
 import React from "react";
+
 import Cta from "../../Components/Cta";
 
 type ProjectProps = {
@@ -8,20 +9,20 @@ type ProjectProps = {
 
 const Project: React.FC<ProjectProps> = ({ projectName, imageSrc }) => {
   return (
-    <div className="rounded-[2rem] border border-secondary-300 bg-white p-6 text-center">
-      <div className="flex justify-around text-justify">
+    <div className="flex-1 rounded-[2rem] border border-secondary-300 bg-white p-6 text-center">
+      <div className="flex flex-row flex-wrap justify-around gap-10">
         <img
           src={imageSrc}
           alt={projectName}
-          className="xs:h-72 xs:w-80 h-52 w-64 rounded-[2rem] object-cover sm:h-80 sm:w-80 lg:h-[22rem] lg:w-[22rem] laptop:h-[22rem] laptop:w-[22rem] desktop:h-[28rem] desktop:w-[28rem]"
+          className="h-[90%] w-[90%] flex-1 rounded-[2rem]"
         />
       </div>
-      <h2 className=" m-4 mb-8 text-3xl font-semibold text-black">
-        {projectName}
+      <h2 className="m-4 mb-8 text-2xl font-semibold text-black desktop:text-4xl">
+        Project One
       </h2>
-      <div className="flex flex-col gap-6 sm:flex sm:flex-row sm:justify-center sm:gap-4">
+      <div className="flex flex-wrap justify-center gap-4">
         <Cta type="project cta" projectCtaText="Github" />
-        <Cta type="project cta" projectCtaText="Live Demo" />
+        <Cta type="project cta" projectCtaText="Demo" />
         <Cta type="project cta" projectCtaText="Info" />
       </div>
     </div>

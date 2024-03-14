@@ -8,6 +8,10 @@ export default {
 
         xs: "391px",
 
+        tablet: "1200px",
+
+        smallLaptop: "1400px",
+
         laptop: "1440px",
 
         desktop: "1536px",

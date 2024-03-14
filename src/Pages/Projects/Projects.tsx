@@ -1,19 +1,22 @@
 import Project from "./Project";
 import project1 from "../../assets/Images/project.png";
-import ArrowIcon from "../../Components/ArrowIcon";
 
 const Projects = () => {
   return (
     <section>
-      <div className="section_container bigDesktop:h-[100vh] xs:h-[300vh] relative mx-4 flex h-[340vh] flex-col justify-center sm:mx-10 sm:h-[240vh] md:mx-16 md:h-[240vh] lg:h-[180vh] laptop:mx-40 laptop:h-[180vh] xl:h-[180vh]">
-        <p className="mb-6 text-center font-semibold">Browse My Recent</p>
-        <h1 className="text-center text-5xl font-extrabold">Projects</h1>
-        <div className="my-8 flex flex-wrap justify-center gap-8 laptop:flex laptop:flex-row laptop:justify-center">
-          <Project projectName="Project 1" imageSrc={project1} />
-          <Project projectName="Project 2" imageSrc={project1} />
-          <Project projectName="Project 3" imageSrc={project1} />
+      <div className="mx-6 flex h-fit flex-col justify-center py-20 sm:mx-10 lg:mx-14 desktop:mx-40">
+        <p className="mb-6 text-center text-sm font-semibold sm:text-xl desktop:text-2xl">
+          Browse My Recent
+        </p>
+        <h1 className="text-center text-4xl font-extrabold sm:text-5xl desktop:text-7xl">
+          Projects
+        </h1>
+        <div className="my-8 flex flex-wrap justify-center gap-8 sm:grid sm:grid-cols-2 xl:flex">
+          <Project imageSrc={project1} projectName="Project One" />
+          <Project imageSrc={project1} projectName="Project One" />
+          <Project imageSrc={project1} projectName="Project One" />
+          <Project imageSrc={project1} projectName="Project One" />
         </div>
-        <ArrowIcon />
       </div>
     </section>
   );

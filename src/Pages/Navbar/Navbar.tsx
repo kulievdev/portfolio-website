@@ -32,7 +32,7 @@ const Navbar = () => {
         direction="column"
         display={["none", "none", "none", "none", "flex", "flex"]}
       >
-        <div className="mx-40 my-0 ">
+        <div className="mx-10 my-0 lg:mx-14 desktop:mx-40 ">
           <nav className="flex items-center justify-between py-6">
             <Logo />
             <div>
@@ -53,7 +53,7 @@ const Navbar = () => {
         </div>
       </Flex>
 
-      <div className="xs:px-8 px-4 pt-3 sm:px-12 sm:py-6 md:px-24 laptop:hidden">
+      <div className="mx-6 pt-3 sm:mx-10 sm:py-6 lg:px-14 laptop:hidden">
         <Flex
           display={["flex", "flex", "flex", "flex", "none", "none"]}
           align="center"
@@ -63,7 +63,6 @@ const Navbar = () => {
           <IconButton
             aria-label="Open Menu"
             size="lg"
-            mr={2}
             icon={<HamburgerIcon />}
             onClick={() => changeDisplay("flex")}
           />
