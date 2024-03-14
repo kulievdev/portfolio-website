@@ -7,26 +7,28 @@ import ArrowIcon from "../../Components/ArrowIcon";
 
 const About = () => {
   return (
-    <section>
-      <div className="xs:mx-6 relative mx-4 my-0 py-16 sm:mx-10 md:mx-16 laptop:mx-40 desktop:px-56">
-        <div className="xs:px-4 flex flex-col gap-10 rounded-3xl bg-white p-5 py-16 shadow-2xl sm:px-16">
+    <section className="relative">
+      <div className="section_container bigDesktop:mx-96 xs:h-[100vh] relative mx-4 flex h-[140vh] flex-col  justify-center bg-green-300 lg:mx-16 laptop:mx-20 desktop:mx-40">
+        <div className="bigDesktop:px-64 bigDesktop:py-56 flex flex-col justify-center gap-6 rounded-3xl bg-white p-4 shadow-2xl lg:px-12 lg:py-20 laptop:px-20 laptop:py-20 desktop:gap-10 desktop:px-32 desktop:py-24">
           <div className="flex items-center gap-8">
-            <h2 className="text-5xl font-extrabold">About</h2>
-            <div className="h-2 w-60 rounded-full border bg-blue-500"></div>
+            <h2 className="xs:text-xl font-extrabold sm:text-3xl desktop:text-5xl">
+              About
+            </h2>
+            <div className="h-[6px] w-40 rounded-full border bg-blue-500 "></div>
           </div>
           <div className="flex flex-col gap-6 lg:w-[80%]">
-            <p>
+            <p className="text-xs lg:text-sm desktop:text-base">
               I am a Web Developer from New York City, specializing in building
               websites and web applications.
             </p>
-            <p>
+            <p className="text-xs lg:text-sm desktop:text-base">
               I use my coding and programming skills to create user-friendly and
               responsive web pages. I have gained web development experience
               from building many complex projects.
             </p>
           </div>
-          <h2 className="text-2xl font-bold">Quick Summary!</h2>
-          <div className="flex flex-col gap-10 lg:grid lg:grid-cols-2 lg:gap-10">
+          <h2 className="font-bold desktop:text-2xl">Quick Summary!</h2>
+          <div className="flex flex-col gap-6 lg:grid lg:grid-cols-2 lg:gap-6 desktop:gap-10">
             <AboutMe
               imgSrc={codeIcon}
               title="Web Development"
@@ -53,8 +55,8 @@ const About = () => {
             />
           </div>
         </div>
-        <ArrowIcon />
       </div>
+      <ArrowIcon />
     </section>
   );
 };

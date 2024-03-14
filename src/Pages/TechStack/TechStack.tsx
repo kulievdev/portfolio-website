@@ -4,7 +4,7 @@ import ArrowIcon from "../../Components/ArrowIcon";
 
 const TechStack = () => {
   return (
-    <section className="bg-gradient-to-br from-primary-50 to-gray-50">
+    <section className="relative bg-gradient-to-br from-primary-50 to-gray-50">
       <div className="section_container s:h-[100vh] xs:mx-6 relative mx-4 flex h-[140vh] flex-col justify-center md:mx-10 lg:mx-20 desktop:mx-0">
         <p className="xs:text-sm mb-2 text-center text-xs font-semibold sm:mb-4 sm:text-base desktop:mb-6">
           Explore My
@@ -55,8 +55,8 @@ const TechStack = () => {
             </div>
           </div>
         </div>
-        <ArrowIcon />
       </div>
+      <ArrowIcon />
     </section>
   );
 };

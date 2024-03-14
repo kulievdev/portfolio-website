@@ -4,13 +4,13 @@ export default {
   theme: {
     extend: {
       screens: {
-        xs: "390px",
+        xs: "391px",
 
         laptop: "1440px",
 
         desktop: "1536px",
 
-        bigDesktop: "1920px",
+        bigDesktop: "1921px",
       },
       colors: {
         primary: {
