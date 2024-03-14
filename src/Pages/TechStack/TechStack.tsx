@@ -1,6 +1,6 @@
 import Skill from "../../Components/Skill";
 import { myFrontEndStack, myBackEndStack, myOverLapStack } from "./stacks";
-// import ArrowIcon from "../../Components/ArrowIcon";
+import ArrowIcon from "../../Components/ArrowIcon";
 
 const TechStack = () => {
   return (
@@ -19,7 +19,7 @@ const TechStack = () => {
               <h2 className="xs:text-sm mb-6 text-center text-xs font-semibold text-gray-600 sm:mb-10 sm:text-base desktop:text-3xl">
                 Frontend
               </h2>
-              <div className="grid grid-cols-2 gap-10 sm:grid sm:grid-cols-6 sm:gap-6 md:grid md:grid-cols-4 md:justify-between md:gap-10 desktop:grid desktop:grid-cols-5 desktop:gap-10">
+              <div className="grid grid-cols-2 flex-wrap gap-10 sm:flex sm:flex-row desktop:grid desktop:grid-cols-5 desktop:flex-nowrap desktop:gap-10">
                 {myFrontEndStack.map((stack, idx) => {
                   return (
                     <Skill key={idx} name={stack.name} imgSrc={stack.imgSrc} />
@@ -31,7 +31,7 @@ const TechStack = () => {
               <h2 className="xs:text-sm mb-6 text-center text-xs font-semibold text-gray-600 sm:mb-10 sm:text-base desktop:text-3xl">
                 Backend
               </h2>
-              <div className="grid grid-cols-2 gap-10 sm:grid sm:grid-cols-6 sm:gap-6 md:flex md:flex-row md:justify-between desktop:grid desktop:grid-cols-5 desktop:gap-10">
+              <div className="grid grid-cols-2 flex-wrap gap-10 sm:flex sm:flex-row desktop:grid desktop:grid-cols-5 desktop:flex-nowrap desktop:gap-10">
                 {myBackEndStack.map((stack, idx) => {
                   return (
                     <Skill key={idx} name={stack.name} imgSrc={stack.imgSrc} />
@@ -45,7 +45,7 @@ const TechStack = () => {
               <h2 className="xs:text-sm mb-6 text-center text-xs font-semibold text-gray-600 sm:mb-10 sm:text-base desktop:text-3xl">
                 Overlap
               </h2>
-              <div className="flex flex-row flex-wrap justify-between gap-6 sm:grid sm:grid-cols-6 sm:flex-nowrap sm:gap-6 md:flex md:flex-row md:justify-between desktop:grid desktop:grid-cols-7 desktop:gap-5">
+              <div className="desktop::flex-nowrap flex flex-row flex-wrap justify-between gap-6 sm:flex sm:flex-row desktop:grid desktop:grid-cols-5 desktop:gap-5">
                 {myOverLapStack.map((stack, idx) => {
                   return (
                     <Skill key={idx} name={stack.name} imgSrc={stack.imgSrc} />
@@ -55,8 +55,8 @@ const TechStack = () => {
             </div>
           </div>
         </div>
+        <ArrowIcon />
       </div>
-      {/* <ArrowIcon /> */}
     </section>
   );
 };
