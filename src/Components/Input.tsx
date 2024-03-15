@@ -30,33 +30,26 @@ const Input: React.FC<InputProps> = ({
         switch (type) {
           case "textarea":
             return (
-              <>
-                <textarea
-                  {...register(name, validationSchema)}
-                  className="flex h-32 resize-none rounded-xl border border-secondary-200 bg-white px-3.5 py-2.5 text-sm text-gray-800 shadow transition-all duration-300 ease-out placeholder:text-gray-500 focus:border-secondary-400 focus:shadow-secondary-400/80 focus:outline-none bigDesktop:text-lg"
-                  placeholder={placeholder}
-                ></textarea>
-                {errors[name] && (
-                  <p className=" text-red-500">{`${errors[name]!.message}`}</p>
-                )}
-              </>
+              <textarea
+                {...register(name, validationSchema)}
+                className="flex h-32 resize-none rounded-xl border border-secondary-200 bg-white px-3.5 py-2.5 text-sm text-gray-800 shadow transition-all duration-300 ease-out placeholder:text-gray-500 focus:border-secondary-400 focus:shadow-secondary-400/80 focus:outline-none bigDesktop:text-lg"
+                placeholder={placeholder}
+              ></textarea>
             );
           default:
             return (
-              <>
-                <input
-                  {...register(name, validationSchema)}
-                  className="rounded-xl border border-secondary-200 bg-white px-3.5 py-2.5 text-sm text-gray-800 shadow transition-all duration-300 ease-out placeholder:text-gray-500 focus:border-secondary-400 focus:shadow-secondary-400/80 focus:outline-none bigDesktop:text-lg"
-                  type={type}
-                  placeholder={placeholder}
-                />
-                {errors[name] && (
-                  <p className=" text-red-500">{`${errors[name]!.message}`}</p>
-                )}
-              </>
+              <input
+                {...register(name, validationSchema)}
+                className="rounded-xl border border-secondary-200 bg-white px-3.5 py-2.5 text-sm text-gray-800 shadow transition-all duration-300 ease-out placeholder:text-gray-500 focus:border-secondary-400 focus:shadow-secondary-400/80 focus:outline-none bigDesktop:text-lg"
+                type={type}
+                placeholder={placeholder}
+              />
             );
         }
       })()}
+      {errors[name] && (
+        <p className=" text-red-500">{`${errors[name]!.message}`}</p>
+      )}
     </div>
   );
 };
