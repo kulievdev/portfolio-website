@@ -6,7 +6,7 @@ import phoneIcon from "../../assets/Images/phone.png";
 const Message = () => {
   return (
     <div className="flex flex-1 flex-col justify-between rounded-3xl bg-secondary-100 p-8">
-      <div className="mb-8 bg-red-300">
+      <div className="mb-8">
         <p className="bigDesktop:text-5xl mb-6 text-left text-xl font-bold leading-7 text-gray-900 sm:text-3xl">
           Say Hello!
         </p>
@@ -15,7 +15,7 @@ const Message = () => {
           connect and make things happen.
         </p>
       </div>
-      <div className="mb-12 flex flex-col gap-10 bg-green-300 xl:mb-0">
+      <div className="mb-12 flex flex-col gap-10 xl:mb-0">
         <div>
           <p className="bigDesktop:text-2xl mb-4 text-left text-base font-medium text-gray-900 sm:text-lg">
             Email
