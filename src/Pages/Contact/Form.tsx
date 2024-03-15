@@ -4,7 +4,7 @@ import Input from "../../Components/Input";
 const Form = () => {
   return (
     <div className="flex flex-1 justify-center rounded-3xl bg-gradient-to-bl from-primary-100 to-secondary-100">
-      <form className=" bigDesktop:p-16 flex w-full flex-col gap-10 p-12">
+      <form className=" bigDesktop:p-16 flex w-full flex-col gap-10 p-6 xl:p-12">
         <Input type="input" labelText="Name" placeholder="John Doe" />
         <Input type="input" labelText="Email" placeholder="email@example.com" />
         <Input
