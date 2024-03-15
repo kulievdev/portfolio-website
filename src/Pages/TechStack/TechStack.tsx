@@ -57,7 +57,7 @@ const TechStack = () => {
           </div>
         </div>
       </div>
-      <ArrowIcon />
+      <ArrowIcon href="#about" />
     </section>
   );
 };

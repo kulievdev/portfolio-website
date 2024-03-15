@@ -17,7 +17,7 @@ const Projects = () => {
           <Project imageSrc={project1} projectName="Project One" />
         </div>
       </div>
-      <ArrowIcon />
+      <ArrowIcon href="#skills" />
     </section>
   );
 };

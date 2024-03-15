@@ -58,7 +58,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <ArrowIcon />
+      <ArrowIcon href="#contact" />
     </section>
   );
 };
