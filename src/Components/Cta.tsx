@@ -6,7 +6,7 @@ type CtaProps = {
 };
 
 const openResume = () => {
-  window.open("src/assets/TohirKuliev_Resume.pdf");
+  window.open("/TohirKuliev_Resume.pdf");
 };
 
 const Cta: React.FC<CtaProps> = ({ type, projectCtaText }) => {
