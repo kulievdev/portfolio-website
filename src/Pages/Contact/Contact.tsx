@@ -21,7 +21,7 @@ const Contact = () => {
             />
           }
         />
-        <div className="mx-6 flex flex-row flex-wrap gap-10 bg-red-300 sm:mx-10 lg:mx-14 desktop:mx-40">
+        <div className="mx-6 flex flex-row flex-wrap gap-10 sm:mx-10 lg:mx-14 desktop:mx-40">
           <Message />
           <Form />
         </div>
