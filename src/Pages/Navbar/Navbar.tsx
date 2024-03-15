@@ -102,6 +102,7 @@ const Navbar = () => {
               <li key={idx}>
                 <Button
                   as="a"
+                  onClick={() => changeDisplay("none")}
                   href={myLink.link}
                   variant="ghost"
                   aria-label={myLink.text}
