@@ -9,14 +9,17 @@ export const mySocials = [
   {
     src: linkedinPic,
     alt: "My LinkedIn Profile",
+    link: "https://www.linkedin.com/in/tohir-kuliev/",
   },
   {
     src: githubPic,
     alt: "My GitHub Profile",
+    link: "https://github.com/kulievdev",
   },
   {
     src: twitterPic,
     alt: "My Twitter Profile",
+    link: "https://twitter.com/kulievdev",
   },
 ];
 
