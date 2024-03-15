@@ -20,30 +20,37 @@ const myFrontEndStack = [
   {
     name: "HTML",
     imgSrc: html,
+    link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
   },
   {
     name: "CSS",
     imgSrc: css,
+    link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
   },
   {
     name: "Tailwind",
     imgSrc: tailwind,
+    link: "https://tailwindcss.com/",
   },
   {
     name: "Figma",
     imgSrc: figma,
+    link: "https://www.figma.com/",
   },
   {
     name: "React",
     imgSrc: react,
+    link: "https://react.dev/",
   },
   {
     name: "Vite",
     imgSrc: vite,
+    link: "https://vitejs.dev/",
   },
   {
     name: "ChakraUI",
     imgSrc: chakra,
+    link: "https://chakra-ui.com/",
   },
 ];
 
@@ -51,22 +58,27 @@ const myBackEndStack = [
   {
     name: "MongoDB",
     imgSrc: mongodb,
+    link: "https://www.mongodb.com/",
   },
   {
     name: "Prisma",
     imgSrc: primsa,
+    link: "https://www.prisma.io/",
   },
   {
     name: "Node",
     imgSrc: nodejs,
+    link: "https://nodejs.org/en",
   },
   {
     name: "Postman",
     imgSrc: postman,
+    link: "https://www.postman.com/",
   },
   {
     name: "Express",
     imgSrc: expressjs,
+    link: "https://expressjs.com/",
   },
 ];
 
@@ -74,22 +86,27 @@ const myOverLapStack = [
   {
     name: "Javascript",
     imgSrc: javascript,
+    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
   },
   {
     name: "Git",
     imgSrc: git,
+    link: "https://git-scm.com/",
   },
   {
     name: "Github",
     imgSrc: github,
+    link: "https://docs.github.com/en",
   },
   {
     name: "Typescript",
     imgSrc: typescript,
+    link: "https://www.typescriptlang.org/",
   },
   {
     name: "Vscode",
     imgSrc: vscode,
+    link: "https://code.visualstudio.com/",
   },
 ];
 

@@ -23,7 +23,14 @@ const TechStack = () => {
               <div className="grid grid-cols-2 flex-wrap gap-12 sm:flex sm:flex-row desktop:grid desktop:grid-cols-5 desktop:flex-nowrap desktop:gap-10">
                 {myFrontEndStack.map((stack, idx) => {
                   return (
-                    <Skill key={idx} name={stack.name} imgSrc={stack.imgSrc} />
+                    <Skill
+                      link={() => {
+                        window.open(stack.link);
+                      }}
+                      key={idx}
+                      name={stack.name}
+                      imgSrc={stack.imgSrc}
+                    />
                   );
                 })}
               </div>
@@ -35,7 +42,14 @@ const TechStack = () => {
               <div className="grid grid-cols-2 flex-wrap gap-12 sm:flex sm:flex-row desktop:grid desktop:grid-cols-5 desktop:flex-nowrap desktop:gap-10">
                 {myBackEndStack.map((stack, idx) => {
                   return (
-                    <Skill key={idx} name={stack.name} imgSrc={stack.imgSrc} />
+                    <Skill
+                      link={() => {
+                        window.open(stack.link);
+                      }}
+                      key={idx}
+                      name={stack.name}
+                      imgSrc={stack.imgSrc}
+                    />
                   );
                 })}
               </div>
@@ -49,7 +63,14 @@ const TechStack = () => {
               <div className="flex flex-row flex-wrap justify-between gap-8 sm:flex sm:flex-row desktop:grid desktop:grid-cols-5 desktop:flex-nowrap desktop:gap-5">
                 {myOverLapStack.map((stack, idx) => {
                   return (
-                    <Skill key={idx} name={stack.name} imgSrc={stack.imgSrc} />
+                    <Skill
+                      link={() => {
+                        window.open(stack.link);
+                      }}
+                      key={idx}
+                      name={stack.name}
+                      imgSrc={stack.imgSrc}
+                    />
                   );
                 })}
               </div>
