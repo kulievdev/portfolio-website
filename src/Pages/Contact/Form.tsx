@@ -84,7 +84,7 @@ const Form = () => {
         <button
           disabled={isSubmitting}
           type="submit"
-          className="flex-1 rounded-xl border border-primary-600 bg-primary-600 px-4 py-2.5 text-base font-bold text-gray-50 shadow transition-all duration-300 ease-out hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2 disabled:bg-gray-400 bigDesktop:text-xl"
+          className="flex-1 rounded-xl border border-primary-600 bg-primary-600 px-4 py-2.5 text-base font-bold text-gray-50 shadow transition-all duration-300 ease-out hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2 disabled:bg-gray-500 bigDesktop:text-xl"
         >
           {isSubmitting ? "Submitting..." : "Send Message"}
         </button>
