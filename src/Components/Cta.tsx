@@ -31,7 +31,7 @@ const Cta: React.FC<CtaProps> = ({ type, projectCtaText }) => {
           case "send message":
             return (
               <button
-                className="w-full rounded-xl border border-primary-600 bg-primary-600 px-4 py-2.5 text-base font-bold text-gray-50 shadow transition-all duration-300 ease-out hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2 desktop:w-[80%]"
+                className="bigDesktop:text-xl flex-1 rounded-xl border border-primary-600 bg-primary-600 px-4 py-2.5 text-base font-bold text-gray-50 shadow transition-all duration-300 ease-out hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2"
                 type="submit"
               >
                 Send Message
