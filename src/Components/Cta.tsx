@@ -5,6 +5,10 @@ type CtaProps = {
   projectCtaText?: string;
 };
 
+const openResume = () => {
+  window.open("src/assets/TohirKuliev_Resume.pdf");
+};
+
 const Cta: React.FC<CtaProps> = ({ type, projectCtaText }) => {
   return (
     <>
@@ -12,13 +16,19 @@ const Cta: React.FC<CtaProps> = ({ type, projectCtaText }) => {
         switch (type) {
           case "download cv":
             return (
-              <a className="cursor-pointer rounded-xl bg-primary-700 px-3 py-2.5 text-center text-base font-bold leading-loose tracking-wider text-gray-50 transition-colors duration-300 ease-out hover:bg-primary-600 tablet:px-5 tablet:py-3 tablet:text-lg desktop:px-7 desktop:py-5 desktop:text-xl">
+              <button
+                onClick={openResume}
+                className="cursor-pointer rounded-xl bg-primary-700 px-3 py-2.5 text-center text-base font-bold leading-loose tracking-wider text-gray-50 transition-colors duration-300 ease-out hover:bg-primary-600 tablet:px-5 tablet:py-3 tablet:text-lg desktop:px-7 desktop:py-5 desktop:text-xl"
+              >
                 Download CV
-              </a>
+              </button>
             );
           case "my work":
             return (
-              <a className="cursor-pointer rounded-xl border-2 border-secondary-300 px-3 py-2 text-center text-base font-bold leading-loose tracking-wider text-primary-900 transition-colors duration-300 ease-out hover:border-primary-600 hover:text-primary-700 tablet:px-5  tablet:py-2.5 tablet:text-lg desktop:px-7 desktop:py-[18px] desktop:text-xl">
+              <a
+                href="#projects"
+                className="cursor-pointer rounded-xl border-2 border-secondary-300 px-3 py-2 text-center text-base font-bold leading-loose tracking-wider text-primary-900 transition-colors duration-300 ease-out hover:border-primary-600 hover:text-primary-700 tablet:px-5  tablet:py-2.5 tablet:text-lg desktop:px-7 desktop:py-[18px] desktop:text-xl"
+              >
                 My Work
               </a>
             );
