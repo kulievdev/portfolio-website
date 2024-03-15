@@ -6,7 +6,7 @@ import ArrowIcon from "../../Components/ArrowIcon";
 
 const Projects = () => {
   return (
-    <section className="relative">
+    <section id="projects" className="relative">
       <div className="mx-6 flex h-fit flex-col justify-center py-20 sm:mx-10 lg:mx-14 desktop:mx-40">
         <MiniMainHeading text="Browse My Recent" />
         <MainHeading text="Projects" />

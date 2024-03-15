@@ -24,14 +24,17 @@ const Cta: React.FC<CtaProps> = ({ type, projectCtaText }) => {
             );
           case "connect":
             return (
-              <a className="cursor-pointer rounded-xl border-2 border-secondary-300 px-6 py-2 text-center text-base font-bold leading-loose tracking-wider text-primary-900 transition-colors duration-300 ease-out hover:border-primary-600 hover:text-primary-700 tablet:px-5 tablet:py-2.5 tablet:text-lg desktop:text-xl">
+              <a
+                href="#contact"
+                className="cursor-pointer rounded-xl border-2 border-secondary-300 px-6 py-2 text-center text-base font-bold leading-loose tracking-wider text-primary-900 transition-colors duration-300 ease-out hover:border-primary-600 hover:text-primary-700 tablet:px-5 tablet:py-2.5 tablet:text-lg desktop:text-xl"
+              >
                 Connect
               </a>
             );
           case "send message":
             return (
               <button
-                className="bigDesktop:text-xl flex-1 rounded-xl border border-primary-600 bg-primary-600 px-4 py-2.5 text-base font-bold text-gray-50 shadow transition-all duration-300 ease-out hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2"
+                className="flex-1 rounded-xl border border-primary-600 bg-primary-600 px-4 py-2.5 text-base font-bold text-gray-50 shadow transition-all duration-300 ease-out hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2 bigDesktop:text-xl"
                 type="submit"
               >
                 Send Message

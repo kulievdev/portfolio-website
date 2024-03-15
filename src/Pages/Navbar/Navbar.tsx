@@ -6,6 +6,10 @@ import Logo from "../../Components/Logo";
 
 export const myLinks = [
   {
+    link: "#home",
+    text: "Home",
+  },
+  {
     link: "#projects",
     text: "Projects",
   },

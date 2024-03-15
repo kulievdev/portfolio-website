@@ -7,7 +7,10 @@ import Typewriter from "typewriter-effect";
 
 const Contact = () => {
   return (
-    <section className="bg-gradient-to-b from-primary-50 to-gray-50">
+    <section
+      id="contact"
+      className="bg-gradient-to-b from-primary-50 to-gray-50"
+    >
       <div className="section_container flex h-fit flex-col justify-center py-20">
         <MiniMainHeading text="Ge in Touch" />
         <MainHeading
