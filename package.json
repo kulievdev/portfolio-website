@@ -12,9 +12,11 @@
   "dependencies": {
     "@chakra-ui/icons": "^2.1.1",
     "@chakra-ui/react": "^2.8.2",
+    "@emailjs/browser": "^4.3.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.51.0",
+    "react-hot-toast": "^2.4.1",
     "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
