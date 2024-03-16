@@ -17,7 +17,7 @@ const Project: React.FC<ProjectProps> = ({ projectName, imageSrc }) => {
           className="h-[90%] w-[90%] flex-1 rounded-[2rem]"
         />
       </div>
-      <h2 className="bigDesktop:text-4xl m-4 mb-8 text-2xl font-semibold text-black desktop:text-3xl">
+      <h2 className="m-4 mb-8 text-2xl font-semibold text-black desktop:text-3xl bigDesktop:text-4xl">
         Project One
       </h2>
       <div className="flex flex-wrap justify-center gap-4">
