@@ -32,15 +32,6 @@ const Cta: React.FC<CtaProps> = ({ type, projectCtaText }) => {
                 My Work
               </a>
             );
-          case "connect":
-            return (
-              <a
-                href="#contact"
-                className="cursor-pointer rounded-xl border-2 border-secondary-300 px-6 py-2 text-center text-base font-bold leading-loose tracking-wider text-primary-900 transition-colors duration-300 ease-out hover:border-primary-600 hover:text-primary-700 tablet:px-5 tablet:py-2.5 tablet:text-lg desktop:text-xl"
-              >
-                Connect
-              </a>
-            );
           case "project cta":
             return (
               <button className="w-[8rem] rounded-xl border-2 border-secondary-300 px-6 py-2 text-sm font-semibold hover:border-gray-700 hover:bg-gray-700 hover:text-white desktop:text-lg ">

@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Flex, Button, IconButton } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
-import Cta from "../../Components/Cta";
 import Logo from "../../Components/Logo";
+import ContactModal from "../../Components/ContactModal";
 
 export const myLinks = [
   {
@@ -27,6 +27,7 @@ export const myLinks = [
     text: "Contact",
   },
 ];
+
 const Navbar = () => {
   const [display, changeDisplay] = useState("none");
   return (
@@ -52,7 +53,7 @@ const Navbar = () => {
                 })}
               </ul>
             </div>
-            <Cta type="connect" />
+            <ContactModal />
           </nav>
         </div>
       </Flex>
