@@ -5,7 +5,7 @@ import emailjs from "@emailjs/browser";
 import toast from "react-hot-toast";
 import Toaster from "../../Components/Toaster";
 
-const Form = ({ onClose }: { onClose: () => void }) => {
+const Form = ({ onClose }: { onClose?: () => void }) => {
   const form = useRef<HTMLFormElement | null>(null);
 
   const {
@@ -27,7 +27,7 @@ const Form = ({ onClose }: { onClose: () => void }) => {
       )
       .then(
         () => {
-          onClose();
+          onClose && onClose();
           toast.success("Your Message has been successfully sent!");
         },
         () => {
