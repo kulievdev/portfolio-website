@@ -9,7 +9,7 @@ const About = () => {
   return (
     <section id="about" className="relative">
       <div className="section_container relative mx-6 flex h-fit flex-col justify-center py-20 sm:mx-10 lg:mx-14 desktop:mx-40 bigDesktop:mx-96">
-        <div className="flex flex-col justify-center gap-6 rounded-3xl bg-white p-4 px-6 shadow-2xl sm:px-14 sm:py-16 lg:px-12 lg:py-20 laptop:px-20 laptop:py-20 desktop:gap-10 desktop:px-32 desktop:py-24 bigDesktop:px-52 bigDesktop:py-32">
+        <div className="flex flex-col justify-center gap-6 rounded-3xl bg-white p-4 px-6 shadow-2xl sm:px-14 sm:py-16 lg:px-12 lg:py-20 laptop:px-32 desktop:gap-10 desktop:px-44 bigDesktop:px-52">
           <div className="flex items-center gap-8">
             <h2 className="text-2xl font-extrabold sm:text-3xl desktop:text-5xl">
               About
