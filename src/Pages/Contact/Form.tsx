@@ -47,7 +47,7 @@ const Form: React.FC<FormProps> = ({ initialRef }) => {
         <form
           ref={form}
           onSubmit={handleSubmit(onSubmit)}
-          className=" flex w-full flex-col gap-10 p-6 xl:p-12 bigDesktop:p-16"
+          className="flex w-full flex-col gap-6 p-6 desktop:gap-10 desktop:p-12 bigDesktop:p-16"
         >
           <Input
             initialRef={initialRef}

@@ -34,7 +34,7 @@ const ContactModal = () => {
         finalFocusRef={finalRef}
         isOpen={isOpen}
         onClose={onClose}
-        size="xl"
+        size={window.innerWidth >= 1535 ? "xl" : "lg"}
         isCentered
       >
         <ModalOverlay />
