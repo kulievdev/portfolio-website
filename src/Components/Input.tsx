@@ -9,7 +9,6 @@ type InputProps = {
   errors: FieldErrors<FieldValues>;
   name: string;
   validationSchema: object;
-  initialRef?: React.MutableRefObject<null>;
 };
 
 const Input: React.FC<InputProps> = ({
@@ -20,7 +19,6 @@ const Input: React.FC<InputProps> = ({
   errors,
   name,
   validationSchema,
-  initialRef,
 }) => {
   return (
     <div className="flex flex-col gap-1.5">
@@ -45,7 +43,6 @@ const Input: React.FC<InputProps> = ({
                 className="rounded-xl border border-secondary-200 bg-white px-3.5 py-2.5 text-sm text-gray-800 shadow transition-all duration-300 ease-out placeholder:text-gray-500 focus:border-secondary-400 focus:shadow-secondary-400/80 focus:outline-none bigDesktop:text-lg"
                 type={type}
                 placeholder={placeholder}
-                ref={initialRef}
               />
             );
         }

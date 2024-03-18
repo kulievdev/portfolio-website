@@ -42,7 +42,7 @@ const ContactModal = () => {
           <ModalHeader>Let's Talk!</ModalHeader>
           <ModalCloseButton />
           <ModalBody pb={6}>
-            <Form initialRef={initialRef} />
+            <Form onClose={onClose} />
           </ModalBody>
           <ModalFooter justifyContent="space-between">
             <div className="flex flex-row gap-4 ">

@@ -1,15 +1,11 @@
 import Input from "../../Components/Input";
 import { useForm } from "react-hook-form";
-import React, { useRef } from "react";
+import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import toast from "react-hot-toast";
 import Toaster from "../../Components/Toaster";
 
-interface FormProps {
-  initialRef?: React.MutableRefObject<null>;
-}
-
-const Form: React.FC<FormProps> = ({ initialRef }) => {
+const Form = ({ onClose }: { onClose: () => void }) => {
   const form = useRef<HTMLFormElement | null>(null);
 
   const {
@@ -31,11 +27,11 @@ const Form: React.FC<FormProps> = ({ initialRef }) => {
       )
       .then(
         () => {
+          onClose();
           toast.success("Your Message has been successfully sent!");
         },
-        (e) => {
-          const error = e as Error;
-          toast.error(`Failed: ${error.message}`);
+        () => {
+          toast.error(`Failed: Please try again later.`);
         },
       );
     reset();
@@ -50,7 +46,6 @@ const Form: React.FC<FormProps> = ({ initialRef }) => {
           className="flex w-full flex-col gap-6 p-6 desktop:gap-10 desktop:p-12 bigDesktop:p-16"
         >
           <Input
-            initialRef={initialRef}
             register={register}
             errors={errors}
             validationSchema={{
