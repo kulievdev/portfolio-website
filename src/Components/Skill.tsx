@@ -1,16 +1,39 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 type SkillProps = {
   imgSrc: string;
   name: string;
+  index: number;
   link: () => void;
 };
 
-const Skill: React.FC<SkillProps> = ({ imgSrc, name, link }) => {
+const fadeInAnimationVariants = {
+  initial: {
+    opacity: 0,
+    y: 100,
+  },
+  animate: (index: number) => ({
+    opacity: 1,
+    y: 0,
+    transition: {
+      delay: 0.05 * index,
+    },
+  }),
+};
+
+const Skill: React.FC<SkillProps> = ({ imgSrc, name, link, index }) => {
   return (
-    <div
+    <motion.div
       onClick={link}
-      className="flex flex-1 transform cursor-pointer flex-col items-center transition duration-300 ease-in hover:scale-125 hover:animate-pulse sm:hover:-translate-y-4 sm:hover:scale-100"
+      className="flex flex-1 transform cursor-pointer flex-col items-center hover:scale-125 hover:animate-pulse hover:transition hover:duration-300 hover:ease-in sm:hover:-translate-y-4 sm:hover:scale-100"
+      variants={fadeInAnimationVariants}
+      initial="initial"
+      whileInView="animate"
+      viewport={{
+        once: true,
+      }}
+      custom={index}
     >
       <img
         src={imgSrc}
@@ -19,7 +42,7 @@ const Skill: React.FC<SkillProps> = ({ imgSrc, name, link }) => {
       <p className="text-sm font-bold text-gray-800 sm:text-lg sm:font-extrabold desktop:text-xl">
         {name}
       </p>
-    </div>
+    </motion.div>
   );
 };
 

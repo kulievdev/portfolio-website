@@ -30,6 +30,7 @@ const TechStack = () => {
                       key={idx}
                       name={stack.name}
                       imgSrc={stack.imgSrc}
+                      index={idx}
                     />
                   );
                 })}
@@ -49,6 +50,7 @@ const TechStack = () => {
                       key={idx}
                       name={stack.name}
                       imgSrc={stack.imgSrc}
+                      index={idx}
                     />
                   );
                 })}
@@ -70,6 +72,7 @@ const TechStack = () => {
                       key={idx}
                       name={stack.name}
                       imgSrc={stack.imgSrc}
+                      index={idx}
                     />
                   );
                 })}
