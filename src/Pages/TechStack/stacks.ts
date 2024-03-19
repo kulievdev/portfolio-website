@@ -15,6 +15,10 @@ import react from "../../assets/TechStackIcons/reactjs.svg";
 import tailwind from "../../assets/TechStackIcons/tailwindcss.svg";
 import vite from "../../assets/TechStackIcons/vitejs.svg";
 import vscode from "../../assets/TechStackIcons/vscode.svg";
+import material from "../../assets/TechStackIcons/materialui.svg";
+import supabase from "../../assets/TechStackIcons/supabase.svg";
+import jira from "../../assets/TechStackIcons/jira.svg";
+import render from "../../assets/TechStackIcons/render.svg";
 
 const myFrontEndStack = [
   {
@@ -52,6 +56,11 @@ const myFrontEndStack = [
     imgSrc: chakra,
     link: "https://chakra-ui.com/",
   },
+  {
+    name: "MaterialUI",
+    imgSrc: material,
+    link: "https://mui.com/",
+  },
 ];
 
 const myBackEndStack = [
@@ -80,6 +89,11 @@ const myBackEndStack = [
     imgSrc: expressjs,
     link: "https://expressjs.com/",
   },
+  {
+    name: "Supabase",
+    imgSrc: supabase,
+    link: "https://supabase.com/",
+  },
 ];
 
 const myOverLapStack = [
@@ -104,9 +118,19 @@ const myOverLapStack = [
     link: "https://www.typescriptlang.org/",
   },
   {
+    name: "Jira",
+    imgSrc: jira,
+    link: "https://www.atlassian.com/software/jira",
+  },
+  {
     name: "Vscode",
     imgSrc: vscode,
     link: "https://code.visualstudio.com/",
+  },
+  {
+    name: "Render",
+    imgSrc: render,
+    link: "https://render.com/",
   },
 ];
 
