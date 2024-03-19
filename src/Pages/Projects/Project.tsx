@@ -1,15 +1,39 @@
 import React from "react";
-
 import Cta from "../../Components/Cta";
+import { motion } from "framer-motion";
 
 type ProjectProps = {
   projectName: string;
   imageSrc: string;
+  index: number;
 };
 
-const Project: React.FC<ProjectProps> = ({ projectName, imageSrc }) => {
+const fadeInAnimationVariants = {
+  initial: {
+    opacity: 0,
+    y: 100,
+  },
+  animate: (index: number) => ({
+    opacity: 1,
+    y: 0,
+    transition: {
+      delay: 0.2 * index,
+    },
+  }),
+};
+
+const Project: React.FC<ProjectProps> = ({ projectName, imageSrc, index }) => {
   return (
-    <div className="flex-1 rounded-[2rem] border border-secondary-300 bg-white p-6 text-center">
+    <motion.div
+      className="flex-1 rounded-[2rem] border border-secondary-300 bg-white p-6 text-center"
+      variants={fadeInAnimationVariants}
+      initial="initial"
+      whileInView="animate"
+      viewport={{
+        once: true,
+      }}
+      custom={index}
+    >
       <div className="flex flex-row flex-wrap justify-around gap-10">
         <img
           src={imageSrc}
@@ -25,7 +49,7 @@ const Project: React.FC<ProjectProps> = ({ projectName, imageSrc }) => {
         <Cta type="project cta" projectCtaText="Demo" />
         <Cta type="project cta" projectCtaText="Info" />
       </div>
-    </div>
+    </motion.div>
   );
 };
 

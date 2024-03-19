@@ -13,12 +13,12 @@ const Projects = () => {
           <MiniMainHeading text="Browse My Recent" />
           <MainHeading text="Projects" />
           <div className="my-8 flex flex-wrap justify-center gap-8 sm:grid sm:grid-cols-2 xl:grid xl:grid-cols-3">
-            <Project imageSrc={project1} projectName="Project One" />
-            <Project imageSrc={project1} projectName="Project One" />
-            <Project imageSrc={project1} projectName="Project One" />
-            <Project imageSrc={project1} projectName="Project One" />
-            <Project imageSrc={project1} projectName="Project One" />
-            <Project imageSrc={project1} projectName="Project One" />
+            <Project index={1} imageSrc={project1} projectName="Project One" />
+            <Project index={2} imageSrc={project1} projectName="Project One" />
+            <Project index={3} imageSrc={project1} projectName="Project One" />
+            <Project index={4} imageSrc={project1} projectName="Project One" />
+            <Project index={5} imageSrc={project1} projectName="Project One" />
+            <Project index={6} imageSrc={project1} projectName="Project One" />
           </div>
         </div>
         <ArrowIcon href="#skills" />
