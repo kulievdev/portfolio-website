@@ -1,7 +1,7 @@
 import ContactIcon from "../../Components/ContactIcon";
 import { mySocials } from "../Hero/Hero";
-import emailIcon from "../../assets/Images/email.png";
-import phoneIcon from "../../assets/Images/phone.png";
+import emailIcon from "../../assets/SocialMediaIcons/email.svg";
+import phoneIcon from "../../assets/SocialMediaIcons/phone.svg";
 
 const Message = () => {
   return (

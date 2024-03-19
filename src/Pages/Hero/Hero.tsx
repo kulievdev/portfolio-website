@@ -1,6 +1,6 @@
-import linkedinPic from "../../assets/Images/linkedin.png";
-import githubPic from "../../assets/Images/github.png";
-import twitterPic from "../../assets/Images/twitter.png";
+import linkedinPic from "../../assets/SocialMediaIcons/linkedin.svg";
+import githubPic from "../../assets/SocialMediaIcons/github.svg";
+import twitterPic from "../../assets/SocialMediaIcons/twitter.svg";
 // import SocialMediaIcon from "../../Components/SocialMediaIcon";
 import HeroImage from "./HeroImage";
 import HeroContent from "./HeroContent";
