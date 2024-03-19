@@ -15,8 +15,8 @@ const Message = () => {
           connect and make things happen.
         </p>
       </div>
-      <div className="flex flex-col gap-10 ">
-        <div>
+      <div className="flex flex-col gap-1 ">
+        <div className="w-max">
           <p className="mb-4 text-left text-base font-medium text-gray-900 sm:text-lg bigDesktop:text-2xl">
             Email
           </p>
@@ -36,7 +36,7 @@ const Message = () => {
             </a>
           </div>
         </div>
-        <div>
+        <div className="w-max">
           <p className="mb-4 text-left text-base font-medium leading-normal text-gray-900 sm:text-lg bigDesktop:text-2xl">
             Phone Number
           </p>
