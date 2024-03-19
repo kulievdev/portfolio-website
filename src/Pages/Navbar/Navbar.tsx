@@ -3,6 +3,7 @@ import { Flex, Button, IconButton } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import Logo from "../../Components/Logo";
 import ContactModal from "../../Components/ContactModal";
+import { motion } from "framer-motion";
 
 export const myLinks = [
   {
@@ -37,7 +38,12 @@ const Navbar = () => {
         direction="column"
         display={["none", "none", "none", "none", "flex", "flex"]}
       >
-        <div className="mx-10 my-0 lg:mx-14 desktop:mx-40 ">
+        <motion.div
+          className="mx-10 my-0 lg:mx-14 desktop:mx-40"
+          initial={{ opacity: 0, y: -20, scale: 0.9 }}
+          animate={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{ duration: 0.5 }}
+        >
           <nav className="flex items-center justify-between py-6">
             <Logo />
             <div>
@@ -55,7 +61,7 @@ const Navbar = () => {
             </div>
             <ContactModal />
           </nav>
-        </div>
+        </motion.div>
       </Flex>
 
       <div className="mx-6 pt-3 sm:mx-10 sm:py-6 lg:px-14 laptop:hidden">
