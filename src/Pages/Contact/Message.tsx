@@ -6,7 +6,7 @@ import phoneIcon from "../../assets/SocialMediaIcons/phone.svg";
 const Message = () => {
   return (
     <div className="flex flex-1 flex-col gap-16 rounded-3xl bg-secondary-100 p-8 sm:justify-between sm:gap-0">
-      <div className=" ">
+      <div>
         <p className="mb-6 text-left text-xl font-bold leading-7 text-gray-900 sm:text-3xl bigDesktop:text-5xl">
           Say Hello!
         </p>
@@ -15,7 +15,7 @@ const Message = () => {
           connect and make things happen.
         </p>
       </div>
-      <div className="flex flex-col gap-1 ">
+      <div className="flex flex-col gap-10">
         <div className="w-max">
           <p className="mb-4 text-left text-base font-medium text-gray-900 sm:text-lg bigDesktop:text-2xl">
             Email
