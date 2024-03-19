@@ -23,8 +23,10 @@ const fadeInAnimationVariants = {
 };
 
 const Project: React.FC<ProjectProps> = ({ projectName, imageSrc, index }) => {
+  const Component = window.innerWidth > 435 ? motion.div : "div";
+
   return (
-    <motion.div
+    <Component
       className="flex-1 rounded-[2rem] border border-secondary-300 bg-white p-6 text-center"
       variants={fadeInAnimationVariants}
       initial="initial"
@@ -49,7 +51,7 @@ const Project: React.FC<ProjectProps> = ({ projectName, imageSrc, index }) => {
         <Cta type="project cta" projectCtaText="Demo" />
         <Cta type="project cta" projectCtaText="Info" />
       </div>
-    </motion.div>
+    </Component>
   );
 };
 

@@ -12,7 +12,7 @@ const TechStack = () => {
         id="skills"
         className="relative bg-gradient-to-br from-primary-50 to-gray-50"
       >
-        <div className="section_container relative mx-6 my-0  flex h-fit flex-col justify-center py-20 sm:mx-10 lg:mx-14 desktop:mx-40">
+        <div className="section_container relative mx-6 my-0 flex h-fit flex-col justify-center py-20 sm:mx-10 lg:mx-14 desktop:mx-40">
           <MiniMainHeading text="Explore My" />
           <MainHeading text="Tech Stack" />
 
@@ -40,7 +40,6 @@ const TechStack = () => {
                           key={idx}
                           name={stack.name}
                           imgSrc={stack.imgSrc}
-                          index={idx}
                         />
                       );
                     })}
@@ -69,7 +68,6 @@ const TechStack = () => {
                           key={idx}
                           name={stack.name}
                           imgSrc={stack.imgSrc}
-                          index={myFrontEndStack.length + 1 + idx}
                         />
                       );
                     })}
@@ -99,12 +97,6 @@ const TechStack = () => {
                           key={idx}
                           name={stack.name}
                           imgSrc={stack.imgSrc}
-                          index={
-                            myFrontEndStack.length +
-                            myBackEndStack.length +
-                            1 +
-                            idx
-                          }
                         />
                       );
                     })}

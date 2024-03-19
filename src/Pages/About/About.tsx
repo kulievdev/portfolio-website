@@ -8,7 +8,7 @@ import AnimateOnScroll from "../../animation/AnimateOnScroll";
 
 const About = () => {
   return (
-    <AnimateOnScroll y={20} duration={0.6} threshold={0.7} scale={0.95}>
+    <AnimateOnScroll y={20} duration={0.6} threshold={0.4} scale={0.95}>
       <section id="about" className="relative">
         <div className="section_container relative mx-6 flex h-fit flex-col justify-center py-20 sm:mx-10 lg:mx-14 desktop:mx-40">
           <div className="flex flex-col justify-center gap-6 rounded-3xl bg-white p-4 px-6 shadow-2xl sm:px-14 sm:py-16 lg:px-12 lg:py-20 laptop:px-32 desktop:gap-10 desktop:px-44 bigDesktop:px-52">

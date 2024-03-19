@@ -4,36 +4,14 @@ import { motion } from "framer-motion";
 type SkillProps = {
   imgSrc: string;
   name: string;
-  index: number;
   link: () => void;
 };
 
-const fadeInAnimationVariants = {
-  initial: {
-    opacity: 0,
-    y: 100,
-  },
-  animate: (index: number) => ({
-    opacity: 1,
-    y: 0,
-    transition: {
-      delay: 0.1 * index,
-    },
-  }),
-};
-
-const Skill: React.FC<SkillProps> = ({ imgSrc, name, link, index }) => {
+const Skill: React.FC<SkillProps> = ({ imgSrc, name, link }) => {
   return (
     <motion.div
       onClick={link}
       className="flex flex-1 transform cursor-pointer flex-col items-center hover:scale-125 hover:animate-pulse hover:transition hover:duration-300 hover:ease-in sm:hover:-translate-y-4 sm:hover:scale-100"
-      variants={fadeInAnimationVariants}
-      initial="initial"
-      whileInView="animate"
-      viewport={{
-        once: true,
-      }}
-      custom={index}
     >
       <img
         src={imgSrc}
