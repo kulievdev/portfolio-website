@@ -1,18 +1,14 @@
-import Navbar from "./Pages/Navbar/Navbar";
-import Hero from "./Pages/Hero/Hero";
 import TechStack from "./Pages/TechStack/TechStack";
 import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
 import Footer from "./Pages/Footer/Footer";
 import Projects from "./Pages/Projects/Projects";
+import Home from "./Pages/Home/Home";
 
 function App() {
   return (
     <>
-      <main id="home" className="bg-gradient-to-t from-primary-50 to-gray-50">
-        <Navbar />
-        <Hero />
-      </main>
+      <Home />
       <Projects />
       <TechStack />
       <About />
