@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 import fadeInAnimationVariants from "../../utils/fadeAnimationVariants";
 
 type ProjectProps = {
-  projectName: string;
+  name: string;
   imageSrc: string;
   index: number;
 };
 
-const Project: React.FC<ProjectProps> = ({ projectName, imageSrc, index }) => {
+const Project: React.FC<ProjectProps> = ({ name, imageSrc, index }) => {
   const Component = window.innerWidth > 435 ? motion.div : "div";
 
   return (
@@ -26,7 +26,7 @@ const Project: React.FC<ProjectProps> = ({ projectName, imageSrc, index }) => {
       <div className="flex flex-row flex-wrap justify-around gap-10">
         <img
           src={imageSrc}
-          alt={projectName}
+          alt={name}
           className="h-[90%] w-[90%] flex-1 rounded-[2rem]"
         />
       </div>
