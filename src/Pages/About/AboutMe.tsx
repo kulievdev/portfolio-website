@@ -19,7 +19,7 @@ const AboutMe: React.FC<AboutMeProps> = ({
     >
       <img
         src={imgSrc}
-        className="mb-2 inline-block h-10 laptop:h-12 desktop:h-16"
+        className="mb-2 inline-block h-10 w-max laptop:h-12 desktop:h-16"
       />
       <div>
         <h3 className="mb-2 mt-1 text-base font-bold md:text-lg desktop:text-xl">
