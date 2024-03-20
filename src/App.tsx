@@ -1,9 +1,11 @@
-import TechStack from "./Pages/TechStack/TechStack";
-import About from "./Pages/About/About";
-import Contact from "./Pages/Contact/Contact";
-import Footer from "./Pages/Footer/Footer";
-import Projects from "./Pages/Projects/Projects";
-import Home from "./Pages/Home/Home";
+import { lazy } from "react";
+
+const Home = lazy(() => import("./Pages/Home/Home"));
+const Projects = lazy(() => import("./Pages/Projects/Projects"));
+const TechStack = lazy(() => import("./Pages/TechStack/TechStack"));
+const About = lazy(() => import("./Pages/About/About"));
+const Contact = lazy(() => import("./Pages/Contact/Contact"));
+const Footer = lazy(() => import("./Pages/Footer/Footer"));
 
 function App() {
   return (
