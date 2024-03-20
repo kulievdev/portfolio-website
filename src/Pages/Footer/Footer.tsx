@@ -20,7 +20,11 @@ const Footer = () => {
                   }}
                   custom={idx}
                 >
-                  <a className="hover:nav_links" href={myLink.link}>
+                  <a
+                    aria-current="page"
+                    className="hover:nav_links"
+                    href={myLink.link}
+                  >
                     {myLink.text}
                   </a>
                 </motion.li>

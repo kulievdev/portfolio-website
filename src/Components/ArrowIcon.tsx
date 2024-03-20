@@ -7,7 +7,7 @@ interface ArrowIconProps {
 
 const ArrowIcon: React.FC<ArrowIconProps> = ({ href }) => {
   return (
-    <a href={href}>
+    <a href={href} aria-label="Arrow Icon to navigate">
       <img
         src={arrow}
         alt="Arrow icon"

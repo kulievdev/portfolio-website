@@ -36,6 +36,7 @@ const Message = () => {
               altText="My Email Icon"
             />
             <a
+              aria-label="Email me"
               href="mailto:kulievdev@gmail.com"
               className="cursor-pointer text-left text-sm font-medium text-primary-700 bigDesktop:text-xl"
             >
@@ -56,6 +57,7 @@ const Message = () => {
             />
             <a
               href="tel:6466636636"
+              aria-label="Call me"
               className="cursor-pointer text-left text-sm font-medium text-primary-700 bigDesktop:text-xl"
             >
               646-663-6636

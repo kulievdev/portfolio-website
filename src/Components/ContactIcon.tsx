@@ -31,7 +31,7 @@ const ContactIcon: React.FC<ContactIconProps> = (props) => {
           className="icon transform transition duration-700 ease-in-out hover:scale-150 bigDesktop:h-10 bigDesktop:w-10"
         />
       ) : (
-        <a href={props.contactLink}>
+        <a href={props.contactLink} aria-label="Contact Me">
           <img
             src={props.imageSrc}
             alt={props.altText}

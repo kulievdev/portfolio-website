@@ -27,6 +27,7 @@ const Cta: React.FC<CtaProps> = ({ type, projectCtaText }) => {
             return (
               <a
                 href="#projects"
+                aria-label="Navigate to projects"
                 className="cursor-pointer rounded-xl border-2 border-secondary-300 px-3 py-2 text-center text-base font-bold leading-loose tracking-wider text-primary-900 transition-colors duration-300 ease-out hover:border-primary-600 hover:text-primary-700 tablet:px-5  tablet:py-2.5 tablet:text-lg desktop:px-7 desktop:py-[18px] desktop:text-xl"
               >
                 My Work
