@@ -19,6 +19,7 @@ const AboutMe: React.FC<AboutMeProps> = ({
     >
       <img
         src={imgSrc}
+        alt={title}
         className="mb-2 inline-block h-10 w-max laptop:h-12 desktop:h-16"
       />
       <div>
