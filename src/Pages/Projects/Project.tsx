@@ -1,25 +1,12 @@
 import React from "react";
 import Cta from "../../Components/Cta";
 import { motion } from "framer-motion";
+import fadeInAnimationVariants from "../../utils/fadeAnimationVariants";
 
 type ProjectProps = {
   projectName: string;
   imageSrc: string;
   index: number;
-};
-
-const fadeInAnimationVariants = {
-  initial: {
-    opacity: 0,
-    y: 100,
-  },
-  animate: (index: number) => ({
-    opacity: 1,
-    y: 0,
-    transition: {
-      delay: 0.2 * index,
-    },
-  }),
 };
 
 const Project: React.FC<ProjectProps> = ({ projectName, imageSrc, index }) => {
@@ -28,7 +15,7 @@ const Project: React.FC<ProjectProps> = ({ projectName, imageSrc, index }) => {
   return (
     <Component
       className="flex-1 rounded-[2rem] border border-secondary-300 bg-white p-6 text-center"
-      variants={fadeInAnimationVariants}
+      variants={fadeInAnimationVariants(0.2, 100)}
       initial="initial"
       whileInView="animate"
       viewport={{

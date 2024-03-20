@@ -1,4 +1,6 @@
-import { myLinks } from "../Navbar/Navbar";
+import fadeInAnimationVariants from "../../utils/fadeAnimationVariants";
+import { motion } from "framer-motion";
+import myLinks from "../Navbar/myLinks";
 
 const Footer = () => {
   return (
@@ -8,11 +10,20 @@ const Footer = () => {
           <ul className="nav-links flex flex-col gap-8 text-center text-xl lg:flex lg:flex-row lg:gap-32">
             {myLinks.map((myLink, idx) => {
               return (
-                <li key={idx}>
+                <motion.li
+                  key={idx}
+                  variants={fadeInAnimationVariants(0.1, 30)}
+                  initial="initial"
+                  whileInView="animate"
+                  viewport={{
+                    once: true,
+                  }}
+                  custom={idx}
+                >
                   <a className="hover:nav_links" href={myLink.link}>
                     {myLink.text}
                   </a>
-                </li>
+                </motion.li>
               );
             })}
           </ul>
