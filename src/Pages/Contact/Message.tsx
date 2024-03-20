@@ -10,7 +10,7 @@ const Message = () => {
       scale={0.7}
       duration={0.6}
       delay={0.2}
-      x={"-20%"}
+      x={window.innerWidth < 1920 ? "-10%" : "-20%"}
       className="flex flex-1 flex-col gap-16 rounded-3xl bg-secondary-100 p-8 sm:justify-between sm:gap-0"
     >
       <div>

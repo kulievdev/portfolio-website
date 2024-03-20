@@ -9,7 +9,7 @@ const BackEndStack = () => {
       threshold={0.1}
       delay={0.4}
       scale={0.9}
-      x={"20%"}
+      x={window.innerWidth < 1920 ? "10%" : "20%"}
       y={30}
       className="rounded-3xl p-6 shadow-2xl desktop:p-10"
     >

@@ -9,7 +9,7 @@ const FrontEndStack = () => {
       scale={0.9}
       duration={0.6}
       delay={0.2}
-      x={"-20%"}
+      x={window.innerWidth < 1920 ? "-10%" : "-20%"}
       y={30}
       className="rounded-3xl p-6 shadow-2xl desktop:p-10"
     >
