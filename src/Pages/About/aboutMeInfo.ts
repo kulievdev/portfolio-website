@@ -1,7 +1,7 @@
-import codeIcon from "../../assets/Images/code.png";
-import hobbiesIcon from "../../assets/Images/puzzle.png";
-import educationIcon from "../../assets/Images/university.png";
-import learningIcon from "../../assets/Images/knowledge.png";
+import codeIcon from "../../assets/Images/code.svg";
+import hobbiesIcon from "../../assets/Images/puzzle.svg";
+import educationIcon from "../../assets/Images/university.svg";
+import learningIcon from "../../assets/Images/knowledge.svg";
 
 const aboutMeInfo = [
   {

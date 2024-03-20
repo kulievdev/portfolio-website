@@ -1,5 +1,5 @@
 import React from "react";
-import arrow from "../assets/Images/arrow.png";
+import arrow from "../assets/Images/arrow.svg";
 
 interface ArrowIconProps {
   href: string;
