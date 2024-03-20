@@ -2,10 +2,17 @@ import ContactIcon from "../../Components/ContactIcon";
 import { mySocials } from "../Hero/Hero";
 import emailIcon from "../../assets/SocialMediaIcons/email.svg";
 import phoneIcon from "../../assets/SocialMediaIcons/phone.svg";
+import AnimateOnScroll from "../../animation/AnimateOnScroll";
 
 const Message = () => {
   return (
-    <div className="flex flex-1 flex-col gap-16 rounded-3xl bg-secondary-100 p-8 sm:justify-between sm:gap-0">
+    <AnimateOnScroll
+      scale={0.7}
+      duration={0.6}
+      delay={0.2}
+      x={"-30%"}
+      className="flex flex-1 flex-col gap-16 rounded-3xl bg-secondary-100 p-8 sm:justify-between sm:gap-0"
+    >
       <div>
         <p className="mb-6 text-left text-xl font-bold leading-7 text-gray-900 sm:text-3xl bigDesktop:text-5xl">
           Say Hello!
@@ -69,7 +76,7 @@ const Message = () => {
           );
         })}
       </div>
-    </div>
+    </AnimateOnScroll>
   );
 };
 

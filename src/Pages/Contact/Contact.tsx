@@ -8,7 +8,7 @@ import Typewriter from "typewriter-effect";
 
 const Contact = () => {
   return (
-    <AnimateOnScroll noScale y={40} duration={0.8} threshold={0.4}>
+    <AnimateOnScroll noScale y={40} duration={0.8} threshold={0.1}>
       <section
         id="contact"
         className="bg-gradient-to-b from-primary-50 to-gray-50"

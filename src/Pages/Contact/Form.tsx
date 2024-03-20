@@ -4,6 +4,7 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import toast from "react-hot-toast";
 import Toaster from "../../Components/Toaster";
+import AnimateOnScroll from "../../animation/AnimateOnScroll";
 
 const Form = ({ onClose }: { onClose?: () => void }) => {
   const form = useRef<HTMLFormElement | null>(null);
@@ -39,7 +40,13 @@ const Form = ({ onClose }: { onClose?: () => void }) => {
 
   return (
     <>
-      <div className="flex flex-1 justify-center rounded-3xl bg-gradient-to-bl from-primary-100 to-secondary-100">
+      <AnimateOnScroll
+        scale={0.9}
+        duration={0.6}
+        delay={0.2}
+        x={"30%"}
+        className="flex flex-1 justify-center rounded-3xl bg-gradient-to-bl from-primary-100 to-secondary-100"
+      >
         <form
           ref={form}
           onSubmit={handleSubmit(onSubmit)}
@@ -113,7 +120,7 @@ const Form = ({ onClose }: { onClose?: () => void }) => {
             {isSubmitting ? "Submitting..." : "Send Message"}
           </button>
         </form>
-      </div>
+      </AnimateOnScroll>
       <Toaster />
     </>
   );
