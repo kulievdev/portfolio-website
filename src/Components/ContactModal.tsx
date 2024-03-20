@@ -11,8 +11,10 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import Form from "../Pages/Contact/Form";
-import { mySocials } from "../Pages/Hero/Hero";
 import ContactIcon from "./ContactIcon";
+import mySocials from "../utils/socials";
+import emailIcon from "../assets/SocialMediaIcons/email.svg";
+import phoneIcon from "../assets/SocialMediaIcons/phone.svg";
 
 const ContactModal = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -57,6 +59,18 @@ const ContactModal = () => {
                   />
                 );
               })}
+              <ContactIcon
+                contactLink="mailto:kulievdev@gmail.com"
+                type="contactInfo"
+                imageSrc={emailIcon}
+                altText="My Email Icon"
+              />
+              <ContactIcon
+                type="contactInfo"
+                contactLink="tel:6466636636"
+                imageSrc={phoneIcon}
+                altText="My Email Icon"
+              />
             </div>
             <Button onClick={onClose}>Cancel</Button>
           </ModalFooter>

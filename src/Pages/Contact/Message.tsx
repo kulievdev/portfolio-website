@@ -1,8 +1,8 @@
 import ContactIcon from "../../Components/ContactIcon";
-import { mySocials } from "../Hero/Hero";
 import emailIcon from "../../assets/SocialMediaIcons/email.svg";
 import phoneIcon from "../../assets/SocialMediaIcons/phone.svg";
 import AnimateOnScroll from "../../animation/AnimateOnScroll";
+import mySocials from "../../utils/socials";
 
 const Message = () => {
   return (
