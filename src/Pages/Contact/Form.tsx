@@ -44,7 +44,7 @@ const Form = ({ onClose }: { onClose?: () => void }) => {
         scale={0.9}
         duration={0.6}
         delay={0.2}
-        x={"30%"}
+        x={"20%"}
         className="flex flex-1 justify-center rounded-3xl bg-gradient-to-bl from-primary-100 to-secondary-100"
       >
         <form
