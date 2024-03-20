@@ -11,7 +11,7 @@ const Skill: React.FC<SkillProps> = ({ imgSrc, name, link }) => {
   return (
     <motion.div
       onClick={link}
-      className="flex flex-1 transform cursor-pointer flex-col items-center hover:scale-125 hover:animate-pulse hover:transition hover:duration-300 hover:ease-in sm:hover:-translate-y-4 sm:hover:scale-100"
+      className="flex flex-1 transform cursor-pointer flex-col items-center transition duration-300 ease-in hover:scale-125 hover:animate-pulse sm:hover:-translate-y-4 sm:hover:scale-100"
     >
       <img
         src={imgSrc}
