@@ -1,5 +1,5 @@
 import { useState } from "react";
-import profilePic from "../../assets/Images/myPicture.jpg";
+import profilePic from "../../assets/Images/myPicture.webp";
 import AnimateOnScroll from "../../animation/AnimateOnScroll";
 
 const HeroImage = () => {

@@ -1,4 +1,4 @@
-import project1 from "../../assets/Images/project.png";
+import project1 from "../../assets/Images/project.webp";
 
 const myProjects = [
   {
