@@ -14,7 +14,7 @@ const Project: React.FC<ProjectProps> = ({ name, imageSrc, index }) => {
 
   return (
     <Component
-      className="flex-1 rounded-[2rem] border border-secondary-300 bg-white p-6 text-center"
+      className="flex-1 rounded-[2rem] border border-secondary-300 p-6 text-center"
       variants={fadeInAnimationVariants(0.2, 100)}
       initial="initial"
       whileInView="animate"

@@ -12,7 +12,7 @@ const Projects = () => {
         <div className="mx-6 flex h-fit flex-col justify-center py-20 sm:mx-10 lg:mx-14 desktop:mx-40">
           <MiniMainHeading text="Browse My Recent" />
           <MainHeading text="Projects" />
-          <div className="my-8 flex flex-wrap justify-center gap-8 sm:grid sm:grid-cols-2 xl:grid xl:grid-cols-3">
+          <div className="my-8 flex flex-col flex-wrap justify-center gap-8 md:grid md:grid-cols-2">
             {myProjects.map((project, idx) => (
               <Project
                 key={idx}
