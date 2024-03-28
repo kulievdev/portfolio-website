@@ -17,7 +17,7 @@ type ProjectProps = {
 };
 
 const Project: React.FC<ProjectProps> = ({ name, images, index }) => {
-  const Component = window.innerWidth > 435 ? motion.div : "div";
+  // const Component = window.innerWidth > 435 ? motion.div : "div";
 
   const [imageIndex, setImageIndex] = useState(0);
 
@@ -36,7 +36,7 @@ const Project: React.FC<ProjectProps> = ({ name, images, index }) => {
   };
 
   return (
-    <Component
+    <motion.div
       className="flex-1 rounded-[2rem] border border-gray-300 p-6 text-center"
       variants={fadeInAnimationVariants(0.2, 100)}
       initial="initial"
@@ -101,7 +101,7 @@ const Project: React.FC<ProjectProps> = ({ name, images, index }) => {
         <Cta type="project cta" projectCtaText="Live Demo" />
         <Cta type="project cta" projectCtaText="Info" />
       </div>
-    </Component>
+    </motion.div>
   );
 };
 
