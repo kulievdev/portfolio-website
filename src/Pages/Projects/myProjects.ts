@@ -6,24 +6,31 @@ import projectify5 from "../../assets/Images/ProjectifyApp/projectify5.webp";
 import projectify6 from "../../assets/Images/ProjectifyApp/projectify6.webp";
 import projectify7 from "../../assets/Images/ProjectifyApp/projectify7.webp";
 
+import luce1 from "../../assets/Images/LuceNotte/luce1.webp";
+import luce2 from "../../assets/Images/LuceNotte/luce2.webp";
+import luce3 from "../../assets/Images/LuceNotte/luce3.webp";
+import luce4 from "../../assets/Images/LuceNotte/luce4.webp";
+
 const myProjects = [
   {
     projectName: "Projectify",
     images: [
-      { url: projectify1, alt: "Projectify Image" },
-      { url: projectify2, alt: "Projectify Image" },
-      { url: projectify3, alt: "Projectify Image" },
-      { url: projectify4, alt: "Projectify Image" },
-      { url: projectify5, alt: "Projectify Image" },
-      { url: projectify6, alt: "Projectify Image" },
-      { url: projectify7, alt: "Projectify Image" },
+      { url: projectify1, alt: "Projectify App Image" },
+      { url: projectify2, alt: "Projectify App  Image" },
+      { url: projectify3, alt: "Projectify App  Image" },
+      { url: projectify4, alt: "Projectify App  Image" },
+      { url: projectify5, alt: "Projectify App  Image" },
+      { url: projectify6, alt: "Projectify App  Image" },
+      { url: projectify7, alt: "Projectify App  Image" },
     ],
   },
   {
     projectName: "Project Two",
     images: [
-      { url: projectify1, alt: "Project Two" },
-      { url: projectify1, alt: "Project Two" },
+      { url: luce1, alt: "Restaurant Website Image" },
+      { url: luce2, alt: "Restaurant Website Image" },
+      { url: luce3, alt: "Restaurant Website Image" },
+      { url: luce4, alt: "Restaurant Website Image" },
     ],
   },
   {
