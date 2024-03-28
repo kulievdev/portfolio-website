@@ -11,6 +11,16 @@ import luce2 from "../../assets/Images/LuceNotte/luce2.webp";
 import luce3 from "../../assets/Images/LuceNotte/luce3.webp";
 import luce4 from "../../assets/Images/LuceNotte/luce4.webp";
 
+import infinita1 from "../../assets/Images/Infinita/infinita1.webp";
+import infinita2 from "../../assets/Images/Infinita/infinita2.webp";
+import infinita3 from "../../assets/Images/Infinita/infinita3.webp";
+import infinita4 from "../../assets/Images/Infinita/infinita4.webp";
+
+import portfolio1 from "../../assets/Images/Portfolio/portfolio1.webp";
+import portfolio2 from "../../assets/Images/Portfolio/portfolio2.webp";
+import portfolio3 from "../../assets/Images/Portfolio/portfolio3.webp";
+import portfolio4 from "../../assets/Images/Portfolio/portfolio4.webp";
+
 const myProjects = [
   {
     projectName: "Projectify",
@@ -25,7 +35,7 @@ const myProjects = [
     ],
   },
   {
-    projectName: "Luce Notte",
+    projectName: "Luce Notte Restaurant",
     images: [
       { url: luce1, alt: "Restaurant Website Image" },
       { url: luce2, alt: "Restaurant Website Image" },
@@ -34,17 +44,21 @@ const myProjects = [
     ],
   },
   {
-    projectName: "Project Three",
+    projectName: "Infinita Furniture",
     images: [
-      { url: projectify1, alt: "Project Three" },
-      { url: projectify1, alt: "Project Three" },
+      { url: infinita1, alt: "Furniture Website Image" },
+      { url: infinita2, alt: "Furniture Website Image" },
+      { url: infinita3, alt: "Furniture Website Image" },
+      { url: infinita4, alt: "Furniture Website Image" },
     ],
   },
   {
-    projectName: "Project Four",
+    projectName: "Portfolio Website",
     images: [
-      { url: projectify1, alt: "Project Four" },
-      { url: projectify1, alt: "Project Four" },
+      { url: portfolio1, alt: "Portfolio Website Image" },
+      { url: portfolio2, alt: "Portfolio Website Image" },
+      { url: portfolio3, alt: "Portfolio Website Image" },
+      { url: portfolio4, alt: "Portfolio Website Image" },
     ],
   },
   {
