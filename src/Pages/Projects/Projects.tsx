@@ -19,6 +19,8 @@ const Projects = () => {
                 index={idx}
                 name={project.projectName}
                 images={project.images}
+                githubLink={project.github}
+                websiteLink={project.website}
               />
             ))}
           </div>

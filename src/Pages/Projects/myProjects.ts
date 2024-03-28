@@ -24,6 +24,8 @@ import portfolio4 from "../../assets/Images/Portfolio/portfolio4.webp";
 const myProjects = [
   {
     projectName: "Projectify",
+    github: "https://github.com/kulievdev/projectify-app-ui",
+    website: "",
     images: [
       { url: projectify1, alt: "Projectify App Image" },
       { url: projectify2, alt: "Projectify App  Image" },
@@ -36,6 +38,8 @@ const myProjects = [
   },
   {
     projectName: "Luce Notte Restaurant",
+    github: "https://github.com/kulievdev/restaurant-website-react",
+    website: "https://lucenotte.com/",
     images: [
       { url: luce1, alt: "Restaurant Website Image" },
       { url: luce2, alt: "Restaurant Website Image" },
@@ -45,6 +49,8 @@ const myProjects = [
   },
   {
     projectName: "Infinita Furniture",
+    github: "https://github.com/kulievdev/furniture-website-react",
+    website: "https://infinitafurniture.com/",
     images: [
       { url: infinita1, alt: "Furniture Website Image" },
       { url: infinita2, alt: "Furniture Website Image" },
@@ -54,6 +60,8 @@ const myProjects = [
   },
   {
     projectName: "Portfolio Website",
+    github: "https://github.com/kulievdev/portfolio-website",
+    website: "https://www.kuliev.dev/",
     images: [
       { url: portfolio1, alt: "Portfolio Website Image" },
       { url: portfolio2, alt: "Portfolio Website Image" },

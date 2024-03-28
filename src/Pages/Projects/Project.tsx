@@ -14,9 +14,17 @@ type ProjectProps = {
   name: string;
   images: Image[];
   index: number;
+  githubLink: string;
+  websiteLink: string;
 };
 
-const Project: React.FC<ProjectProps> = ({ name, images, index }) => {
+const Project: React.FC<ProjectProps> = ({
+  name,
+  images,
+  index,
+  githubLink,
+  websiteLink,
+}) => {
   // const Component = window.innerWidth > 435 ? motion.div : "div";
 
   const [imageIndex, setImageIndex] = useState(0);
@@ -98,9 +106,17 @@ const Project: React.FC<ProjectProps> = ({ name, images, index }) => {
           {name}
         </h2>
         <div className="flex flex-wrap justify-center gap-4">
-          <Cta type="project cta" projectCtaText="Github" />
-          <Cta type="project cta" projectCtaText="Live Demo" />
-          <Cta type="project cta" projectCtaText="Info" />
+          <Cta
+            type="project cta"
+            projectCtaText="Github"
+            ctaLink={githubLink}
+          />
+          <Cta
+            type="project cta"
+            projectCtaText="Live Demo"
+            ctaLink={websiteLink}
+          />
+          <Cta type="project cta" projectCtaText="Info" ctaLink="" />
         </div>
       </div>
     </motion.div>
