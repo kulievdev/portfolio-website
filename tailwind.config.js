@@ -3,6 +3,14 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      animation: {
+        squish: "squish 200ms ease-in-out",
+      },
+      keyframes: {
+        squish: {
+          "50%": { scaleX: "1.4", scaleY: "0.6" },
+        },
+      },
       screens: {
         iPhone14: "376px",
 

@@ -18,7 +18,7 @@ const Projects = () => {
                 key={idx}
                 index={idx}
                 name={project.projectName}
-                imageSrc={project.imgSrc}
+                images={project.images}
               />
             ))}
           </div>

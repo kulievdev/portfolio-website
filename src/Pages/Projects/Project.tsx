@@ -2,14 +2,20 @@ import React from "react";
 import Cta from "../../Components/Cta";
 import { motion } from "framer-motion";
 import fadeInAnimationVariants from "../../utils/fadeAnimationVariants";
+import ImageSlider from "./ImageSlider";
+
+type Image = {
+  url: string;
+  alt: string;
+};
 
 type ProjectProps = {
   name: string;
-  imageSrc: string;
+  images: Image[];
   index: number;
 };
 
-const Project: React.FC<ProjectProps> = ({ name, imageSrc, index }) => {
+const Project: React.FC<ProjectProps> = ({ name, images, index }) => {
   const Component = window.innerWidth > 435 ? motion.div : "div";
 
   return (
@@ -23,15 +29,11 @@ const Project: React.FC<ProjectProps> = ({ name, imageSrc, index }) => {
       }}
       custom={index}
     >
-      <div className="flex flex-row flex-wrap justify-around gap-10">
-        <img
-          src={imageSrc}
-          alt={name}
-          className="h-[90%] w-[90%] flex-1 rounded-[2rem]"
-        />
+      <div className="mb-10 flex flex-row flex-wrap justify-around gap-10">
+        <ImageSlider images={images} />
       </div>
       <h2 className="m-4 mb-8 text-2xl font-semibold text-black desktop:text-3xl bigDesktop:text-4xl">
-        Project One
+        {name}
       </h2>
       <div className="flex flex-wrap justify-center gap-4">
         <Cta type="project cta" projectCtaText="Github" />

@@ -17,7 +17,6 @@ const HeroImage = () => {
           src={profilePic}
           alt="Tohir Kuliev Profile Picture"
           onMouseDown={handleImageHover}
-          fetchPriority="high"
         />
         {!pictureInPlace ? (
           <div className="laptop:absolute laptop:h-[450px] laptop:w-[350px] laptop:translate-x-4 laptop:translate-y-5 laptop:transform laptop:rounded-3xl laptop:bg-secondary-200 laptop:transition laptop:duration-700 laptop:ease-in-out desktop:h-[500px] desktop:w-[400px]"></div>
