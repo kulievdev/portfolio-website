@@ -99,6 +99,7 @@ const Project: React.FC<ProjectProps> = ({ name, images, index }) => {
       <div className="flex flex-wrap justify-center gap-4">
         <Cta type="project cta" projectCtaText="Github" />
         <Cta type="project cta" projectCtaText="Live Demo" />
+        <Cta type="project cta" projectCtaText="Info" />
       </div>
     </Component>
   );
