@@ -25,7 +25,7 @@ const myProjects = [
     ],
   },
   {
-    projectName: "Project Two",
+    projectName: "Luce Notte",
     images: [
       { url: luce1, alt: "Restaurant Website Image" },
       { url: luce2, alt: "Restaurant Website Image" },
