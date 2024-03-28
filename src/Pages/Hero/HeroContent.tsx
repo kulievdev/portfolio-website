@@ -18,7 +18,7 @@ const HeroContent = () => {
           <span className="bg-gradient-to-r from-primary-700 to-secondary-500 bg-clip-text text-transparent ">
             Full Stack Web
           </span>{" "}
-          <span className="bg-gradient-to-r from-primary-700 to-secondary-500 bg-clip-text text-transparent ">
+          <span className="bg-gradient-to-r from-primary-700 to-secondary-500 bg-clip-text text-transparent">
             Developer.
           </span>{" "}
         </p>

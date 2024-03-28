@@ -20,7 +20,7 @@ const Project: React.FC<ProjectProps> = ({ name, images, index }) => {
 
   return (
     <Component
-      className="flex-1 rounded-[2rem] border border-secondary-300 p-6 text-center"
+      className="flex-1 rounded-[2rem] border border-gray-300 p-6 text-center"
       variants={fadeInAnimationVariants(0.2, 100)}
       initial="initial"
       whileInView="animate"
@@ -32,7 +32,7 @@ const Project: React.FC<ProjectProps> = ({ name, images, index }) => {
       <div className="mb-10 flex flex-row flex-wrap justify-around gap-10">
         <ImageSlider images={images} />
       </div>
-      <h2 className="m-4 mb-8 text-2xl font-semibold text-black desktop:text-3xl bigDesktop:text-4xl">
+      <h2 className="m-4 mb-8 text-2xl font-semibold text-gray-700 desktop:text-3xl bigDesktop:text-4xl">
         {name}
       </h2>
       <div className="flex flex-wrap justify-center gap-4">

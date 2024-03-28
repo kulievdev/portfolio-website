@@ -34,7 +34,7 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images }) => {
             src={url}
             alt={alt}
             aria-hidden={imageIndex !== index}
-            className={`block h-full w-full flex-shrink-0 flex-grow-0 object-cover transition duration-300 ease-in-out`}
+            className={`block h-full w-full flex-shrink-0 flex-grow-0 rounded-lg object-cover transition duration-300 ease-in-out`}
             style={{ translate: `${-100 * imageIndex}%` }}
           />
         ))}
@@ -44,7 +44,10 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images }) => {
         onClick={showPrevImage}
         aria-label="View Previous Image"
       >
-        <ArrowBigLeft aria-hidden className="h-8 w-8 fill-black stroke-white" />
+        <ArrowBigLeft
+          aria-hidden
+          className="h-8 w-8 fill-gray-700 stroke-white"
+        />
       </button>
       <button
         className="focus-visible:animate-squish hover:animate-squish absolute bottom-0 right-0 top-0 block cursor-pointer p-4 transition-colors duration-100 ease-in-out hover:bg-[#00000033] focus-visible:bg-[#00000033] focus-visible:outline"
@@ -53,7 +56,7 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images }) => {
       >
         <ArrowBigRight
           aria-hidden
-          className="h-8 w-8 fill-black stroke-white"
+          className="h-8 w-8 fill-gray-700 stroke-white"
         />
       </button>
       <div className="absolute bottom-2 left-1/2 flex -translate-x-1/2 -translate-y-1/2 gap-1">
@@ -67,12 +70,12 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images }) => {
             {index === imageIndex ? (
               <CircleDot
                 aria-hidden
-                className="h-full w-full fill-black stroke-white"
+                className="h-full w-full fill-gray-700 stroke-white"
               />
             ) : (
               <Circle
                 aria-hidden
-                className="h-full w-full fill-black stroke-white "
+                className="h-full w-full fill-gray-700 stroke-white "
               />
             )}
           </button>
