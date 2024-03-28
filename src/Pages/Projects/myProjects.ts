@@ -61,20 +61,6 @@ const myProjects = [
       { url: portfolio4, alt: "Portfolio Website Image" },
     ],
   },
-  {
-    projectName: "Project Five",
-    images: [
-      { url: projectify1, alt: "Project Five" },
-      { url: projectify1, alt: "Project Five" },
-    ],
-  },
-  {
-    projectName: "Project Six",
-    images: [
-      { url: projectify1, alt: "Project Six" },
-      { url: projectify1, alt: "Project Six" },
-    ],
-  },
 ];
 
 export default myProjects;
