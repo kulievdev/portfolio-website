@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
         <div className="w-full border-t border-gray-300"></div>
         <p className="text-base font-bold text-gray-700">
-          Copyright © 2024 KulievTech. All Rights Reserved.
+          Copyright © 2024 KulievDev. All Rights Reserved.
         </p>
       </div>
     </footer>
