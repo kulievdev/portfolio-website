@@ -21,9 +21,24 @@ import portfolio2 from "../../assets/Images/Portfolio/portfolio2.webp";
 import portfolio3 from "../../assets/Images/Portfolio/portfolio3.webp";
 import portfolio4 from "../../assets/Images/Portfolio/portfolio4.webp";
 
+import hygge1 from "../../assets/Images/Hygge/hygge1.webp";
+import hygge2 from "../../assets/Images/Hygge/hygge2.webp";
+import hygge3 from "../../assets/Images/Hygge/hygge3.webp";
+import hygge4 from "../../assets/Images/Hygge/hygge4.webp";
+import hygge5 from "../../assets/Images/Hygge/hygge5.webp";
+import hygge6 from "../../assets/Images/Hygge/hygge6.webp";
+import hygge7 from "../../assets/Images/Hygge/hygge7.webp";
+import hygge8 from "../../assets/Images/Hygge/hygge8.webp";
+import hygge9 from "../../assets/Images/Hygge/hygge9.webp";
+import hygge10 from "../../assets/Images/Hygge/hygge10.webp";
+import hygge11 from "../../assets/Images/Hygge/hygge11.webp";
+import hygge12 from "../../assets/Images/Hygge/hygge12.webp";
+import hygge13 from "../../assets/Images/Hygge/hygge13.webp";
+import hygge14 from "../../assets/Images/Hygge/hygge14.webp";
+
 const myProjects = [
   {
-    projectName: "Projectify",
+    projectName: "Projectify App",
     github: "https://github.com/kulievdev/projectify-app-ui",
     website: "",
     images: [
@@ -67,6 +82,27 @@ const myProjects = [
       { url: portfolio2, alt: "Portfolio Website Image" },
       { url: portfolio3, alt: "Portfolio Website Image" },
       { url: portfolio4, alt: "Portfolio Website Image" },
+    ],
+  },
+  {
+    projectName: "Hygge (Coming Soon)",
+    github: "",
+    website: "",
+    images: [
+      { url: hygge1, alt: "Hygge Website Image" },
+      { url: hygge2, alt: "Hygge Website Image" },
+      { url: hygge3, alt: "Hygge Website Image" },
+      { url: hygge4, alt: "Hygge Website Image" },
+      { url: hygge5, alt: "Hygge Website Image" },
+      { url: hygge6, alt: "Hygge Website Image" },
+      { url: hygge7, alt: "Hygge Website Image" },
+      { url: hygge8, alt: "Hygge Website Image" },
+      { url: hygge9, alt: "Hygge Website Image" },
+      { url: hygge10, alt: "Hygge Website Image" },
+      { url: hygge11, alt: "Hygge Website Image" },
+      { url: hygge12, alt: "Hygge Website Image" },
+      { url: hygge13, alt: "Hygge Website Image" },
+      { url: hygge14, alt: "Hygge Website Image" },
     ],
   },
 ];
