@@ -5,6 +5,9 @@ import projectify4 from "../../assets/Images/ProjectifyApp/projectify4.webp";
 import projectify5 from "../../assets/Images/ProjectifyApp/projectify5.webp";
 import projectify6 from "../../assets/Images/ProjectifyApp/projectify6.webp";
 import projectify7 from "../../assets/Images/ProjectifyApp/projectify7.webp";
+import projectify8 from "../../assets/Images/ProjectifyApp/projectify8.webp";
+import projectify9 from "../../assets/Images/ProjectifyApp/projectify9.webp";
+import projectify10 from "../../assets/Images/ProjectifyApp/projectify10.webp";
 
 import luce1 from "../../assets/Images/LuceNotte/luce1.webp";
 import luce2 from "../../assets/Images/LuceNotte/luce2.webp";
@@ -49,6 +52,9 @@ const myProjects = [
       { url: projectify5, alt: "Projectify App  Image" },
       { url: projectify6, alt: "Projectify App  Image" },
       { url: projectify7, alt: "Projectify App  Image" },
+      { url: projectify8, alt: "Projectify App  Image" },
+      { url: projectify9, alt: "Projectify App  Image" },
+      { url: projectify10, alt: "Projectify App  Image" },
     ],
   },
   {
