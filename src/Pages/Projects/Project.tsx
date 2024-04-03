@@ -57,10 +57,10 @@ const Project: React.FC<ProjectProps> = ({
       <div className="mb-4 flex flex-row flex-wrap justify-around">
         <ImageSlider images={images} imageIndex={imageIndex} />
       </div>
-      <div className="">
+      <div>
         <div className="flex items-center justify-around">
           <button
-            className="focus-visible:animate-squish hover:animate-squish block cursor-pointer rounded-full p-4 transition duration-300 ease-in-out hover:bg-[#00000033] focus-visible:bg-[#00000033] focus-visible:outline"
+            className="block cursor-pointer rounded-full p-2 transition duration-300 ease-in-out hover:animate-squish hover:bg-[#00000033] focus-visible:animate-squish focus-visible:bg-[#00000033] focus-visible:outline xl:p-4"
             onClick={showPrevImage}
             aria-label="View Previous Image"
           >
@@ -69,7 +69,7 @@ const Project: React.FC<ProjectProps> = ({
               className="h-8 w-8 fill-gray-700 stroke-white"
             />
           </button>
-          <div className="flex gap-1">
+          <div className="flex flex-wrap gap-1">
             {images.map((_, index) => (
               <button
                 className="block h-4 w-4 cursor-pointer transition duration-300 ease-in-out hover:scale-150 focus-visible:scale-150 focus-visible:outline"
@@ -92,7 +92,7 @@ const Project: React.FC<ProjectProps> = ({
             ))}
           </div>
           <button
-            className="focus-visible:animate-squish hover:animate-squish block cursor-pointer rounded-full p-4 transition duration-300 ease-in-out hover:bg-[#00000033] focus-visible:bg-[#00000033] focus-visible:outline"
+            className="block cursor-pointer rounded-full p-2 transition duration-300 ease-in-out hover:animate-squish hover:bg-[#00000033] focus-visible:animate-squish focus-visible:bg-[#00000033] focus-visible:outline xl:p-4"
             onClick={showNextImage}
             aria-label="View Next Image"
           >
