@@ -40,7 +40,7 @@ const myProjects = [
   {
     projectName: "Projectify App",
     github: "https://github.com/kulievdev/projectify-app-ui",
-    website: "",
+    website: "https://projectify.tech/",
     images: [
       { url: projectify1, alt: "Projectify App Image" },
       { url: projectify2, alt: "Projectify App  Image" },
