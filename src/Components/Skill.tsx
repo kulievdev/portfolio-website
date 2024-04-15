@@ -2,16 +2,17 @@ import React from "react";
 import { motion } from "framer-motion";
 
 type SkillProps = {
+  type: "projectTool" | "stack";
   imgSrc: string;
   name?: string;
   link?: () => void;
 };
 
-const Skill: React.FC<SkillProps> = ({ imgSrc, name, link }) => {
+const Skill: React.FC<SkillProps> = ({ type, imgSrc, name, link }) => {
   return (
     <motion.div
       onClick={link}
-      className="flex flex-1 transform cursor-pointer flex-col items-center transition duration-300 ease-in hover:scale-125 hover:animate-pulse sm:hover:-translate-y-4 sm:hover:scale-100"
+      className={`flex ${type === "projectTool" ? "flex-shrink-0" : "flex-1"} transform cursor-pointer flex-col items-center transition duration-300 ease-in hover:scale-125 hover:animate-pulse sm:hover:-translate-y-4 sm:hover:scale-100`}
     >
       <img
         src={imgSrc}

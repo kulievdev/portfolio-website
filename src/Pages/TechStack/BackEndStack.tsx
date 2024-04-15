@@ -24,6 +24,7 @@ const BackEndStack = () => {
                 window.open(stack.link);
               }}
               key={idx}
+              type="stack"
               name={stack.name}
               imgSrc={stack.imgSrc}
             />

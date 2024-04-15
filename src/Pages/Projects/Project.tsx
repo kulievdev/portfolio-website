@@ -126,9 +126,9 @@ const Project: React.FC<ProjectProps> = ({
               alt="logo"
             />
             <p className="mb-8">{description}</p>
-            <div className="flex gap-16">
+            <div className="flex flex-wrap justify-center gap-16">
               {stacks.map((stack, idx) => (
-                <Skill key={idx} imgSrc={stack} />
+                <Skill type="projectTool" key={idx} imgSrc={stack} />
               ))}
             </div>
           </div>
