@@ -4,7 +4,7 @@ type CtaProps = {
   type: "download cv" | "my work" | "connect" | "send message" | "project cta";
   projectCtaText?: string;
   ctaLink?: string;
-  onClick: () => void;
+  onClick?: () => void;
 };
 
 const openResume = () => {
