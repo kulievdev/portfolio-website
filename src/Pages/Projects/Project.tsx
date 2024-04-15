@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import fadeInAnimationVariants from "../../utils/fadeAnimationVariants";
 import ImageSlider from "./ImageSlider";
 import { ArrowBigLeft, ArrowBigRight, Circle, CircleDot } from "lucide-react";
+import Skill from "../../Components/Skill";
 
 type Image = {
   url: string;
@@ -16,6 +17,9 @@ type ProjectProps = {
   index: number;
   githubLink: string;
   websiteLink: string;
+  logo: string;
+  description: string;
+  stacks: string[];
 };
 
 const Project: React.FC<ProjectProps> = ({
@@ -24,10 +28,22 @@ const Project: React.FC<ProjectProps> = ({
   index,
   githubLink,
   websiteLink,
+  logo,
+  description,
+  stacks,
 }) => {
   // const Component = window.innerWidth > 435 ? motion.div : "div";
 
+  const ctaOnClickGithub = () => {
+    window.open(githubLink);
+  };
+
+  const ctaOnClickWebsite = () => {
+    window.open(websiteLink);
+  };
+
   const [imageIndex, setImageIndex] = useState(0);
+  const [showInfo, setShowInfo] = useState(false);
 
   const showNextImage = () => {
     setImageIndex((index) => {
@@ -102,7 +118,22 @@ const Project: React.FC<ProjectProps> = ({
             />
           </button>
         </div>
-        <h2 className="m-4 mb-8 text-2xl font-semibold text-gray-700 desktop:text-3xl bigDesktop:text-4xl">
+        {showInfo && (
+          <div className="mb-12 mt-8 flex flex-col items-center">
+            <img
+              className="w-50 mb-4 h-14 object-cover"
+              src={logo}
+              alt="logo"
+            />
+            <p className="mb-8">{description}</p>
+            <div className="flex gap-16">
+              {stacks.map((stack, idx) => (
+                <Skill key={idx} imgSrc={stack} />
+              ))}
+            </div>
+          </div>
+        )}
+        <h2 className="mb-8 mt-4 text-2xl font-semibold text-gray-700 desktop:text-3xl bigDesktop:text-4xl">
           {name}
         </h2>
         <div className="flex flex-wrap justify-center gap-4">
@@ -110,13 +141,19 @@ const Project: React.FC<ProjectProps> = ({
             type="project cta"
             projectCtaText="Github"
             ctaLink={githubLink}
+            onClick={ctaOnClickGithub}
           />
           <Cta
             type="project cta"
             projectCtaText="Live Demo"
             ctaLink={websiteLink}
+            onClick={ctaOnClickWebsite}
           />
-          <Cta type="project cta" projectCtaText="Info" ctaLink="" />
+          <Cta
+            type="project cta"
+            projectCtaText="Info"
+            onClick={() => setShowInfo(!showInfo)}
+          />
         </div>
       </div>
     </motion.div>

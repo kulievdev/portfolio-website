@@ -19,6 +19,7 @@ import material from "../../assets/TechStackIcons/materialui.svg";
 import supabase from "../../assets/TechStackIcons/supabase.svg";
 import jira from "../../assets/TechStackIcons/jira.svg";
 import render from "../../assets/TechStackIcons/render.svg";
+import styledC from "../../assets/TechStackIcons/styled-components.svg";
 
 const myFrontEndStack = [
   {
@@ -60,6 +61,11 @@ const myFrontEndStack = [
   {
     name: "MaterialUI",
     imgSrc: material,
+    link: "https://mui.com/",
+  },
+  {
+    name: "StyledComp",
+    imgSrc: styledC,
     link: "https://mui.com/",
   },
 ];

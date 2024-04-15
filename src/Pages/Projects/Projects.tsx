@@ -21,6 +21,9 @@ const Projects = () => {
                 images={project.images}
                 githubLink={project.github}
                 websiteLink={project.website}
+                logo={project.logo}
+                description={project.description}
+                stacks={project.stacks}
               />
             ))}
           </div>

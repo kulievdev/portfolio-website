@@ -4,17 +4,14 @@ type CtaProps = {
   type: "download cv" | "my work" | "connect" | "send message" | "project cta";
   projectCtaText?: string;
   ctaLink?: string;
+  onClick: () => void;
 };
 
 const openResume = () => {
   window.open("/TohirKuliev_Resume.pdf");
 };
 
-const Cta: React.FC<CtaProps> = ({ type, projectCtaText, ctaLink }) => {
-  const ctaOnClick = () => {
-    window.open(ctaLink);
-  };
-
+const Cta: React.FC<CtaProps> = ({ type, projectCtaText, onClick }) => {
   return (
     <>
       {(() => {
@@ -41,7 +38,7 @@ const Cta: React.FC<CtaProps> = ({ type, projectCtaText, ctaLink }) => {
           case "project cta":
             return (
               <button
-                onClick={ctaOnClick}
+                onClick={onClick}
                 className="w-[8rem] rounded-xl  border-2 border-gray-300 px-6 py-2 text-sm font-semibold text-gray-700 transition-colors duration-300 ease-linear hover:border-gray-700 hover:bg-gray-700 hover:text-white desktop:w-[10rem] desktop:text-lg "
               >
                 {projectCtaText}
