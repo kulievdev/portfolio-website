@@ -82,7 +82,7 @@ const myProjects = [
     ],
     logo: luceLogo,
     description:
-      "The Luce Notte Restaurant website is a your gateway to a culinary journey like no other. Step into a world where every dish tells a story, where flavors dance on your palate, and where every visit promises an unforgettable experience. Our online platform invites you to immerse yourself in the tantalizing realm of Italian cuisine, where passion meets tradition in every bite.",
+      "The Luce Notte Restaurant website is a gateway to a culinary journey like no other. Embark on a captivating journey where each page unfolds a tale through flavors, where the essence of Italian cuisine comes alive, merging passion with tradition in every pixel.",
     stacks: [reactLogo, javascriptLogo, styledComp],
   },
   {
