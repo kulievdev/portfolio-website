@@ -66,7 +66,7 @@ const myFrontEndStack = [
   {
     name: "StyledComp",
     imgSrc: styledC,
-    link: "https://mui.com/",
+    link: "https://styled-components.com/",
   },
 ];
 
