@@ -68,7 +68,14 @@ const myProjects = [
     logo: projectifyLogo,
     description:
       "A project management app that is built for developers and designers. It was inspired by apps like Jira. Projectify offers a comprehensive set of features designed to enhance productivity, foster collaboration, and streamline project management processes.",
-    stacks: [reactLogo, typescriptLogo, nodeLogo, expressLogo, mongoDB],
+    stacks: [
+      reactLogo,
+      typescriptLogo,
+      styledComp,
+      nodeLogo,
+      expressLogo,
+      mongoDB,
+    ],
   },
   {
     projectName: "Luce Notte Restaurant",
