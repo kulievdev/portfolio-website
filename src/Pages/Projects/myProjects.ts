@@ -25,6 +25,12 @@ import portfolio2 from "../../assets/Images/Portfolio/portfolio2.webp";
 import portfolio3 from "../../assets/Images/Portfolio/portfolio3.webp";
 import portfolio4 from "../../assets/Images/Portfolio/portfolio4.webp";
 
+import moveLogo from "../../assets/Images/MoveCareers/move-logo.png";
+import move1 from "../../assets/Images/MoveCareers/move1.webp";
+import move2 from "../../assets/Images/MoveCareers/move2.webp";
+import move3 from "../../assets/Images/MoveCareers/move3.webp";
+import move4 from "../../assets/Images/MoveCareers/move4.webp";
+
 import hyggeLogo from "../../assets/Images/Hygge/hygge-logo.png";
 import hygge1 from "../../assets/Images/Hygge/hygge1.webp";
 import hygge2 from "../../assets/Images/Hygge/hygge2.webp";
@@ -40,6 +46,9 @@ import hygge11 from "../../assets/Images/Hygge/hygge11.webp";
 import hygge12 from "../../assets/Images/Hygge/hygge12.webp";
 import hygge13 from "../../assets/Images/Hygge/hygge13.webp";
 import hygge14 from "../../assets/Images/Hygge/hygge14.webp";
+
+import htmlLogo from "../../assets/TechStackIcons/html5.svg";
+import cssLogo from "../../assets/TechStackIcons/css3.svg";
 
 import reactLogo from "../../assets/TechStackIcons/reactjs.svg";
 import typescriptLogo from "../../assets/TechStackIcons/typescript.svg";
@@ -121,6 +130,21 @@ const myProjects = [
     description:
       "A minimalist portfolio website serves as a sleek and efficient showcase of my skills and expertise. Through clean design and intuitive navigation, visitors can explore my work and accomplishments with ease. My portfolio offers a concise yet comprehensive overview of my capabilities, allowing potential employers or collaborators to gain insight into my proficiency and style.",
     stacks: [tailwindLogo, typescriptLogo, reactLogo],
+  },
+  {
+    projectName: "Move Careers",
+    github: "https://github.com/kulievdev/career-website",
+    website: "https://move-careers.onrender.com/",
+    images: [
+      { url: move1, alt: "Move Careers Website Image" },
+      { url: move2, alt: "Move Careers Website Image" },
+      { url: move3, alt: "Move Careers Website Image" },
+      { url: move4, alt: "Move Careers Website Image" },
+    ],
+    logo: moveLogo,
+    description:
+      "A job search website landing page showcases job opportunities across various industries. It allows users to explore listings and get an overview of available positions from home. The page highlights features like personalized job recommendations, resume uploads, and real-time notifications. Designed for a seamless job-hunting experience, this project demonstrates my ability to create compelling and informative web interfaces.",
+    stacks: [htmlLogo, cssLogo],
   },
   {
     projectName: "Hygge (Coming Soon)",
