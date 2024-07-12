@@ -63,6 +63,7 @@ import nextjsLogo from "../../assets/TechStackIcons/nextjs.svg";
 const myProjects = [
   {
     projectName: "Projectify App",
+    category: "Full-Stack",
     github: "https://github.com/kulievdev/projectify-app-ui",
     website: "https://projectify.tech/",
     images: [
@@ -88,6 +89,7 @@ const myProjects = [
   },
   {
     projectName: "Luce Notte Restaurant",
+    category: "Front-End",
     github: "https://github.com/kulievdev/restaurant-website-react",
     website: "https://lucenotte.com/",
     images: [
@@ -103,6 +105,7 @@ const myProjects = [
   },
   {
     projectName: "Infinita Furniture",
+    category: "Landing-Page",
     github: "https://github.com/kulievdev/furniture-website-react",
     website: "https://infinitafurniture.com/",
     images: [
@@ -118,6 +121,7 @@ const myProjects = [
   },
   {
     projectName: "Portfolio Website",
+    category: "Front-End",
     github: "https://github.com/kulievdev/portfolio-website",
     website: "https://www.kuliev.dev/",
     images: [
@@ -133,6 +137,7 @@ const myProjects = [
   },
   {
     projectName: "Move Careers",
+    category: "Landing-Page",
     github: "https://github.com/kulievdev/career-website",
     website: "https://move-careers.onrender.com/",
     images: [
@@ -148,6 +153,7 @@ const myProjects = [
   },
   {
     projectName: "Hygge (Coming Soon)",
+    category: "Full-Stack",
     github: "https://www.kuliev.dev/",
     website: "https://www.kuliev.dev/",
     images: [
