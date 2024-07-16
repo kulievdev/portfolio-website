@@ -31,6 +31,13 @@ import move2 from "../../assets/Images/MoveCareers/move2.webp";
 import move3 from "../../assets/Images/MoveCareers/move3.webp";
 import move4 from "../../assets/Images/MoveCareers/move4.webp";
 
+import socialMediaLogo from "../../assets/Images/SocialMediaApp/social-media-logo.png";
+import social1 from "../../assets/Images/SocialMediaApp/social-media1.webp";
+import social2 from "../../assets/Images/SocialMediaApp/social-media2.webp";
+import social3 from "../../assets/Images/SocialMediaApp/social-media3.webp";
+import social4 from "../../assets/Images/SocialMediaApp/social-media4.webp";
+import social5 from "../../assets/Images/SocialMediaApp/social-media5.webp";
+
 import hyggeLogo from "../../assets/Images/Hygge/hygge-logo.png";
 import hygge1 from "../../assets/Images/Hygge/hygge1.webp";
 import hygge2 from "../../assets/Images/Hygge/hygge2.webp";
@@ -59,6 +66,7 @@ import javascriptLogo from "../../assets/TechStackIcons/javascript.svg";
 import styledComp from "../../assets/TechStackIcons/styled-components.svg";
 import tailwindLogo from "../../assets/TechStackIcons/tailwindcss.svg";
 import nextjsLogo from "../../assets/TechStackIcons/nextjs.svg";
+import prismaLogo from "../../assets/TechStackIcons/prisma.svg";
 
 const myProjects = [
   {
@@ -150,6 +158,23 @@ const myProjects = [
     description:
       "A job search website landing page showcases job opportunities across various industries. It allows users to explore listings and get an overview of available positions from home. The page highlights features like personalized job recommendations, resume uploads, and real-time notifications. Designed for a seamless job-hunting experience, this project demonstrates my ability to create compelling and informative web interfaces.",
     stacks: [htmlLogo, cssLogo],
+  },
+  {
+    projectName: "Connectify",
+    category: "Back-End",
+    github: "https://github.com/kulievdev/social-media-app",
+    website: "https://www.kuliev.dev/",
+    images: [
+      { url: social1, alt: "Social Media App Backend Image" },
+      { url: social2, alt: "Social Media App Backend Image" },
+      { url: social3, alt: "Social Media App Backend Image" },
+      { url: social4, alt: "Social Media App Backend Image" },
+      { url: social5, alt: "Social Media App Backend Image" },
+    ],
+    logo: socialMediaLogo,
+    description:
+      "A social media app called Connectify where a user can sign-up, login or reset password. In addition, a user can: update their profile, send/accept/reject/cancel/unfriend other user, see the information of all friends or a single friend, change password, create/update/delete/view a post or all posts. This portion of the website, is solely the backend.",
+    stacks: [nodeLogo, mongoDB, expressLogo, javascriptLogo, prismaLogo],
   },
   {
     projectName: "Hygge (Coming Soon)",
