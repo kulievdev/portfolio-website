@@ -144,22 +144,6 @@ const myProjects = [
     stacks: [tailwindLogo, typescriptLogo, reactLogo],
   },
   {
-    projectName: "Move Careers",
-    category: "Landing-Page",
-    github: "https://github.com/kulievdev/career-website",
-    website: "https://move-careers.onrender.com/",
-    images: [
-      { url: move1, alt: "Move Careers Website Image" },
-      { url: move2, alt: "Move Careers Website Image" },
-      { url: move3, alt: "Move Careers Website Image" },
-      { url: move4, alt: "Move Careers Website Image" },
-    ],
-    logo: moveLogo,
-    description:
-      "A job search website landing page showcases job opportunities across various industries. It allows users to explore listings and get an overview of available positions from home. The page highlights features like personalized job recommendations, resume uploads, and real-time notifications. Designed for a seamless job-hunting experience, this project demonstrates my ability to create compelling and informative web interfaces.",
-    stacks: [htmlLogo, cssLogo],
-  },
-  {
     projectName: "Connectify",
     category: "Back-End",
     github: "https://github.com/kulievdev/social-media-app",
@@ -209,6 +193,22 @@ const myProjects = [
       expressLogo,
       mongoDB,
     ],
+  },
+  {
+    projectName: "Move Careers",
+    category: "Landing-Page",
+    github: "https://github.com/kulievdev/career-website",
+    website: "https://move-careers.onrender.com/",
+    images: [
+      { url: move1, alt: "Move Careers Website Image" },
+      { url: move2, alt: "Move Careers Website Image" },
+      { url: move3, alt: "Move Careers Website Image" },
+      { url: move4, alt: "Move Careers Website Image" },
+    ],
+    logo: moveLogo,
+    description:
+      "A job search website landing page showcases job opportunities across various industries. It allows users to explore listings and get an overview of available positions from home. The page highlights features like personalized job recommendations, resume uploads, and real-time notifications. Designed for a seamless job-hunting experience, this project demonstrates my ability to create compelling and informative web interfaces.",
+    stacks: [htmlLogo, cssLogo],
   },
 ];
 
