@@ -25,10 +25,10 @@ const Buttons: React.FC<ButtonsProps> = ({
   };
 
   return (
-    <div className="mb-4 flex justify-center gap-10">
+    <div className="mb-4 flex flex-wrap justify-center gap-10">
       <button
         onClick={handleAllClick}
-        className={`cursor-pointer rounded-xl px-3 py-2.5 text-center text-base font-bold leading-loose tracking-wider transition-colors duration-300 ease-out tablet:px-5 tablet:py-3 tablet:text-lg desktop:px-7 desktop:py-5 desktop:text-xl ${
+        className={`cursor-pointer rounded-xl px-5 py-2.5 text-center text-base font-bold leading-loose tracking-wider transition-colors duration-300 ease-out tablet:py-3 tablet:text-lg desktop:px-7 desktop:py-5 desktop:text-xl ${
           activeIndex === null
             ? "bg-primary-600 text-gray-50"
             : "bg-gray-100 text-primary-700 hover:bg-primary-600 hover:text-gray-50"
@@ -40,7 +40,7 @@ const Buttons: React.FC<ButtonsProps> = ({
         <button
           key={idx}
           onClick={() => handleClick(val, idx)}
-          className={`cursor-pointer rounded-xl px-3 py-2.5 text-center text-base font-bold leading-loose tracking-wider transition-colors duration-300 ease-out tablet:px-5 tablet:py-3 tablet:text-lg desktop:px-7 desktop:py-5 desktop:text-xl ${
+          className={`cursor-pointer rounded-xl px-5 py-2.5 text-center text-base font-bold leading-loose tracking-wider transition-colors duration-300 ease-out tablet:py-3 tablet:text-lg desktop:px-7 desktop:py-5 desktop:text-xl ${
             activeIndex === idx
               ? "bg-primary-600 text-gray-50"
               : "bg-gray-100 text-primary-700 hover:bg-primary-600 hover:text-gray-50"
