@@ -20,6 +20,14 @@ import supabase from "../../assets/TechStackIcons/supabase.svg";
 import jira from "../../assets/TechStackIcons/jira.svg";
 import render from "../../assets/TechStackIcons/render.svg";
 import styledC from "../../assets/TechStackIcons/styled-components.svg";
+import adobe from "../../assets/TechStackIcons/adobe.svg";
+import sketch from "../../assets/TechStackIcons/sketch.svg";
+import photoshop from "../../assets/TechStackIcons/photoshop.svg";
+import wordpress from "../../assets/TechStackIcons/wordpress.svg";
+import analytics from "../../assets/TechStackIcons/analytics.svg";
+import shopify from "../../assets/TechStackIcons/shopify.svg";
+import hubspot from "../../assets/TechStackIcons/hubspot.svg";
+import contentful from "../../assets/TechStackIcons/contentful.svg";
 
 const myFrontEndStack = [
   {
@@ -67,6 +75,21 @@ const myFrontEndStack = [
     name: "StyledComp",
     imgSrc: styledC,
     link: "https://styled-components.com/",
+  },
+  {
+    name: "Adobe",
+    imgSrc: adobe,
+    link: "https://www.adobe.com/",
+  },
+  {
+    name: "Sketch",
+    imgSrc: sketch,
+    link: "https://www.sketch.com/",
+  },
+  {
+    name: "Photoshop",
+    imgSrc: photoshop,
+    link: "https://www.adobe.com/products/photoshop.html",
   },
 ];
 
@@ -138,6 +161,31 @@ const myOverLapStack = [
     name: "Render",
     imgSrc: render,
     link: "https://render.com/",
+  },
+  {
+    name: "Wordpress",
+    imgSrc: wordpress,
+    link: "https://wordpress.com/",
+  },
+  {
+    name: "Analytics",
+    imgSrc: analytics,
+    link: "https://marketingplatform.google.com/about/analytics/",
+  },
+  {
+    name: "Shopify",
+    imgSrc: shopify,
+    link: "https://www.shopify.com/",
+  },
+  {
+    name: "Hubspot",
+    imgSrc: hubspot,
+    link: "https://www.hubspot.com/products/cms",
+  },
+  {
+    name: "Contentful",
+    imgSrc: contentful,
+    link: "https://www.contentful.com/",
   },
 ];
 

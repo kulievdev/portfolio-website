@@ -14,7 +14,7 @@ const OverlapStack = () => {
         className="rounded-3xl p-5 shadow-2xl desktop:w-max desktop:p-10"
       >
         <h2 className="mb-6 text-center text-sm font-semibold text-gray-600 sm:mb-10 sm:text-base desktop:text-3xl">
-          Overlap
+          Other
         </h2>
         <div className="flex flex-row flex-wrap gap-12 laptop:grid laptop:grid-cols-5 laptop:flex-nowrap laptop:gap-10">
           {myOverLapStack.map((stack, idx) => {
