@@ -9,13 +9,13 @@ const AboutHeader = () => {
       </div>
       <div className="flex flex-col gap-6 lg:w-[80%]">
         <p className="text-base md:text-lg laptop:text-xl">
-          I am a Web Developer from New York City, specializing in building
-          websites and web applications.
+          I am a Web Producer and a Full Stack Web Developer from New York City,
+          specializing in maintaining and building websites.
         </p>
         <p className="text-base md:text-lg laptop:text-xl">
-          I use my coding and programming skills to create user-friendly and
-          responsive web pages. I have gained web development experience from
-          building many complex projects.
+          I use my CMS, coding and programming skills to create user-friendly
+          and responsive web pages. I have gained web development experience
+          from building many complex projects.
         </p>
       </div>
     </>
