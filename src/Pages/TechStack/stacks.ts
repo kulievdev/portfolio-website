@@ -28,6 +28,7 @@ import analytics from "../../assets/TechStackIcons/analytics.svg";
 import shopify from "../../assets/TechStackIcons/shopify.svg";
 import hubspot from "../../assets/TechStackIcons/hubspot.svg";
 import contentful from "../../assets/TechStackIcons/contentful.svg";
+import webflow from "../../assets/TechStackIcons/webflow.svg";
 
 const myFrontEndStack = [
   {
@@ -186,6 +187,11 @@ const myOverLapStack = [
     name: "Contentful",
     imgSrc: contentful,
     link: "https://www.contentful.com/",
+  },
+  {
+    name: "Webflow",
+    imgSrc: webflow,
+    link: "https://webflow.com/",
   },
 ];
 
