@@ -13,6 +13,12 @@ import luce2 from "../../assets/Images/LuceNotte/luce2.webp";
 import luce3 from "../../assets/Images/LuceNotte/luce3.webp";
 import luce4 from "../../assets/Images/LuceNotte/luce4.webp";
 
+import proLogo from "../../assets/Images/ProAutoCustomz/pro-logo.jpg";
+import pro1 from "../../assets/Images/ProAutoCustomz/pro1.webp";
+import pro2 from "../../assets/Images/ProAutoCustomz/pro2.webp";
+import pro3 from "../../assets/Images/ProAutoCustomz/pro3.webp";
+import pro4 from "../../assets/Images/ProAutoCustomz/pro4.webp";
+
 import infinitaLogo from "../../assets/Images/Infinita/infinita-logo.png";
 import infinita1 from "../../assets/Images/Infinita/infinita1.webp";
 import infinita2 from "../../assets/Images/Infinita/infinita2.webp";
@@ -67,6 +73,7 @@ import styledComp from "../../assets/TechStackIcons/styled-components.svg";
 import tailwindLogo from "../../assets/TechStackIcons/tailwindcss.svg";
 import nextjsLogo from "../../assets/TechStackIcons/nextjs.svg";
 import prismaLogo from "../../assets/TechStackIcons/prisma.svg";
+import wordpressLogo from "../../assets/TechStackIcons/wordpress.svg";
 
 const myProjects = [
   {
@@ -110,6 +117,22 @@ const myProjects = [
     description:
       "The Luce Notte Restaurant website is a gateway to a culinary journey like no other. Embark on a captivating journey where each page unfolds a tale through flavors, where the essence of Italian cuisine comes alive, merging passion with tradition in every pixel.",
     stacks: [reactLogo, javascriptLogo, styledComp],
+  },
+  {
+    projectName: "Pro Auto Customz",
+    category: "Wordpress",
+    github: "https://www.kuliev.dev/",
+    website: "https://proautocustomz.shop/",
+    images: [
+      { url: pro1, alt: "Pro Auto Customz Website Image" },
+      { url: pro2, alt: "Pro Auto Customz Website Image" },
+      { url: pro3, alt: "Pro Auto Customz Website Image" },
+      { url: pro4, alt: "Pro Auto Customz Website Image" },
+    ],
+    logo: proLogo,
+    description:
+      "The Pro Auto Customz website is a WordPress website that was built for a client located in Brooklyn. The site showcases a range of auto customization services, including paint jobs, interior upgrades, and performance enhancements. Designed with a sleek, modern aesthetic, the website features an intuitive navigation system, a gallery of past projects, and customer testimonials to highlight the quality of their work.",
+    stacks: [wordpressLogo],
   },
   {
     projectName: "Infinita Furniture",
