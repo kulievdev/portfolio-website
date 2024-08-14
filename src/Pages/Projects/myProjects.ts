@@ -19,6 +19,13 @@ import pro2 from "../../assets/Images/ProAutoCustomz/pro2.webp";
 import pro3 from "../../assets/Images/ProAutoCustomz/pro3.webp";
 import pro4 from "../../assets/Images/ProAutoCustomz/pro4.webp";
 
+import alexLogo from "../../assets/Images/AlexVipBarbershop/alex-logo.png";
+import alex1 from "../../assets/Images/AlexVipBarbershop/alex1.webp";
+import alex2 from "../../assets/Images/AlexVipBarbershop/alex2.webp";
+import alex3 from "../../assets/Images/AlexVipBarbershop/alex3.webp";
+import alex4 from "../../assets/Images/AlexVipBarbershop/alex4.webp";
+import alex5 from "../../assets/Images/AlexVipBarbershop/alex5.webp";
+
 import infinitaLogo from "../../assets/Images/Infinita/infinita-logo.png";
 import infinita1 from "../../assets/Images/Infinita/infinita1.webp";
 import infinita2 from "../../assets/Images/Infinita/infinita2.webp";
@@ -131,7 +138,24 @@ const myProjects = [
     ],
     logo: proLogo,
     description:
-      "The Pro Auto Customz website is a WordPress website that was built for a client located in Brooklyn. The site showcases a range of auto customization services, including paint jobs, interior upgrades, and performance enhancements. Designed with a sleek, modern aesthetic, the website features an intuitive navigation system, a gallery of past projects, and customer testimonials to highlight the quality of their work.",
+      "The Pro Auto Customz website is a WordPress website that was built for a client located in Brooklyn, NY. The site showcases a range of auto customization services, including paint jobs, interior upgrades, and performance enhancements. Designed with a sleek, modern aesthetic, the website features an intuitive navigation system, a gallery of past projects, and customer testimonials to highlight the quality of their work.",
+    stacks: [wordpressLogo],
+  },
+  {
+    projectName: "Alex Vip Barbershop",
+    category: "Wordpress",
+    github: "https://www.kuliev.dev/",
+    website: "https://alexvipbarbershop.wordpress.com/",
+    images: [
+      { url: alex1, alt: "Alex Vip Barbershop Website Image" },
+      { url: alex2, alt: "Alex Vip Barbershop Website Image" },
+      { url: alex3, alt: "Alex Vip Barbershop Website Image" },
+      { url: alex4, alt: "Alex Vip Barbershop Website Image" },
+      { url: alex5, alt: "Alex Vip Barbershop Website Image" },
+    ],
+    logo: alexLogo,
+    description:
+      "The Alex Vip Barbershop website is a WordPress site created for a client based in Queens, NY. This website highlights the barbershop's premium grooming services, including haircuts, beard trims, and styling for men of all ages. The site is designed with a stylish, contemporary look that reflects the upscale atmosphere of the barbershop. It features easy-to-navigate sections, a portfolio showcasing expertly crafted hairstyles, and a section dedicated to customer reviews that emphasize the barbershop's reputation for excellence.",
     stacks: [wordpressLogo],
   },
   {
