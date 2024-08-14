@@ -138,7 +138,7 @@ const myProjects = [
     ],
     logo: proLogo,
     description:
-      "The Pro Auto Customz website is a WordPress website that was built for a client located in Brooklyn, NY. The site showcases a range of auto customization services, including paint jobs, interior upgrades, and performance enhancements. Designed with a sleek, modern aesthetic, the website features an intuitive navigation system, a gallery of past projects, and customer testimonials to highlight the quality of their work.",
+      "The Pro Auto Customz website is a WordPress website that was built for a client located in Brooklyn, NY. I personally designed and built this website from scratch using wordpress without using built-in themes. The site showcases a range of auto customization services, including paint jobs, interior upgrades, and performance enhancements. Designed with a sleek, modern aesthetic, the website features an intuitive navigation system, a gallery of past projects, and customer testimonials to highlight the quality of their work.",
     stacks: [wordpressLogo],
   },
   {
@@ -155,7 +155,7 @@ const myProjects = [
     ],
     logo: alexLogo,
     description:
-      "The Alex Vip Barbershop website is a WordPress site created for a client based in Queens, NY. This website highlights the barbershop's premium grooming services, including haircuts, beard trims, and styling for men of all ages. The site is designed with a stylish, contemporary look that reflects the upscale atmosphere of the barbershop. It features easy-to-navigate sections, a portfolio showcasing expertly crafted hairstyles, and a section dedicated to customer reviews that emphasize the barbershop's reputation for excellence.",
+      "The Alex Vip Barbershop website is a WordPress site created for a client based in Queens, NY. I personally designed and built this website from scratch using wordpress without using built-in themes. This website highlights the barbershop's premium grooming services, including haircuts, beard trims, and styling for men of all ages. The site is designed with a stylish, contemporary look that reflects the upscale atmosphere of the barbershop. It features easy-to-navigate sections, a portfolio showcasing expertly crafted hairstyles, and a section dedicated to customer reviews that emphasize the barbershop's reputation for excellence.",
     stacks: [wordpressLogo],
   },
   {
