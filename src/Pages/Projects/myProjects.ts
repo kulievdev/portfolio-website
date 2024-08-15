@@ -26,6 +26,11 @@ import alex3 from "../../assets/Images/AlexVipBarbershop/alex3.webp";
 import alex4 from "../../assets/Images/AlexVipBarbershop/alex4.webp";
 import alex5 from "../../assets/Images/AlexVipBarbershop/alex5.webp";
 
+import marakandLogo from "../../assets/Images/Marakand/marakand-logo.png";
+import marakand1 from "../../assets/Images/Marakand/marakand1.webp";
+import marakand2 from "../../assets/Images/Marakand/marakand2.webp";
+import marakand3 from "../../assets/Images/Marakand/marakand3.webp";
+
 import infinitaLogo from "../../assets/Images/Infinita/infinita-logo.png";
 import infinita1 from "../../assets/Images/Infinita/infinita1.webp";
 import infinita2 from "../../assets/Images/Infinita/infinita2.webp";
@@ -81,6 +86,7 @@ import tailwindLogo from "../../assets/TechStackIcons/tailwindcss.svg";
 import nextjsLogo from "../../assets/TechStackIcons/nextjs.svg";
 import prismaLogo from "../../assets/TechStackIcons/prisma.svg";
 import wordpressLogo from "../../assets/TechStackIcons/wordpress.svg";
+import shopifyLogo from "../../assets/TechStackIcons/shopify.svg";
 
 const myProjects = [
   {
@@ -157,6 +163,21 @@ const myProjects = [
     description:
       "The Alex Vip Barbershop website is a WordPress site created for a client based in Queens, NY. I personally designed and built this website from scratch using wordpress without using built-in themes. This website highlights the barbershop's premium grooming services, including haircuts, beard trims, and styling for men of all ages. The site is designed with a stylish, contemporary look that reflects the upscale atmosphere of the barbershop. It features easy-to-navigate sections, a portfolio showcasing expertly crafted hairstyles, and a section dedicated to customer reviews that emphasize the barbershop's reputation for excellence.",
     stacks: [wordpressLogo],
+  },
+  {
+    projectName: "Marakand (Password: 'Marakand')",
+    category: "Shopify",
+    github: "https://www.kuliev.dev/",
+    website: "https://marakandny.myshopify.com/",
+    images: [
+      { url: marakand1, alt: "Marakand Website Image" },
+      { url: marakand2, alt: "Marakand Website Image" },
+      { url: marakand3, alt: "Marakand Website Image" },
+    ],
+    logo: marakandLogo,
+    description:
+      "The Marakand Restaurant website is a Shopify site meticulously designed and built from the ground up to showcase the vibrant dining experience of this renowned establishment. Situated in a prime location, the website captures the essence of Marakand’s exquisite cuisine with a modern and elegant design. It highlights the restaurant’s diverse menu, featuring an array of dishes that blend traditional flavors with contemporary presentation. The site includes user-friendly navigation, an interactive menu section with detailed descriptions of each dish, and an easy-to-use reservation system.",
+    stacks: [shopifyLogo],
   },
   {
     projectName: "Infinita Furniture",
