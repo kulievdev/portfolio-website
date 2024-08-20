@@ -30,6 +30,11 @@ import marakandLogo from "../../assets/Images/Marakand/marakand-logo.png";
 import marakand1 from "../../assets/Images/Marakand/marakand1.webp";
 import marakand2 from "../../assets/Images/Marakand/marakand2.webp";
 import marakand3 from "../../assets/Images/Marakand/marakand3.webp";
+import marakand4 from "../../assets/Images/Marakand/marakand4.webp";
+import marakand5 from "../../assets/Images/Marakand/marakand5.webp";
+import marakand6 from "../../assets/Images/Marakand/marakand6.webp";
+import marakand7 from "../../assets/Images/Marakand/marakand7.webp";
+import marakand8 from "../../assets/Images/Marakand/marakand8.webp";
 
 import infinitaLogo from "../../assets/Images/Infinita/infinita-logo.png";
 import infinita1 from "../../assets/Images/Infinita/infinita1.webp";
@@ -165,7 +170,7 @@ const myProjects = [
     stacks: [wordpressLogo],
   },
   {
-    projectName: "Marakand (Password: 'Marakand')",
+    projectName: "Marakand",
     category: "Shopify",
     github: "https://www.kuliev.dev/",
     website: "https://marakandny.myshopify.com/",
@@ -173,6 +178,11 @@ const myProjects = [
       { url: marakand1, alt: "Marakand Website Image" },
       { url: marakand2, alt: "Marakand Website Image" },
       { url: marakand3, alt: "Marakand Website Image" },
+      { url: marakand4, alt: "Marakand Website Image" },
+      { url: marakand5, alt: "Marakand Website Image" },
+      { url: marakand6, alt: "Marakand Website Image" },
+      { url: marakand7, alt: "Marakand Website Image" },
+      { url: marakand8, alt: "Marakand Website Image" },
     ],
     logo: marakandLogo,
     description:
