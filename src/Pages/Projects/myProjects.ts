@@ -12,6 +12,10 @@ import luce1 from "../../assets/Images/LuceNotte/luce1.webp";
 import luce2 from "../../assets/Images/LuceNotte/luce2.webp";
 import luce3 from "../../assets/Images/LuceNotte/luce3.webp";
 import luce4 from "../../assets/Images/LuceNotte/luce4.webp";
+import luce5 from "../../assets/Images/LuceNotte/luce5.webp";
+import luce6 from "../../assets/Images/LuceNotte/luce6.webp";
+import luce7 from "../../assets/Images/LuceNotte/luce7.webp";
+import luce8 from "../../assets/Images/LuceNotte/luce8.webp";
 
 import proLogo from "../../assets/Images/ProAutoCustomz/pro-logo.jpg";
 import pro1 from "../../assets/Images/ProAutoCustomz/pro1.webp";
@@ -130,6 +134,10 @@ const myProjects = [
       { url: luce2, alt: "Restaurant Website Image" },
       { url: luce3, alt: "Restaurant Website Image" },
       { url: luce4, alt: "Restaurant Website Image" },
+      { url: luce5, alt: "Restaurant Website Image" },
+      { url: luce6, alt: "Restaurant Website Image" },
+      { url: luce7, alt: "Restaurant Website Image" },
+      { url: luce8, alt: "Restaurant Website Image" },
     ],
     logo: luceLogo,
     description:
