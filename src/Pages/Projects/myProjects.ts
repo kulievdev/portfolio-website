@@ -6,6 +6,11 @@ import projectify4 from "../../assets/Images/ProjectifyApp/projectify4.webp";
 import projectify5 from "../../assets/Images/ProjectifyApp/projectify5.webp";
 import projectify6 from "../../assets/Images/ProjectifyApp/projectify6.webp";
 import projectify7 from "../../assets/Images/ProjectifyApp/projectify7.webp";
+import projectify8 from "../../assets/Images/ProjectifyApp/projectify8.webp";
+import projectify9 from "../../assets/Images/ProjectifyApp/projectify9.webp";
+import projectify10 from "../../assets/Images/ProjectifyApp/projectify10.webp";
+import projectify11 from "../../assets/Images/ProjectifyApp/projectify11.webp";
+import projectify12 from "../../assets/Images/ProjectifyApp/projectify12.webp";
 
 import luceLogo from "../../assets/Images/LuceNotte/luce-logo.png";
 import luce1 from "../../assets/Images/LuceNotte/luce1.webp";
@@ -22,6 +27,12 @@ import pro1 from "../../assets/Images/ProAutoCustomz/pro1.webp";
 import pro2 from "../../assets/Images/ProAutoCustomz/pro2.webp";
 import pro3 from "../../assets/Images/ProAutoCustomz/pro3.webp";
 import pro4 from "../../assets/Images/ProAutoCustomz/pro4.webp";
+import pro5 from "../../assets/Images/ProAutoCustomz/pro5.webp";
+import pro6 from "../../assets/Images/ProAutoCustomz/pro6.webp";
+import pro7 from "../../assets/Images/ProAutoCustomz/pro7.webp";
+import pro8 from "../../assets/Images/ProAutoCustomz/pro8.webp";
+import pro9 from "../../assets/Images/ProAutoCustomz/pro9.webp";
+import pro10 from "../../assets/Images/ProAutoCustomz/pro10.webp";
 
 import alexLogo from "../../assets/Images/AlexVipBarbershop/alex-logo.png";
 import alex1 from "../../assets/Images/AlexVipBarbershop/alex1.webp";
@@ -29,6 +40,8 @@ import alex2 from "../../assets/Images/AlexVipBarbershop/alex2.webp";
 import alex3 from "../../assets/Images/AlexVipBarbershop/alex3.webp";
 import alex4 from "../../assets/Images/AlexVipBarbershop/alex4.webp";
 import alex5 from "../../assets/Images/AlexVipBarbershop/alex5.webp";
+import alex6 from "../../assets/Images/AlexVipBarbershop/alex6.webp";
+import alex7 from "../../assets/Images/AlexVipBarbershop/alex7.webp";
 
 import marakandLogo from "../../assets/Images/Marakand/marakand-logo.png";
 import marakand1 from "../../assets/Images/Marakand/marakand1.webp";
@@ -51,12 +64,15 @@ import portfolio1 from "../../assets/Images/Portfolio/portfolio1.webp";
 import portfolio2 from "../../assets/Images/Portfolio/portfolio2.webp";
 import portfolio3 from "../../assets/Images/Portfolio/portfolio3.webp";
 import portfolio4 from "../../assets/Images/Portfolio/portfolio4.webp";
+import portfolio5 from "../../assets/Images/Portfolio/portfolio5.webp";
 
 import moveLogo from "../../assets/Images/MoveCareers/move-logo.png";
 import move1 from "../../assets/Images/MoveCareers/move1.webp";
 import move2 from "../../assets/Images/MoveCareers/move2.webp";
 import move3 from "../../assets/Images/MoveCareers/move3.webp";
 import move4 from "../../assets/Images/MoveCareers/move4.webp";
+import move5 from "../../assets/Images/MoveCareers/move5.webp";
+import move6 from "../../assets/Images/MoveCareers/move6.webp";
 
 import socialMediaLogo from "../../assets/Images/SocialMediaApp/social-media-logo.png";
 import social1 from "../../assets/Images/SocialMediaApp/social-media1.webp";
@@ -64,6 +80,7 @@ import social2 from "../../assets/Images/SocialMediaApp/social-media2.webp";
 import social3 from "../../assets/Images/SocialMediaApp/social-media3.webp";
 import social4 from "../../assets/Images/SocialMediaApp/social-media4.webp";
 import social5 from "../../assets/Images/SocialMediaApp/social-media5.webp";
+import social6 from "../../assets/Images/SocialMediaApp/social-media6.webp";
 
 import hyggeLogo from "../../assets/Images/Hygge/hygge-logo.png";
 import hygge1 from "../../assets/Images/Hygge/hygge1.webp";
@@ -80,6 +97,7 @@ import hygge11 from "../../assets/Images/Hygge/hygge11.webp";
 import hygge12 from "../../assets/Images/Hygge/hygge12.webp";
 import hygge13 from "../../assets/Images/Hygge/hygge13.webp";
 import hygge14 from "../../assets/Images/Hygge/hygge14.webp";
+import hygge15 from "../../assets/Images/Hygge/hygge15.webp";
 
 import htmlLogo from "../../assets/TechStackIcons/html5.svg";
 import cssLogo from "../../assets/TechStackIcons/css3.svg";
@@ -111,6 +129,11 @@ const myProjects = [
       { url: projectify5, alt: "Projectify App  Image" },
       { url: projectify6, alt: "Projectify App  Image" },
       { url: projectify7, alt: "Projectify App  Image" },
+      { url: projectify8, alt: "Projectify App  Image" },
+      { url: projectify9, alt: "Projectify App  Image" },
+      { url: projectify10, alt: "Projectify App  Image" },
+      { url: projectify11, alt: "Projectify App  Image" },
+      { url: projectify12, alt: "Projectify App  Image" },
     ],
     logo: projectifyLogo,
     description:
@@ -154,6 +177,12 @@ const myProjects = [
       { url: pro2, alt: "Pro Auto Customz Website Image" },
       { url: pro3, alt: "Pro Auto Customz Website Image" },
       { url: pro4, alt: "Pro Auto Customz Website Image" },
+      { url: pro5, alt: "Pro Auto Customz Website Image" },
+      { url: pro6, alt: "Pro Auto Customz Website Image" },
+      { url: pro7, alt: "Pro Auto Customz Website Image" },
+      { url: pro8, alt: "Pro Auto Customz Website Image" },
+      { url: pro9, alt: "Pro Auto Customz Website Image" },
+      { url: pro10, alt: "Pro Auto Customz Website Image" },
     ],
     logo: proLogo,
     description:
@@ -171,6 +200,8 @@ const myProjects = [
       { url: alex3, alt: "Alex Vip Barbershop Website Image" },
       { url: alex4, alt: "Alex Vip Barbershop Website Image" },
       { url: alex5, alt: "Alex Vip Barbershop Website Image" },
+      { url: alex6, alt: "Alex Vip Barbershop Website Image" },
+      { url: alex7, alt: "Alex Vip Barbershop Website Image" },
     ],
     logo: alexLogo,
     description:
@@ -223,6 +254,7 @@ const myProjects = [
       { url: portfolio2, alt: "Portfolio Website Image" },
       { url: portfolio3, alt: "Portfolio Website Image" },
       { url: portfolio4, alt: "Portfolio Website Image" },
+      { url: portfolio5, alt: "Portfolio Website Image" },
     ],
     logo: portfolioLogo,
     description:
@@ -240,6 +272,7 @@ const myProjects = [
       { url: social3, alt: "Social Media App Backend Image" },
       { url: social4, alt: "Social Media App Backend Image" },
       { url: social5, alt: "Social Media App Backend Image" },
+      { url: social6, alt: "Social Media App Backend Image" },
     ],
     logo: socialMediaLogo,
     description:
@@ -266,6 +299,7 @@ const myProjects = [
       { url: hygge12, alt: "Hygge Website Image" },
       { url: hygge13, alt: "Hygge Website Image" },
       { url: hygge14, alt: "Hygge Website Image" },
+      { url: hygge15, alt: "Hygge Website Image" },
     ],
     logo: hyggeLogo,
     description:
@@ -290,6 +324,8 @@ const myProjects = [
       { url: move2, alt: "Move Careers Website Image" },
       { url: move3, alt: "Move Careers Website Image" },
       { url: move4, alt: "Move Careers Website Image" },
+      { url: move5, alt: "Move Careers Website Image" },
+      { url: move6, alt: "Move Careers Website Image" },
     ],
     logo: moveLogo,
     description:
