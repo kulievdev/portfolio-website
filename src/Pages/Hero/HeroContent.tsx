@@ -28,7 +28,7 @@ const HeroContent = () => {
         </p>
       </motion.header>
       <motion.nav
-        className="inline-flex w-full items-start justify-center space-x-4 desktop:justify-start desktop:space-x-8"
+        className="inline-flex w-full items-start items-center justify-center space-x-4 desktop:justify-start desktop:space-x-8"
         initial={{ opacity: 0, y: 40, scale: 0.9, x: "-10%" }}
         animate={{ opacity: 1, y: 0, scale: 1, x: 0 }}
         transition={{ duration: 0.6 }}
