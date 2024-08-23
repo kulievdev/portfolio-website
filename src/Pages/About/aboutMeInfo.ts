@@ -18,7 +18,7 @@ const aboutMeInfo = [
   },
   {
     title: "Continuous Growth",
-    text: "Continuous growth is a fundamental aspect of my professional journey. I am committed to lifelong learning. Skills I am currently learning are Next.js and AWS.",
+    text: "Continuous growth is a fundamental aspect of my professional journey. I am committed to lifelong learning. Skills I am currently learning are Email Development and Shopify Liquid.",
     backgroundColor: "bg-gradient-to-bl from-primary-50 to-secondary-100",
     imgSrc: learningIcon,
   },
