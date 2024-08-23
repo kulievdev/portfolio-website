@@ -27,7 +27,7 @@ const Cta: React.FC<CtaProps> = ({ type, projectCtaText, onClick }) => {
                 <img
                   src={downloadIcon}
                   alt="download icon"
-                  className="h-7 w-7 tablet:h-9 tablet:w-9"
+                  className="h-7 w-7"
                 />
               </button>
             );
