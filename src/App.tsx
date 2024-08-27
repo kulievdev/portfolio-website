@@ -11,9 +11,9 @@ function App() {
   return (
     <>
       <Home />
-      <Projects />
       <TechStack />
       <About />
+      <Projects />
       <Contact />
       <Footer />
     </>
