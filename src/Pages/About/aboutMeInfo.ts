@@ -5,7 +5,7 @@ import learningIcon from "../../assets/Images/knowledge.svg";
 
 const aboutMeInfo = [
   {
-    title: "Web Development",
+    title: "Experience",
     text: "I have been coding for 1+ years now, almost every day honing my skills in web development and design.",
     backgroundColor: "bg-gradient-to-br from-primary-50 to-gray-50",
     imgSrc: codeIcon,

@@ -38,7 +38,7 @@ const Cta: React.FC<CtaProps> = ({ type, projectCtaText, onClick }) => {
                 aria-label="Navigate to projects"
                 className="flex cursor-pointer items-center gap-2 rounded-xl border-2 border-secondary-300 px-3 py-2 text-center text-base font-bold leading-loose tracking-wider text-primary-900 transition-colors duration-300 ease-out hover:border-primary-600 hover:bg-white hover:text-primary-700 tablet:px-5 tablet:py-2.5 tablet:text-lg desktop:px-7 desktop:py-[18px] desktop:text-xl"
               >
-                Explore My Work
+                My Work
               </a>
             );
           case "project cta":

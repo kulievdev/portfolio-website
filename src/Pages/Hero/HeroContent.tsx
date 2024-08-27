@@ -19,7 +19,7 @@ const HeroContent = () => {
             Web
           </span>{" "}
           <span className="bg-gradient-to-r from-secondary-700 to-primary-500 bg-clip-text text-transparent">
-            Producer and Developer.
+            Content Specialist.
           </span>{" "}
         </p>
         <p className="text-center text-lg font-medium leading-normal text-gray-600 sm:text-xl desktop:text-start desktop:leading-7">
