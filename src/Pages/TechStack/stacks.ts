@@ -195,4 +195,63 @@ const myOverLapStack = [
   },
 ];
 
-export { myFrontEndStack, myBackEndStack, myOverLapStack };
+const myCombinedSkills = [
+  {
+    name: "HTML",
+    imgSrc: html,
+    link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  },
+  {
+    name: "CSS",
+    imgSrc: css,
+    link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+  },
+  {
+    name: "React",
+    imgSrc: react,
+    link: "https://react.dev/",
+  },
+  {
+    name: "Wordpress",
+    imgSrc: wordpress,
+    link: "https://wordpress.com/",
+  },
+  {
+    name: "Javascript",
+    imgSrc: javascript,
+    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  },
+  {
+    name: "Figma",
+    imgSrc: figma,
+    link: "https://www.figma.com/",
+  },
+  {
+    name: "Photoshop",
+    imgSrc: photoshop,
+    link: "https://www.adobe.com/products/photoshop.html",
+  },
+
+  {
+    name: "Analytics",
+    imgSrc: analytics,
+    link: "https://marketingplatform.google.com/about/analytics/",
+  },
+  {
+    name: "Shopify",
+    imgSrc: shopify,
+    link: "https://www.shopify.com/",
+  },
+  {
+    name: "MongoDB",
+    imgSrc: mongodb,
+    link: "https://www.mongodb.com/",
+  },
+  {
+    name: "Node",
+    imgSrc: nodejs,
+    link: "https://nodejs.org/en",
+  },
+];
+
+export { myFrontEndStack, myBackEndStack, myOverLapStack, myCombinedSkills };
