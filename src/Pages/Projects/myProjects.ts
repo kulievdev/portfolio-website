@@ -170,7 +170,6 @@ const myProjects = [
   {
     projectName: "Pro Auto Customz",
     category: "Wordpress",
-    github: "https://www.kuliev.dev/",
     website: "https://proautocustomz.shop/",
     images: [
       { url: pro1, alt: "Pro Auto Customz Website Image" },
@@ -192,7 +191,6 @@ const myProjects = [
   {
     projectName: "Alex Vip Barbershop",
     category: "Wordpress",
-    github: "https://www.kuliev.dev/",
     website: "https://alexvipbarbershop.wordpress.com/",
     images: [
       { url: alex1, alt: "Alex Vip Barbershop Website Image" },
@@ -211,7 +209,6 @@ const myProjects = [
   {
     projectName: "Marakand",
     category: "Shopify",
-    github: "https://www.kuliev.dev/",
     website: "https://marakandny.myshopify.com/",
     images: [
       { url: marakand1, alt: "Marakand Website Image" },

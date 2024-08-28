@@ -15,7 +15,7 @@ type ProjectProps = {
   name: string;
   images: Image[];
   index: number;
-  githubLink: string;
+  githubLink?: string;
   websiteLink: string;
   logo: string;
   description: string;
@@ -137,12 +137,14 @@ const Project: React.FC<ProjectProps> = ({
           {name}
         </h2>
         <div className="flex flex-wrap justify-center gap-4">
-          <Cta
-            type="project cta"
-            projectCtaText="Github"
-            ctaLink={githubLink}
-            onClick={ctaOnClickGithub}
-          />
+          {githubLink ? (
+            <Cta
+              type="project cta"
+              projectCtaText="Github"
+              ctaLink={githubLink}
+              onClick={ctaOnClickGithub}
+            />
+          ) : null}
           <Cta
             type="project cta"
             projectCtaText="Live Demo"
