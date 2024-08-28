@@ -233,7 +233,7 @@ const myCombinedSkills = [
   },
 
   {
-    name: "Analytics",
+    name: "Google Analytics",
     imgSrc: analytics,
     link: "https://marketingplatform.google.com/about/analytics/",
   },
