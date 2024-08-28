@@ -12,7 +12,7 @@ const Contact = () => {
       >
         <div className="section_container flex h-fit flex-col justify-center py-20">
           <ContactHeader />
-          <div className="mx-6 flex flex-row flex-wrap gap-10 sm:mx-10 lg:mx-28 desktop:mx-40">
+          <div className="mx-6 flex flex-row flex-wrap gap-10 sm:mx-10 lg:mx-28 desktop:mx-60">
             <Message />
             <Form />
           </div>

@@ -12,7 +12,7 @@ const DesktopNavbar = () => {
       display={["none", "none", "none", "flex", "flex", "flex"]}
     >
       <motion.div
-        className="mx-6 my-0 sm:mx-10 lg:mx-28 desktop:mx-40"
+        className="mx-6 my-0 sm:mx-10 lg:mx-28 desktop:mx-60"
         initial={{ opacity: 0, y: -20, scale: 0.9 }}
         animate={{ opacity: 1, y: 0, scale: 1 }}
         transition={{ duration: 0.5 }}

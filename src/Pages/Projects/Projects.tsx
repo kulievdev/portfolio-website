@@ -21,7 +21,7 @@ const Projects: React.FC = () => {
   return (
     <AnimateOnScroll noScale y={40} threshold={0.1} duration={0.6}>
       <section id="projects" className="relative">
-        <div className="mx-6 flex h-fit flex-col justify-center py-20 sm:mx-10 lg:mx-28 desktop:mx-40">
+        <div className="mx-6 flex h-fit flex-col justify-center py-20 sm:mx-10 lg:mx-28 desktop:mx-60">
           <MiniMainHeading text="Browse My Recent" />
           <MainHeading text="Projects" />
           <Buttons
