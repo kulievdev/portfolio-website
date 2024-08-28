@@ -45,7 +45,7 @@ const Projects: React.FC = () => {
             ))}
           </div>
         </div>
-        <ArrowIcon href="#skills" />
+        <ArrowIcon href="#contact" />
       </section>
     </AnimateOnScroll>
   );

@@ -17,7 +17,7 @@ const About = () => {
             <AboutBody />
           </WhiteBackgroundContainer>
         </div>
-        <ArrowIcon href="#contact" />
+        <ArrowIcon href="#projects" />
       </section>
     </AnimateOnScroll>
   );
