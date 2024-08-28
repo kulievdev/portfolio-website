@@ -1,5 +1,6 @@
 import React from "react";
 import downloadIcon from "../assets/Images/download-purple.svg";
+import moveIcon from "../assets/Images/move.svg";
 
 type CtaProps = {
   type:
@@ -41,9 +42,10 @@ const Cta: React.FC<CtaProps> = ({ type, projectCtaText, onClick }) => {
               <a
                 href="#projects"
                 aria-label="Navigate to projects"
-                className="flex cursor-pointer items-center gap-2 rounded-xl border-2 border-secondary-300 px-3 py-2 text-center text-base font-bold leading-loose tracking-wider text-primary-900 transition-colors duration-300 ease-out hover:border-primary-600 hover:bg-white hover:text-primary-700 tablet:px-5 tablet:py-2.5 tablet:text-lg desktop:px-7 desktop:py-[18px] desktop:text-xl"
+                className="flex cursor-pointer items-center gap-2 rounded-xl border-2 border-secondary-300 px-3 py-2 text-center text-base font-bold leading-loose tracking-wider text-primary-700 transition-colors duration-300 ease-out hover:border-primary-600 hover:bg-white tablet:px-5 tablet:py-2.5 tablet:text-lg desktop:px-7 desktop:py-[18px] desktop:text-xl"
               >
-                My Work
+                Explore My Work
+                <img src={moveIcon} alt="Move down icon" className="h-6 w-6" />
               </a>
             );
           case "let's talk":
