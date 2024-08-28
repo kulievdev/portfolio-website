@@ -242,16 +242,6 @@ const myCombinedSkills = [
     imgSrc: shopify,
     link: "https://www.shopify.com/",
   },
-  {
-    name: "MongoDB",
-    imgSrc: mongodb,
-    link: "https://www.mongodb.com/",
-  },
-  {
-    name: "Node",
-    imgSrc: nodejs,
-    link: "https://nodejs.org/en",
-  },
 ];
 
 export { myFrontEndStack, myBackEndStack, myOverLapStack, myCombinedSkills };
