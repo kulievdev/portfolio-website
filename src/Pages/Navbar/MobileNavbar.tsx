@@ -3,6 +3,7 @@ import { Button, Flex, IconButton } from "@chakra-ui/react";
 import myLinks from "./myLinks";
 import Logo from "../../Components/Logo";
 import { useState } from "react";
+import Cta from "../../Components/Cta";
 
 const MobileNavbar = () => {
   const [display, changeDisplay] = useState("none");
@@ -16,12 +17,15 @@ const MobileNavbar = () => {
           justify="space-between"
         >
           <Logo />
-          <IconButton
-            aria-label="Open Menu"
-            size="lg"
-            icon={<HamburgerIcon />}
-            onClick={() => changeDisplay("flex")}
-          />
+          <div className="flex items-center gap-6">
+            <Cta type="download cv" />
+            <IconButton
+              aria-label="Open Menu"
+              size="lg"
+              icon={<HamburgerIcon />}
+              onClick={() => changeDisplay("flex")}
+            />
+          </div>
         </Flex>
       </div>
       <div className="laptop:hidden">

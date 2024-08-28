@@ -27,7 +27,7 @@ const Cta: React.FC<CtaProps> = ({ type, projectCtaText, onClick }) => {
             return (
               <button
                 onClick={openResume}
-                className="cursor-pointer rounded-xl border-2 border-secondary-300 p-2 text-center text-base font-bold leading-loose tracking-wider text-primary-900 transition-colors duration-300 ease-out hover:border-primary-600 hover:bg-white hover:text-primary-700 tablet:text-lg desktop:text-xl"
+                className="cursor-pointer rounded-lg border-2 border-secondary-300 p-2 text-center text-base font-bold leading-loose tracking-wider text-primary-900 transition-colors duration-300 ease-out hover:border-primary-600 hover:bg-white hover:text-primary-700 tablet:text-lg desktop:text-xl"
               >
                 <img
                   src={downloadIcon}
