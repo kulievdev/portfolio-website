@@ -44,7 +44,7 @@ const Cta: React.FC<CtaProps> = ({ type, projectCtaText, onClick }) => {
                 aria-label="Navigate to projects"
                 className="flex cursor-pointer items-center gap-2 rounded-xl border-2 border-secondary-300 px-3 py-2 text-center text-base font-bold leading-loose tracking-wider text-primary-700 transition-colors duration-300 ease-out hover:border-primary-600 hover:bg-white tablet:px-5 tablet:py-2.5 tablet:text-lg desktop:px-7 desktop:py-[18px] desktop:text-xl"
               >
-                Explore My Work
+                My Work
                 <img src={moveIcon} alt="Move down icon" className="h-6 w-6" />
               </a>
             );

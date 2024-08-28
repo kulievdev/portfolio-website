@@ -11,7 +11,7 @@ const TechStack = () => {
   return (
     <AnimateOnScroll noScale y={40} threshold={0.1} duration={0.8}>
       <section id="skills" className="relative">
-        <div className="section_container relative mx-6 my-0 flex h-fit flex-col justify-center py-20 sm:mx-10 lg:mx-14 desktop:mx-40">
+        <div className="section_container relative mx-6 my-0 flex h-fit flex-col justify-center py-20 sm:mx-10 lg:mx-28 desktop:mx-40">
           <MiniMainHeading text="Explore My" />
           <MainHeading text="Skills" />
           {/* <MainHeading text="Tech Stack" /> */}

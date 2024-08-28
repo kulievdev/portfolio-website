@@ -11,7 +11,7 @@ const About = () => {
         id="about"
         className="bg-gradient-to-br from-primary-50 to-gray-50"
       >
-        <div className="section_container relative mx-6 flex h-fit flex-col justify-center py-20 sm:mx-10 lg:mx-14 desktop:mx-40">
+        <div className="section_container relative mx-6 flex h-fit flex-col justify-center py-20 sm:mx-10 lg:mx-28 desktop:mx-40">
           <WhiteBackgroundContainer>
             <AboutHeader />
             <AboutBody />

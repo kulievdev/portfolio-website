@@ -10,15 +10,15 @@ const MobileNavbar = () => {
 
   return (
     <>
-      <div className="mx-6 pt-3 sm:mx-10 sm:py-6 lg:px-14 laptop:hidden">
+      <div className="mx-6 pt-3 sm:mx-10 sm:py-6 lg:mx-28 laptop:hidden">
         <Flex
-          display={["flex", "flex", "flex", "flex", "none", "none"]}
+          display={["flex", "flex", "flex", "none", "none", "none"]}
           align="center"
           justify="space-between"
         >
           <Logo />
           <div className="flex items-center gap-6">
-            <Cta type="download cv" />
+            {window.innerWidth > 600 ? <Cta type="download cv" /> : null}
             <IconButton
               aria-label="Open Menu"
               size="lg"
@@ -68,6 +68,7 @@ const MobileNavbar = () => {
                 </li>
               );
             })}
+            {window.innerWidth < 600 ? <Cta type="download cv" /> : null}
           </Flex>
         </Flex>
       </div>

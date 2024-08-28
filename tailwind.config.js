@@ -16,6 +16,8 @@ export default {
 
         xs: "391px",
 
+        smallTablet: "600px",
+
         tablet: "1200px",
 
         smallLaptop: "1400px",
