@@ -1,5 +1,6 @@
 import Cta from "../../Components/Cta";
 import { motion } from "framer-motion";
+import ContactModal from "../../Components/ContactModal";
 
 const HeroContent = () => {
   return (
@@ -33,7 +34,7 @@ const HeroContent = () => {
         animate={{ opacity: 1, y: 0, scale: 1, x: 0 }}
         transition={{ duration: 0.6 }}
       >
-        <Cta type="download cv" />
+        <ContactModal />
         <Cta type="my work" />
       </motion.nav>
     </div>

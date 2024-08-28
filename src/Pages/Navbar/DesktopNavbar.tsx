@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Logo from "../../Components/Logo";
 import myLinks from "./myLinks";
 import fadeInAnimationVariants from "../../utils/fadeAnimationVariants";
-import ContactModal from "../../Components/ContactModal";
+import Cta from "../../Components/Cta";
 
 const DesktopNavbar = () => {
   return (
@@ -45,7 +45,7 @@ const DesktopNavbar = () => {
               })}
             </ul>
           </div>
-          <ContactModal />
+          <Cta type="download cv" />
         </nav>
       </motion.div>
     </Flex>

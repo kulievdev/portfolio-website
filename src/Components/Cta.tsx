@@ -2,7 +2,13 @@ import React from "react";
 import downloadIcon from "../assets/Images/download-purple.svg";
 
 type CtaProps = {
-  type: "download cv" | "my work" | "connect" | "send message" | "project cta";
+  type:
+    | "download cv"
+    | "my work"
+    | "connect"
+    | "send message"
+    | "project cta"
+    | "let's talk";
   projectCtaText?: string;
   ctaLink?: string;
   onClick?: () => void;
@@ -21,9 +27,8 @@ const Cta: React.FC<CtaProps> = ({ type, projectCtaText, onClick }) => {
             return (
               <button
                 onClick={openResume}
-                className="flex cursor-pointer items-center gap-2 rounded-xl bg-primary-700 px-3 py-2.5 text-center text-base font-bold leading-loose tracking-wider text-gray-50 transition-colors duration-300 ease-out hover:bg-primary-600 tablet:px-5 tablet:py-3 tablet:text-lg desktop:px-7 desktop:py-5 desktop:text-xl"
+                className="cursor-pointer rounded-xl border-2 border-secondary-300 p-2 text-center text-base font-bold leading-loose tracking-wider text-primary-900 transition-colors duration-300 ease-out hover:border-primary-600 hover:bg-white hover:text-primary-700 tablet:text-lg desktop:text-xl"
               >
-                Download CV
                 <img
                   src={downloadIcon}
                   alt="download icon"
@@ -40,6 +45,15 @@ const Cta: React.FC<CtaProps> = ({ type, projectCtaText, onClick }) => {
               >
                 My Work
               </a>
+            );
+          case "let's talk":
+            return (
+              <button
+                onClick={onClick}
+                className="flex cursor-pointer items-center gap-2 rounded-xl bg-primary-700 px-3 py-2.5 text-center text-base font-bold leading-loose tracking-wider text-gray-50 transition-colors duration-300 ease-out hover:bg-primary-600 tablet:px-5 tablet:py-3 tablet:text-lg desktop:px-7 desktop:py-5 desktop:text-xl"
+              >
+                Let's Talk!
+              </button>
             );
           case "project cta":
             return (

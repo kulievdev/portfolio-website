@@ -15,6 +15,7 @@ import ContactIcon from "./ContactIcon";
 import mySocials from "../utils/socials";
 import emailIcon from "../assets/SocialMediaIcons/email.svg";
 import phoneIcon from "../assets/SocialMediaIcons/phone.svg";
+import Cta from "./Cta";
 
 const ContactModal = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -24,13 +25,7 @@ const ContactModal = () => {
 
   return (
     <>
-      <button
-        onClick={onOpen}
-        className="cursor-pointer rounded-xl border-2 border-secondary-300 px-6 py-2 text-center text-base font-bold leading-loose tracking-wider text-primary-900 transition-colors duration-300 ease-out hover:border-primary-600 hover:bg-white hover:text-primary-700 tablet:text-lg desktop:text-xl"
-      >
-        Let's Talk!
-      </button>
-
+      <Cta type="let's talk" onClick={onOpen} />
       <Modal
         initialFocusRef={initialRef}
         finalFocusRef={finalRef}
