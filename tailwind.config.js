@@ -18,6 +18,8 @@ export default {
 
         smallTablet: "600px",
 
+        largeTablet: "900px",
+
         tablet: "1200px",
 
         smallLaptop: "1400px",
