@@ -164,7 +164,7 @@ const myProjects = [
     ],
     logo: luceLogo,
     description:
-      "The Luce Notte Restaurant website is a gateway to a culinary journey like no other. Embark on a captivating journey where each page unfolds a tale through flavors, where the essence of Italian cuisine comes alive, merging passion with tradition in every pixel.",
+      "The Luce Notte Restaurant website offers an elegant online experience that captures the essence of Italian cuisine. Its sophisticated design features a user-friendly layout with an intuitive menu, a beautiful gallery of dishes and ambiance, and customer testimonials. The site also includes a seamless reservation system for easy online bookings. Visitors are greeted with rich visuals and engaging content that reflect the restaurant’s commitment to quality and authenticity. The website’s design enhances the overall dining experience by inviting users to explore with the restaurant’s culinary offerings.",
     stacks: [reactLogo, javascriptLogo, styledComp],
   },
   {
