@@ -126,10 +126,13 @@ const Project: React.FC<ProjectProps> = ({
               alt="logo"
             />
             <p className="mb-8">{description}</p>
-            <div className="flex flex-wrap justify-center gap-16">
-              {stacks.map((stack, idx) => (
-                <Skill type="projectTool" key={idx} imgSrc={stack} />
-              ))}
+            <div className="flex flex-col gap-6">
+              <h4 className="text-xl font-bold text-gray-700">Tools Used: </h4>
+              <div className="flex flex-wrap justify-center gap-16">
+                {stacks.map((stack, idx) => (
+                  <Skill type="projectTool" key={idx} imgSrc={stack} />
+                ))}
+              </div>
             </div>
           </div>
         )}
