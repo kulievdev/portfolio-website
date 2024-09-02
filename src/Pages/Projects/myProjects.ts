@@ -34,14 +34,14 @@ import pro8 from "../../assets/Images/ProAutoCustomz/pro8.webp";
 import pro9 from "../../assets/Images/ProAutoCustomz/pro9.webp";
 import pro10 from "../../assets/Images/ProAutoCustomz/pro10.webp";
 
-import alexLogo from "../../assets/Images/AlexVipBarbershop/alex-logo.png";
-import alex1 from "../../assets/Images/AlexVipBarbershop/alex1.webp";
-import alex2 from "../../assets/Images/AlexVipBarbershop/alex2.webp";
-import alex3 from "../../assets/Images/AlexVipBarbershop/alex3.webp";
-import alex4 from "../../assets/Images/AlexVipBarbershop/alex4.webp";
-import alex5 from "../../assets/Images/AlexVipBarbershop/alex5.webp";
-import alex6 from "../../assets/Images/AlexVipBarbershop/alex6.webp";
-import alex7 from "../../assets/Images/AlexVipBarbershop/alex7.webp";
+// import alexLogo from "../../assets/Images/AlexVipBarbershop/alex-logo.png";
+// import alex1 from "../../assets/Images/AlexVipBarbershop/alex1.webp";
+// import alex2 from "../../assets/Images/AlexVipBarbershop/alex2.webp";
+// import alex3 from "../../assets/Images/AlexVipBarbershop/alex3.webp";
+// import alex4 from "../../assets/Images/AlexVipBarbershop/alex4.webp";
+// import alex5 from "../../assets/Images/AlexVipBarbershop/alex5.webp";
+// import alex6 from "../../assets/Images/AlexVipBarbershop/alex6.webp";
+// import alex7 from "../../assets/Images/AlexVipBarbershop/alex7.webp";
 
 import marakandLogo from "../../assets/Images/Marakand/marakand-logo.png";
 import marakand1 from "../../assets/Images/Marakand/marakand1.webp";
@@ -52,6 +52,24 @@ import marakand5 from "../../assets/Images/Marakand/marakand5.webp";
 import marakand6 from "../../assets/Images/Marakand/marakand6.webp";
 import marakand7 from "../../assets/Images/Marakand/marakand7.webp";
 import marakand8 from "../../assets/Images/Marakand/marakand8.webp";
+
+import silkageLogo from "../../assets/Images/Silkage/silkage-logo.png";
+import silkage1 from "../../assets/Images/Silkage/silkage1.webp";
+import silkage2 from "../../assets/Images/Silkage/silkage2.webp";
+import silkage3 from "../../assets/Images/Silkage/silkage3.webp";
+import silkage4 from "../../assets/Images/Silkage/silkage4.webp";
+import silkage5 from "../../assets/Images/Silkage/silkage5.webp";
+import silkage6 from "../../assets/Images/Silkage/silkage6.webp";
+import silkage7 from "../../assets/Images/Silkage/silkage7.webp";
+import silkage8 from "../../assets/Images/Silkage/silkage8.webp";
+import silkage9 from "../../assets/Images/Silkage/silkage9.webp";
+import silkage10 from "../../assets/Images/Silkage/silkage10.webp";
+import silkage11 from "../../assets/Images/Silkage/silkage11.webp";
+import silkage12 from "../../assets/Images/Silkage/silkage12.webp";
+import silkage13 from "../../assets/Images/Silkage/silkage13.webp";
+import silkage14 from "../../assets/Images/Silkage/silkage14.webp";
+import silkage15 from "../../assets/Images/Silkage/silkage15.webp";
+import silkage16 from "../../assets/Images/Silkage/silkage16.webp";
 
 import infinitaLogo from "../../assets/Images/Infinita/infinita-logo.png";
 import infinita1 from "../../assets/Images/Infinita/infinita1.webp";
@@ -188,23 +206,50 @@ const myProjects = [
       "The Pro Auto Customz website is a WordPress website that was built for a client located in Brooklyn, NY. I personally designed and built this website from scratch using wordpress without using built-in themes. The site showcases a range of auto customization services, including paint jobs, interior upgrades, and performance enhancements. Designed with a sleek, modern aesthetic, the website features an intuitive navigation system, a gallery of past projects, and customer testimonials to highlight the quality of their work.",
     stacks: [wordpressLogo],
   },
+  // {
+  //   projectName: "Alex Vip Barbershop",
+  //   category: "Wordpress",
+  //   website: "https://alexvipbarbershop.wordpress.com/",
+  //   images: [
+  //     { url: alex1, alt: "Alex Vip Barbershop Website Image" },
+  //     { url: alex2, alt: "Alex Vip Barbershop Website Image" },
+  //     { url: alex3, alt: "Alex Vip Barbershop Website Image" },
+  //     { url: alex4, alt: "Alex Vip Barbershop Website Image" },
+  //     { url: alex5, alt: "Alex Vip Barbershop Website Image" },
+  //     { url: alex6, alt: "Alex Vip Barbershop Website Image" },
+  //     { url: alex7, alt: "Alex Vip Barbershop Website Image" },
+  //   ],
+  //   logo: alexLogo,
+  //   description:
+  //     "The Alex Vip Barbershop website is a WordPress site created for a client based in Queens, NY. I personally designed and built this website from scratch using wordpress without using built-in themes. This website highlights the barbershop's premium grooming services, including haircuts, beard trims, and styling for men of all ages. The site is designed with a stylish, contemporary look that reflects the upscale atmosphere of the barbershop. It features easy-to-navigate sections, a portfolio showcasing expertly crafted hairstyles, and a section dedicated to customer reviews that emphasize the barbershop's reputation for excellence.",
+  //   stacks: [wordpressLogo],
+  // },
   {
-    projectName: "Alex Vip Barbershop",
-    category: "Wordpress",
-    website: "https://alexvipbarbershop.wordpress.com/",
+    projectName: "Silkage",
+    category: "Shopify",
+    website: "https://silkage.myshopify.com/",
     images: [
-      { url: alex1, alt: "Alex Vip Barbershop Website Image" },
-      { url: alex2, alt: "Alex Vip Barbershop Website Image" },
-      { url: alex3, alt: "Alex Vip Barbershop Website Image" },
-      { url: alex4, alt: "Alex Vip Barbershop Website Image" },
-      { url: alex5, alt: "Alex Vip Barbershop Website Image" },
-      { url: alex6, alt: "Alex Vip Barbershop Website Image" },
-      { url: alex7, alt: "Alex Vip Barbershop Website Image" },
+      { url: silkage1, alt: "Silkage Website Image" },
+      { url: silkage2, alt: "Silkage Website Image" },
+      { url: silkage3, alt: "Silkage Website Image" },
+      { url: silkage4, alt: "Silkage Website Image" },
+      { url: silkage5, alt: "Silkage Website Image" },
+      { url: silkage6, alt: "Silkage Website Image" },
+      { url: silkage7, alt: "Silkage Website Image" },
+      { url: silkage8, alt: "Silkage Website Image" },
+      { url: silkage9, alt: "Silkage Website Image" },
+      { url: silkage10, alt: "Silkage Website Image" },
+      { url: silkage11, alt: "Silkage Website Image" },
+      { url: silkage12, alt: "Silkage Website Image" },
+      { url: silkage13, alt: "Silkage Website Image" },
+      { url: silkage14, alt: "Silkage Website Image" },
+      { url: silkage15, alt: "Silkage Website Image" },
+      { url: silkage16, alt: "Silkage Website Image" },
     ],
-    logo: alexLogo,
+    logo: silkageLogo,
     description:
-      "The Alex Vip Barbershop website is a WordPress site created for a client based in Queens, NY. I personally designed and built this website from scratch using wordpress without using built-in themes. This website highlights the barbershop's premium grooming services, including haircuts, beard trims, and styling for men of all ages. The site is designed with a stylish, contemporary look that reflects the upscale atmosphere of the barbershop. It features easy-to-navigate sections, a portfolio showcasing expertly crafted hairstyles, and a section dedicated to customer reviews that emphasize the barbershop's reputation for excellence.",
-    stacks: [wordpressLogo],
+      "The Silkage website is a beautifully crafted Shopify platform designed from the ground up to showcase the rich heritage and elegance of Silk Road-inspired products. Positioned as a premier destination for culturally inspired treasures, the website reflects the timeless beauty and craftsmanship of each piece with a refined and sophisticated design. It features a diverse collection of handcrafted items, each steeped in tradition and artistry. The site offers intuitive navigation, detailed product descriptions, and a seamless shopping experience, making it easy for customers to explore and purchase unique, high-quality souvenirs.",
+    stacks: [shopifyLogo],
   },
   {
     projectName: "Marakand",

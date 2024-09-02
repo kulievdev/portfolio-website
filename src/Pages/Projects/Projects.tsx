@@ -41,6 +41,7 @@ const Projects: React.FC = () => {
                 logo={project.logo}
                 description={project.description}
                 stacks={project.stacks}
+                category={project.category}
               />
             ))}
           </div>

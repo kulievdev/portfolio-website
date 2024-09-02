@@ -20,6 +20,7 @@ type ProjectProps = {
   logo: string;
   description: string;
   stacks: string[];
+  category: string;
 };
 
 const Project: React.FC<ProjectProps> = ({
@@ -31,6 +32,7 @@ const Project: React.FC<ProjectProps> = ({
   logo,
   description,
   stacks,
+  category,
 }) => {
   // const Component = window.innerWidth > 435 ? motion.div : "div";
 
@@ -139,6 +141,11 @@ const Project: React.FC<ProjectProps> = ({
         <h2 className="mb-8 mt-4 text-2xl font-semibold text-gray-700 desktop:text-3xl bigDesktop:text-4xl">
           {name}
         </h2>
+        {category === "Shopify" ? (
+          <h3 className="mb-8 mt-4 text-xl font-semibold text-gray-700 desktop:text-2xl bigDesktop:text-4xl">
+            Password: {name.toLowerCase()}
+          </h3>
+        ) : null}
         <div className="flex flex-wrap justify-center gap-4">
           {githubLink ? (
             <Cta
