@@ -34,6 +34,19 @@ import pro8 from "../../assets/Images/ProAutoCustomz/pro8.webp";
 import pro9 from "../../assets/Images/ProAutoCustomz/pro9.webp";
 import pro10 from "../../assets/Images/ProAutoCustomz/pro10.webp";
 
+import pulseLogo from "../../assets/Images/PulseFitness/pro-logo.jpg";
+import pulse1 from "../../assets/Images/PulseFitness/pulse1.webp";
+import pulse2 from "../../assets/Images/PulseFitness/pulse2.webp";
+import pulse3 from "../../assets/Images/PulseFitness/pulse3.webp";
+import pulse4 from "../../assets/Images/PulseFitness/pulse4.webp";
+import pulse5 from "../../assets/Images/PulseFitness/pulse5.webp";
+import pulse6 from "../../assets/Images/PulseFitness/pulse6.webp";
+import pulse7 from "../../assets/Images/PulseFitness/pulse7.webp";
+import pulse8 from "../../assets/Images/PulseFitness/pulse8.webp";
+import pulse9 from "../../assets/Images/PulseFitness/pulse9.webp";
+import pulse10 from "../../assets/Images/PulseFitness/pulse10.webp";
+import pulse11 from "../../assets/Images/PulseFitness/pulse11.webp";
+
 // import alexLogo from "../../assets/Images/AlexVipBarbershop/alex-logo.png";
 // import alex1 from "../../assets/Images/AlexVipBarbershop/alex1.webp";
 // import alex2 from "../../assets/Images/AlexVipBarbershop/alex2.webp";
@@ -202,6 +215,28 @@ const myProjects = [
       { url: pro10, alt: "Pro Auto Customz Website Image" },
     ],
     logo: proLogo,
+    description:
+      "The Pro Auto Customz website is a WordPress website that was built for a client located in Brooklyn, NY. I personally designed and built this website from scratch using wordpress without using built-in themes. The site showcases a range of auto customization services, including paint jobs, interior upgrades, and performance enhancements. Designed with a sleek, modern aesthetic, the website features an intuitive navigation system, a gallery of past projects, and customer testimonials to highlight the quality of their work.",
+    stacks: [wordpressLogo],
+  },
+  {
+    projectName: "Pulse Fitness",
+    category: "Wordpress",
+    website: "https://pulsefitnesses.com/",
+    images: [
+      { url: pulse1, alt: "Pulse Fitness Website Image" },
+      { url: pulse2, alt: "Pulse Fitness Website Image" },
+      { url: pulse3, alt: "Pulse Fitness Website Image" },
+      { url: pulse4, alt: "Pulse Fitness Website Image" },
+      { url: pulse5, alt: "Pulse Fitness Website Image" },
+      { url: pulse6, alt: "Pulse Fitness Website Image" },
+      { url: pulse7, alt: "Pulse Fitness Website Image" },
+      { url: pulse8, alt: "Pulse Fitness Website Image" },
+      { url: pulse9, alt: "Pulse Fitness Website Image" },
+      { url: pulse10, alt: "Pulse Fitness Website Image" },
+      { url: pulse11, alt: "Pulse Fitness Website Image" },
+    ],
+    logo: pulseLogo,
     description:
       "The Pro Auto Customz website is a WordPress website that was built for a client located in Brooklyn, NY. I personally designed and built this website from scratch using wordpress without using built-in themes. The site showcases a range of auto customization services, including paint jobs, interior upgrades, and performance enhancements. Designed with a sleek, modern aesthetic, the website features an intuitive navigation system, a gallery of past projects, and customer testimonials to highlight the quality of their work.",
     stacks: [wordpressLogo],
