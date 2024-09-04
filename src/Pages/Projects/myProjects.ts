@@ -34,7 +34,7 @@ import pro8 from "../../assets/Images/ProAutoCustomz/pro8.webp";
 import pro9 from "../../assets/Images/ProAutoCustomz/pro9.webp";
 import pro10 from "../../assets/Images/ProAutoCustomz/pro10.webp";
 
-import pulseLogo from "../../assets/Images/PulseFitness/pro-logo.jpg";
+import pulseLogo from "../../assets/Images/PulseFitness/pro-logo.png";
 import pulse1 from "../../assets/Images/PulseFitness/pulse1.webp";
 import pulse2 from "../../assets/Images/PulseFitness/pulse2.webp";
 import pulse3 from "../../assets/Images/PulseFitness/pulse3.webp";
