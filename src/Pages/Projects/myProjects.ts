@@ -34,7 +34,7 @@ import pro8 from "../../assets/Images/ProAutoCustomz/pro8.webp";
 import pro9 from "../../assets/Images/ProAutoCustomz/pro9.webp";
 import pro10 from "../../assets/Images/ProAutoCustomz/pro10.webp";
 
-import pulseLogo from "../../assets/Images/PulseFitness/pro-logo.png";
+import pulseLogo from "../../assets/Images/PulseFitness/pulse-logo.png";
 import pulse1 from "../../assets/Images/PulseFitness/pulse1.webp";
 import pulse2 from "../../assets/Images/PulseFitness/pulse2.webp";
 import pulse3 from "../../assets/Images/PulseFitness/pulse3.webp";
@@ -84,11 +84,11 @@ import silkage14 from "../../assets/Images/Silkage/silkage14.webp";
 import silkage15 from "../../assets/Images/Silkage/silkage15.webp";
 import silkage16 from "../../assets/Images/Silkage/silkage16.webp";
 
-import infinitaLogo from "../../assets/Images/Infinita/infinita-logo.png";
-import infinita1 from "../../assets/Images/Infinita/infinita1.webp";
-import infinita2 from "../../assets/Images/Infinita/infinita2.webp";
-import infinita3 from "../../assets/Images/Infinita/infinita3.webp";
-import infinita4 from "../../assets/Images/Infinita/infinita4.webp";
+// import infinitaLogo from "../../assets/Images/Infinita/infinita-logo.png";
+// import infinita1 from "../../assets/Images/Infinita/infinita1.webp";
+// import infinita2 from "../../assets/Images/Infinita/infinita2.webp";
+// import infinita3 from "../../assets/Images/Infinita/infinita3.webp";
+// import infinita4 from "../../assets/Images/Infinita/infinita4.webp";
 
 // import portfolioLogo from "../../assets/Images/Portfolio/portfolio-logo.png";
 // import portfolio1 from "../../assets/Images/Portfolio/portfolio1.webp";
@@ -199,25 +199,22 @@ const myProjects = [
     stacks: [reactLogo, javascriptLogo, styledComp],
   },
   {
-    projectName: "Pro Auto Customz",
-    category: "Wordpress",
-    website: "https://proautocustomz.shop/",
+    projectName: "Move Careers",
+    category: "Landing-Page",
+    github: "https://github.com/kulievdev/career-website",
+    website: "https://move-careers.onrender.com/",
     images: [
-      { url: pro1, alt: "Pro Auto Customz Website Image" },
-      { url: pro2, alt: "Pro Auto Customz Website Image" },
-      { url: pro3, alt: "Pro Auto Customz Website Image" },
-      { url: pro4, alt: "Pro Auto Customz Website Image" },
-      { url: pro5, alt: "Pro Auto Customz Website Image" },
-      { url: pro6, alt: "Pro Auto Customz Website Image" },
-      { url: pro7, alt: "Pro Auto Customz Website Image" },
-      { url: pro8, alt: "Pro Auto Customz Website Image" },
-      { url: pro9, alt: "Pro Auto Customz Website Image" },
-      { url: pro10, alt: "Pro Auto Customz Website Image" },
+      { url: move1, alt: "Move Careers Website Image" },
+      { url: move2, alt: "Move Careers Website Image" },
+      { url: move3, alt: "Move Careers Website Image" },
+      { url: move4, alt: "Move Careers Website Image" },
+      { url: move5, alt: "Move Careers Website Image" },
+      { url: move6, alt: "Move Careers Website Image" },
     ],
-    logo: proLogo,
+    logo: moveLogo,
     description:
-      "The Pro Auto Customz website is a WordPress website that was built for a client located in Brooklyn, NY. I personally designed and built this website from scratch using wordpress without using built-in themes. The site showcases a range of auto customization services, including paint jobs, interior upgrades, and performance enhancements. Designed with a sleek, modern aesthetic, the website features an intuitive navigation system, a gallery of past projects, and customer testimonials to highlight the quality of their work.",
-    stacks: [wordpressLogo],
+      "A job search website landing page showcases job opportunities across various industries. It allows users to explore listings and get an overview of available positions from home. The page highlights features like personalized job recommendations, resume uploads, and real-time notifications. Designed for a seamless job-hunting experience, this project demonstrates my ability to create compelling and informative web interfaces.",
+    stacks: [htmlLogo, cssLogo],
   },
   {
     projectName: "Pulse Fitness",
@@ -238,9 +235,31 @@ const myProjects = [
     ],
     logo: pulseLogo,
     description:
+      "The Pulse Fitness Gym website is a dynamic and visually engaging WordPress site that I designed and built to represent a modern fitness brand. This site effectively showcases the gym’s diverse offerings, including personal training, group fitness classes, nutritional coaching, and cutting-edge workout equipment. With a sleek, energetic aesthetic, the website features easy navigation, an interactive class schedule, a gallery highlighting the facility, and success stories from clients. The design ensures a seamless user experience.",
+    stacks: [wordpressLogo],
+  },
+  {
+    projectName: "Pro Auto Customz",
+    category: "Wordpress",
+    website: "https://proautocustomz.shop/",
+    images: [
+      { url: pro1, alt: "Pro Auto Customz Website Image" },
+      { url: pro2, alt: "Pro Auto Customz Website Image" },
+      { url: pro3, alt: "Pro Auto Customz Website Image" },
+      { url: pro4, alt: "Pro Auto Customz Website Image" },
+      { url: pro5, alt: "Pro Auto Customz Website Image" },
+      { url: pro6, alt: "Pro Auto Customz Website Image" },
+      { url: pro7, alt: "Pro Auto Customz Website Image" },
+      { url: pro8, alt: "Pro Auto Customz Website Image" },
+      { url: pro9, alt: "Pro Auto Customz Website Image" },
+      { url: pro10, alt: "Pro Auto Customz Website Image" },
+    ],
+    logo: proLogo,
+    description:
       "The Pro Auto Customz website is a WordPress website that was built for a client located in Brooklyn, NY. I personally designed and built this website from scratch using wordpress without using built-in themes. The site showcases a range of auto customization services, including paint jobs, interior upgrades, and performance enhancements. Designed with a sleek, modern aesthetic, the website features an intuitive navigation system, a gallery of past projects, and customer testimonials to highlight the quality of their work.",
     stacks: [wordpressLogo],
   },
+
   // {
   //   projectName: "Alex Vip Barbershop",
   //   category: "Wordpress",
@@ -305,22 +324,22 @@ const myProjects = [
       "The Marakand Restaurant website is a Shopify site meticulously designed and built from the ground up to showcase the vibrant dining experience of this renowned establishment. Situated in a prime location, the website captures the essence of Marakand’s exquisite cuisine with a modern and elegant design. It highlights the restaurant’s diverse menu, featuring an array of dishes that blend traditional flavors with contemporary presentation. The site includes user-friendly navigation, an interactive menu section with detailed descriptions of each dish, and an easy-to-use reservation system.",
     stacks: [shopifyLogo],
   },
-  {
-    projectName: "Infinita Furniture",
-    category: "Landing-Page",
-    github: "https://github.com/kulievdev/furniture-website-react",
-    website: "https://infinitafurniture.com/",
-    images: [
-      { url: infinita1, alt: "Furniture Website Image" },
-      { url: infinita2, alt: "Furniture Website Image" },
-      { url: infinita3, alt: "Furniture Website Image" },
-      { url: infinita4, alt: "Furniture Website Image" },
-    ],
-    logo: infinitaLogo,
-    description:
-      "A furniture website landing page is an online platform that offers users the opportunity to explore and browse a wide range of furniture products for their homes, offices, or other spaces. This digital platform provides a convenient and comprehensive shopping experience, allowing users to discover furniture items and compare prices and styles from the comfort of their own homes.",
-    stacks: [reactLogo, javascriptLogo, styledComp],
-  },
+  // {
+  //   projectName: "Infinita Furniture",
+  //   category: "Landing-Page",
+  //   github: "https://github.com/kulievdev/furniture-website-react",
+  //   website: "https://infinitafurniture.com/",
+  //   images: [
+  //     { url: infinita1, alt: "Furniture Website Image" },
+  //     { url: infinita2, alt: "Furniture Website Image" },
+  //     { url: infinita3, alt: "Furniture Website Image" },
+  //     { url: infinita4, alt: "Furniture Website Image" },
+  //   ],
+  //   logo: infinitaLogo,
+  //   description:
+  //     "A furniture website landing page is an online platform that offers users the opportunity to explore and browse a wide range of furniture products for their homes, offices, or other spaces. This digital platform provides a convenient and comprehensive shopping experience, allowing users to discover furniture items and compare prices and styles from the comfort of their own homes.",
+  //   stacks: [reactLogo, javascriptLogo, styledComp],
+  // },
   // {
   //   projectName: "Portfolio Website",
   //   category: "Front-End",
@@ -391,24 +410,6 @@ const myProjects = [
   //     mongoDB,
   //   ],
   // },
-  {
-    projectName: "Move Careers",
-    category: "Landing-Page",
-    github: "https://github.com/kulievdev/career-website",
-    website: "https://move-careers.onrender.com/",
-    images: [
-      { url: move1, alt: "Move Careers Website Image" },
-      { url: move2, alt: "Move Careers Website Image" },
-      { url: move3, alt: "Move Careers Website Image" },
-      { url: move4, alt: "Move Careers Website Image" },
-      { url: move5, alt: "Move Careers Website Image" },
-      { url: move6, alt: "Move Careers Website Image" },
-    ],
-    logo: moveLogo,
-    description:
-      "A job search website landing page showcases job opportunities across various industries. It allows users to explore listings and get an overview of available positions from home. The page highlights features like personalized job recommendations, resume uploads, and real-time notifications. Designed for a seamless job-hunting experience, this project demonstrates my ability to create compelling and informative web interfaces.",
-    stacks: [htmlLogo, cssLogo],
-  },
 ];
 
 export default myProjects;
