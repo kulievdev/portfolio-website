@@ -29,6 +29,10 @@ import shopify from "../../assets/TechStackIcons/shopify.svg";
 import hubspot from "../../assets/TechStackIcons/hubspot.svg";
 import contentful from "../../assets/TechStackIcons/contentful.svg";
 import webflow from "../../assets/TechStackIcons/webflow.svg";
+import convertkit from "../../assets/TechStackIcons/convertkit.svg";
+import klaviyo from "../../assets/TechStackIcons/klaviyo.svg";
+import litmus from "../../assets/TechStackIcons/litmus.svg";
+import responsive from "../../assets/TechStackIcons/responsive.svg";
 
 const myFrontEndStack = [
   {
@@ -207,6 +211,16 @@ const myCombinedSkills = [
     link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
   },
   {
+    name: "Javascript",
+    imgSrc: javascript,
+    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  },
+  {
+    name: "Responsive Design",
+    imgSrc: responsive,
+    link: "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design",
+  },
+  {
     name: "React",
     imgSrc: react,
     link: "https://react.dev/",
@@ -217,30 +231,41 @@ const myCombinedSkills = [
     link: "https://wordpress.com/",
   },
   {
-    name: "Javascript",
-    imgSrc: javascript,
-    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    name: "Shopify",
+    imgSrc: shopify,
+    link: "https://www.shopify.com/",
   },
   {
     name: "Figma",
     imgSrc: figma,
     link: "https://www.figma.com/",
   },
+
   {
     name: "Photoshop",
     imgSrc: photoshop,
     link: "https://www.adobe.com/products/photoshop.html",
   },
-
+  {
+    name: "ConvertKit",
+    imgSrc: convertkit,
+    link: "https://convertkit.com/",
+  },
+  {
+    name: "Klaviyo",
+    imgSrc: klaviyo,
+    link: "https://www.klaviyo.com/",
+  },
   {
     name: "Google Analytics",
     imgSrc: analytics,
     link: "https://marketingplatform.google.com/about/analytics/",
   },
+
   {
-    name: "Shopify",
-    imgSrc: shopify,
-    link: "https://www.shopify.com/",
+    name: "Litmus",
+    imgSrc: litmus,
+    link: "https://www.litmus.com/",
   },
 ];
 
