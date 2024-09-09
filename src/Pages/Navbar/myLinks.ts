@@ -4,10 +4,6 @@ const myLinks = [
     text: "Home",
   },
   {
-    link: "#projects",
-    text: "Projects",
-  },
-  {
     link: "#skills",
     text: "Skills",
   },
@@ -15,7 +11,10 @@ const myLinks = [
     link: "#about",
     text: "About",
   },
-
+  {
+    link: "#projects",
+    text: "Projects",
+  },
   {
     link: "#contact",
     text: "Contact",

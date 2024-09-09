@@ -28,7 +28,7 @@ const HeroContent = () => {
         <p className="text-4xl font-bold sm:text-5xl sm:font-extrabold  desktop:text-7xl ">
           I am Tohir a
         </p>
-        <p className="bg-gradient-to-r from-primary-500 to-secondary-700 bg-clip-text text-4xl font-bold  text-transparent sm:text-5xl sm:font-extrabold desktop:text-7xl ">
+        <p className="bg-gradient-to-r from-primary-500 to-secondary-700 bg-clip-text text-4xl font-bold text-transparent sm:text-5xl sm:font-extrabold desktop:text-7xl ">
           <Typewriter
             words={[
               "Web Developer",
@@ -38,7 +38,7 @@ const HeroContent = () => {
             ]}
             loop={0}
             cursor
-            cursorStyle="_"
+            cursorStyle="|"
             typeSpeed={30}
             deleteSpeed={30}
             delaySpeed={2000}

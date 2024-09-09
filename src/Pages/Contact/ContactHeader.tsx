@@ -1,6 +1,6 @@
+import { Typewriter } from "react-simple-typewriter";
 import MainHeading from "../../Components/MainHeading";
 import MiniMainHeading from "../../Components/MiniMainHeading";
-import Typewriter from "typewriter-effect";
 
 const ContactHeader = () => {
   return (
@@ -9,11 +9,13 @@ const ContactHeader = () => {
       <MainHeading
         text={
           <Typewriter
-            options={{
-              strings: ["Contact Me", "Let's Connect!"],
-              autoStart: true,
-              loop: true,
-            }}
+            words={["Contact Me", "Let's Connect!"]}
+            loop={0}
+            cursor
+            cursorStyle="|"
+            typeSpeed={30}
+            deleteSpeed={30}
+            delaySpeed={2000}
           />
         }
       />
