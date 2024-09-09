@@ -33,6 +33,7 @@ import convertkit from "../../assets/TechStackIcons/convertkit.svg";
 import klaviyo from "../../assets/TechStackIcons/klaviyo.svg";
 import litmus from "../../assets/TechStackIcons/litmus.svg";
 import responsive from "../../assets/TechStackIcons/responsive.svg";
+import mjml from "../../assets/TechStackIcons/mjml.svg";
 
 const myFrontEndStack = [
   {
@@ -255,6 +256,11 @@ const myCombinedSkills = [
     name: "Klaviyo",
     imgSrc: klaviyo,
     link: "https://www.klaviyo.com/",
+  },
+  {
+    name: "MJML",
+    imgSrc: mjml,
+    link: "https://mjml.io/",
   },
   {
     name: "Google Analytics",
