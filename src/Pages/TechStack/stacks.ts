@@ -226,7 +226,7 @@ const myCombinedSkills = [
     link: "https://react.dev/",
   },
   {
-    name: "Wordpress",
+    name: "WordPress",
     imgSrc: wordpress,
     link: "https://wordpress.com/",
   },

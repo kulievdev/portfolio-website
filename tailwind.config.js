@@ -28,6 +28,8 @@ export default {
 
         desktop: "1536px",
 
+        averageDesktop: "1536px",
+
         bigDesktop: "1921px",
       },
       colors: {
