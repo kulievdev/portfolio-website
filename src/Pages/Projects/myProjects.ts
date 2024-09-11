@@ -136,6 +136,12 @@ import suit2 from "../../assets/Images/SuitSupply/suit2.webp";
 import suit3 from "../../assets/Images/SuitSupply/suit3.webp";
 import suit4 from "../../assets/Images/SuitSupply/suit4.webp";
 
+import amazonLogo from "../../assets/Images/Amazon/amazon-logo.jpg";
+import amazon1 from "../../assets/Images/Amazon/amazon1.webp";
+import amazon2 from "../../assets/Images/Amazon/amazon2.webp";
+import amazon3 from "../../assets/Images/Amazon/amazon3.webp";
+import amazon4 from "../../assets/Images/Amazon/amazon4.webp";
+
 import htmlLogo from "../../assets/TechStackIcons/html5.svg";
 import cssLogo from "../../assets/TechStackIcons/css3.svg";
 
@@ -346,6 +352,23 @@ const myProjects = [
     logo: suitsupplyLogo,
     description:
       "This project showcases a transactional email system inspired by Suit Supply, focusing on enhancing customer experience through seamless communication. The system is designed to send order confirmations, shipping updates, and personalized product recommendations automatically. With a clean and responsive design, the emails ensure key information is conveyed clearly, while engaging visuals maintain brand consistency. This project highlights my ability to integrate automation with dynamic content, ensuring timely and relevant communication, and creating a smooth, efficient experience for both the business and its customers.",
+    stacks: [mjml],
+  },
+  {
+    projectName: "Amazon",
+    category: "Email",
+    emailType: "Promotional",
+    github: "https://github.com/kulievdev/promotional-email",
+    website: "https://amazon-promotional-email.onrender.com/",
+    images: [
+      { url: amazon1, alt: "Amazon Promotional Email Image" },
+      { url: amazon2, alt: "Amazon Promotional Email Image" },
+      { url: amazon3, alt: "Amazon Promotional Email Image" },
+      { url: amazon4, alt: "Amazon Promotional Email Image" },
+    ],
+    logo: amazonLogo,
+    description:
+      "This project showcases a promotional email system inspired by Amazon, aimed at driving customer engagement through personalized marketing. The system is designed to automatically send targeted promotions, product recommendations, and special offers based on user behavior and preferences. With a visually appealing and responsive design, the emails feature clear call-to-action buttons and relevant product information, all while maintaining Amazon's brand identity. This project demonstrates my expertise in integrating automation with dynamic content, ensuring promotional messages are timely, relevant, and tailored to individual customers, ultimately enhancing user engagement.",
     stacks: [mjml],
   },
   // {
