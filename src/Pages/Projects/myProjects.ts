@@ -332,7 +332,7 @@ const myProjects = [
     stacks: [shopifyLogo],
   },
   {
-    projectName: "Suit Supply",
+    projectName: "SuitSupply",
     category: "Email",
     github: "https://github.com/kulievdev/transactional-email",
     website: "https://suitsupply-transactional-email.onrender.com/",
