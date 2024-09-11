@@ -123,7 +123,7 @@ const Project: React.FC<ProjectProps> = ({
         {showInfo && (
           <div className="mb-12 mt-8 flex flex-col items-center">
             <img
-              className="w-50 mb-4 h-14 object-cover"
+              className="mb-4 h-14 w-max object-cover"
               src={logo}
               alt="logo"
             />

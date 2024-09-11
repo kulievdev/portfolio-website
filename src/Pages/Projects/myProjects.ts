@@ -130,6 +130,12 @@ import move6 from "../../assets/Images/MoveCareers/move6.webp";
 // import hygge14 from "../../assets/Images/Hygge/hygge14.webp";
 // import hygge15 from "../../assets/Images/Hygge/hygge15.webp";
 
+import suitsupplyLogo from "../../assets/Images/SuitSupply/suitsupply-logo.png";
+import suit1 from "../../assets/Images/SuitSupply/suit1.webp";
+import suit2 from "../../assets/Images/SuitSupply/suit2.webp";
+import suit3 from "../../assets/Images/SuitSupply/suit3.webp";
+import suit4 from "../../assets/Images/SuitSupply/suit4.webp";
+
 import htmlLogo from "../../assets/TechStackIcons/html5.svg";
 import cssLogo from "../../assets/TechStackIcons/css3.svg";
 
@@ -138,6 +144,7 @@ import javascriptLogo from "../../assets/TechStackIcons/javascript.svg";
 import styledComp from "../../assets/TechStackIcons/styled-components.svg";
 import wordpressLogo from "../../assets/TechStackIcons/wordpress.svg";
 import shopifyLogo from "../../assets/TechStackIcons/shopify.svg";
+import mjml from "../../assets/TechStackIcons/mjml.svg";
 // import tailwindLogo from "../../assets/TechStackIcons/tailwindcss.svg";
 // import nextjsLogo from "../../assets/TechStackIcons/nextjs.svg";
 // import prismaLogo from "../../assets/TechStackIcons/prisma.svg";
@@ -323,6 +330,22 @@ const myProjects = [
     description:
       "The Marakand Restaurant website is a Shopify site meticulously designed and built from the ground up to showcase the vibrant dining experience of this renowned establishment. Situated in a prime location, the website captures the essence of Marakand’s exquisite cuisine with a modern and elegant design. It highlights the restaurant’s diverse menu, featuring an array of dishes that blend traditional flavors with contemporary presentation. The site includes user-friendly navigation, an interactive menu section with detailed descriptions of each dish, and an easy-to-use reservation system.",
     stacks: [shopifyLogo],
+  },
+  {
+    projectName: "Suit Supply",
+    category: "Email",
+    github: "https://github.com/kulievdev/transactional-email",
+    website: "https://suitsupply-transactional-email.onrender.com/",
+    images: [
+      { url: suit1, alt: "SuitSupply Transactional Email Image" },
+      { url: suit2, alt: "SuitSupply Transactional Email Image" },
+      { url: suit3, alt: "SuitSupply Transactional Email Image" },
+      { url: suit4, alt: "SuitSupply Transactional Email Image" },
+    ],
+    logo: suitsupplyLogo,
+    description:
+      "This project showcases a transactional email system inspired by Suit Supply, focusing on enhancing customer experience through seamless communication. The system is designed to send order confirmations, shipping updates, and personalized product recommendations automatically. With a clean and responsive design, the emails ensure key information is conveyed clearly, while engaging visuals maintain brand consistency. This project highlights my ability to integrate automation with dynamic content, ensuring timely and relevant communication, and creating a smooth, efficient experience for both the business and its customers.",
+    stacks: [mjml],
   },
   // {
   //   projectName: "Infinita Furniture",
