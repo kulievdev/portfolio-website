@@ -334,6 +334,7 @@ const myProjects = [
   {
     projectName: "SuitSupply",
     category: "Email",
+    emailType: "Transactional",
     github: "https://github.com/kulievdev/transactional-email",
     website: "https://suitsupply-transactional-email.onrender.com/",
     images: [

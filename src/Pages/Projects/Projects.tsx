@@ -42,6 +42,7 @@ const Projects: React.FC = () => {
                 description={project.description}
                 stacks={project.stacks}
                 category={project.category}
+                emailType={project.emailType}
               />
             ))}
           </div>

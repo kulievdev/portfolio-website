@@ -21,6 +21,7 @@ type ProjectProps = {
   description: string;
   stacks: string[];
   category: string;
+  emailType?: string;
 };
 
 const Project: React.FC<ProjectProps> = ({
@@ -33,6 +34,7 @@ const Project: React.FC<ProjectProps> = ({
   description,
   stacks,
   category,
+  emailType,
 }) => {
   // const Component = window.innerWidth > 435 ? motion.div : "div";
 
@@ -144,6 +146,11 @@ const Project: React.FC<ProjectProps> = ({
         {category === "Shopify" ? (
           <h3 className="mb-8 mt-4 text-xl font-semibold text-gray-700 desktop:text-2xl bigDesktop:text-4xl">
             Password: {name.toLowerCase()}
+          </h3>
+        ) : null}
+        {category === "Email" ? (
+          <h3 className="mb-8 mt-4 text-xl font-semibold text-gray-700 desktop:text-2xl bigDesktop:text-4xl">
+            {emailType} Email
           </h3>
         ) : null}
         <div className="flex flex-wrap justify-center gap-4">
