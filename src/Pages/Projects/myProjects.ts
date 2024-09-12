@@ -142,7 +142,7 @@ import amazon2 from "../../assets/Images/Amazon/amazon2.webp";
 import amazon3 from "../../assets/Images/Amazon/amazon3.webp";
 import amazon4 from "../../assets/Images/Amazon/amazon4.webp";
 
-import paypalLogo from "../../assets/Images/PayPal/paypal-logo.jpg";
+import paypalLogo from "../../assets/Images/PayPal/paypal-logo.png";
 import paypal1 from "../../assets/Images/PayPal/paypal1.webp";
 import paypal2 from "../../assets/Images/PayPal/paypal2.webp";
 import paypal3 from "../../assets/Images/PayPal/paypal3.webp";
