@@ -142,6 +142,11 @@ import amazon2 from "../../assets/Images/Amazon/amazon2.webp";
 import amazon3 from "../../assets/Images/Amazon/amazon3.webp";
 import amazon4 from "../../assets/Images/Amazon/amazon4.webp";
 
+import paypalLogo from "../../assets/Images/PayPal/paypal-logo.jpg";
+import paypal1 from "../../assets/Images/PayPal/paypal1.webp";
+import paypal2 from "../../assets/Images/PayPal/paypal2.webp";
+import paypal3 from "../../assets/Images/PayPal/paypal3.webp";
+
 import htmlLogo from "../../assets/TechStackIcons/html5.svg";
 import cssLogo from "../../assets/TechStackIcons/css3.svg";
 
@@ -369,6 +374,22 @@ const myProjects = [
     logo: amazonLogo,
     description:
       "This project showcases a promotional email system inspired by Amazon, aimed at driving customer engagement through personalized marketing. The system is designed to automatically send targeted promotions, product recommendations, and special offers based on user behavior and preferences. With a visually appealing and responsive design, the emails feature clear call-to-action buttons and relevant product information, all while maintaining Amazon's brand identity. This project demonstrates my expertise in integrating automation with dynamic content, ensuring promotional messages are timely, relevant, and tailored to individual customers, ultimately enhancing user engagement.",
+    stacks: [mjml],
+  },
+  {
+    projectName: "PayPal",
+    category: "Email",
+    emailType: "Newsletter",
+    github: "https://github.com/kulievdev/newsletter-email",
+    website: "https://paypal-newsletter-email.onrender.com/",
+    images: [
+      { url: paypal1, alt: "PayPal Newsletter Email Image" },
+      { url: paypal2, alt: "PayPal Newsletter Email Image" },
+      { url: paypal3, alt: "PayPal Newsletter Email Image" },
+    ],
+    logo: paypalLogo,
+    description:
+      "This project showcases a streamlined email system designed to promote PayPal's credit card offerings, aimed at encouraging users to apply for a credit card with personalized incentives. The system is programmed to automatically send targeted email campaigns, highlighting exclusive benefits, rewards, and offers based on user behavior, spending habits, and financial profiles. With a modern, responsive design, the emails feature a clear call-to-action to apply, along with concise details about the credit card's perks—all while maintaining PayPal's brand consistency. This project demonstrates my expertise in creating automated, personalized email campaigns that drive action and enhance user engagement, ultimately increasing credit card applications.",
     stacks: [mjml],
   },
   // {
