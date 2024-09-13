@@ -218,7 +218,7 @@ const myProjects = [
     ],
     logo: luceLogo,
     description:
-      "The Luce Notte Restaurant website offers an elegant online experience that captures the essence of Italian cuisine. Its sophisticated design features a user-friendly layout with an intuitive menu, a beautiful gallery of dishes and ambiance, and customer testimonials. The site also includes a seamless reservation system for easy online bookings. Visitors are greeted with rich visuals and engaging content that reflect the restaurant’s commitment to quality and authenticity. The website’s design enhances the overall dining experience by inviting users to explore with the restaurant’s culinary offerings.",
+      "The Luce Notte Restaurant website offers a refined online experience that embodies the essence of Italian cuisine. Its elegant design features a user-friendly layout with an intuitive menu, a stunning gallery showcasing dishes and ambiance, and heartfelt customer testimonials. The site includes a streamlined reservation system for hassle-free bookings. Visitors are welcomed with vibrant visuals and engaging content that highlight the restaurant’s dedication to quality and authenticity.",
     stacks: [reactLogo, javascriptLogo, styledComp],
   },
   {
@@ -236,7 +236,7 @@ const myProjects = [
     ],
     logo: moveLogo,
     description:
-      "A job search website landing page showcases job opportunities across various industries. It allows users to explore listings and get an overview of available positions from home. The page highlights features like personalized job recommendations, resume uploads, and real-time notifications. Designed for a seamless job-hunting experience, this project demonstrates my ability to create compelling and informative web interfaces.",
+      "The job search website landing page presents a comprehensive platform for exploring diverse job opportunities. It features a clean layout with easy navigation, personalized job recommendations, and options for resume uploads and real-time notifications. Designed for an efficient job-hunting experience, the page emphasizes user-friendly interactions and quick access to relevant listings. This project highlights my ability to create engaging and functional web interfaces, tailored to enhance the user’s job search journey.",
     stacks: [htmlLogo, cssLogo],
   },
   {
