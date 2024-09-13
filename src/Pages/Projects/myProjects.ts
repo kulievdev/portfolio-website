@@ -147,6 +147,10 @@ import paypal1 from "../../assets/Images/PayPal/paypal1.webp";
 import paypal2 from "../../assets/Images/PayPal/paypal2.webp";
 import paypal3 from "../../assets/Images/PayPal/paypal3.webp";
 
+import escapadeLogo from "../../assets/Images/Escapade/escapade-logo.png";
+import escapade1 from "../../assets/Images/Escapade/escapade1.webp";
+import escapade2 from "../../assets/Images/Escapade/escapade2.webp";
+
 import htmlLogo from "../../assets/TechStackIcons/html5.svg";
 import cssLogo from "../../assets/TechStackIcons/css3.svg";
 
@@ -156,6 +160,7 @@ import styledComp from "../../assets/TechStackIcons/styled-components.svg";
 import wordpressLogo from "../../assets/TechStackIcons/wordpress.svg";
 import shopifyLogo from "../../assets/TechStackIcons/shopify.svg";
 import mjml from "../../assets/TechStackIcons/mjml.svg";
+import convertkit from "../../assets/TechStackIcons/convertkit.svg";
 // import tailwindLogo from "../../assets/TechStackIcons/tailwindcss.svg";
 // import nextjsLogo from "../../assets/TechStackIcons/nextjs.svg";
 // import prismaLogo from "../../assets/TechStackIcons/prisma.svg";
@@ -391,6 +396,20 @@ const myProjects = [
     description:
       "This project showcases a streamlined email system designed to promote PayPal's credit card offerings, aimed at encouraging users to apply for a credit card with personalized incentives. The system is programmed to automatically send targeted email campaigns, highlighting exclusive benefits, rewards, and offers based on user behavior, spending habits, and financial profiles. With a modern, responsive design, the emails feature a clear call-to-action to apply, along with concise details about the credit card's perks—all while maintaining PayPal's brand consistency. This project demonstrates my expertise in creating automated, personalized email campaigns that drive action and enhance user engagement, ultimately increasing credit card applications.",
     stacks: [mjml],
+  },
+  {
+    projectName: "Escapade",
+    category: "Email",
+    emailType: "Landing Page",
+    website: "https://kulievdev.ck.page/0e077baa99",
+    images: [
+      { url: escapade1, alt: "Escapade Landing Page Email Image" },
+      { url: escapade2, alt: "Escapade Landing Page Email Image" },
+    ],
+    logo: escapadeLogo,
+    description:
+      "This project showcases a sophisticated email capture landing page built using ConvertKit for Escapade, a travel website dedicated to delivering exclusive travel deals and destination insights. Designed with a sleek, modern aesthetic, the landing page is engineered to capture user emails efficiently through a streamlined sign-up form. The system leverages ConvertKit's automation features to send targeted, personalized emails featuring travel tips, exclusive offers, and curated travel deals based on user interests and preferences. By combining responsive design with compelling content and a clear call-to-action, this project highlights my proficiency in utilizing ConvertKit to create effective email capture strategies that drive user engagement.",
+    stacks: [convertkit],
   },
   // {
   //   projectName: "Infinita Furniture",
