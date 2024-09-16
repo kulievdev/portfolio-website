@@ -6,7 +6,7 @@ import learningIcon from "../../assets/Images/knowledge.svg";
 const aboutMeInfo = [
   {
     title: "Experience",
-    text: "I have been working for 2+ years now, almost every day honing my skills in web maintenance, development and design.",
+    text: "I specialize in building responsive websites and effective email campaigns, focusing on development, design, and optimization.",
     backgroundColor: "bg-gradient-to-br from-primary-50 to-gray-50",
     imgSrc: codeIcon,
   },
@@ -17,14 +17,14 @@ const aboutMeInfo = [
     imgSrc: educationIcon,
   },
   {
-    title: "Continuous Growth",
-    text: "Continuous growth is a fundamental aspect of my professional journey. I am committed to lifelong learning. Skills I am currently learning are Email Development and Shopify Liquid.",
+    title: "Continuous Learning",
+    text: "I believe in constant growth. Currently, I'm advancing my skills in Shopify Liquid and email development, keeping up with the latest trends in web and email design.",
     backgroundColor: "bg-gradient-to-bl from-primary-50 to-secondary-100",
     imgSrc: learningIcon,
   },
   {
-    title: "Hobbies",
-    text: "Outside of work and learning, I like to play soccer, go out with my family, try new food and travel as much as possible.",
+    title: "Outside Interests",
+    text: "When I’m not coding, I enjoy playing soccer, exploring new cuisines, traveling, and spending quality time with my family.",
     backgroundColor: "bg-gradient-to-br from-primary-50 to-gray-50",
     imgSrc: hobbiesIcon,
   },
