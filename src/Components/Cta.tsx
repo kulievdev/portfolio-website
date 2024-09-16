@@ -16,7 +16,7 @@ type CtaProps = {
 };
 
 const openResume = () => {
-  window.open("/TohirKuliev_Resume.pdf");
+  window.open("/Tohir Kuliev - Resume.pdf");
 };
 
 const Cta: React.FC<CtaProps> = ({ type, projectCtaText, onClick }) => {
@@ -42,7 +42,7 @@ const Cta: React.FC<CtaProps> = ({ type, projectCtaText, onClick }) => {
               <a
                 href="#projects"
                 aria-label="Navigate to projects"
-                className="largeTablet:px-5 largeTablet:py-2.5 largeTablet:text-lg flex cursor-pointer items-center gap-2 rounded-xl border-2 border-secondary-300 px-3 py-2 text-center text-base font-bold leading-loose tracking-wider text-primary-700 transition-colors duration-300 ease-out hover:border-primary-600 hover:bg-white desktop:px-7 desktop:py-[18px] desktop:text-xl"
+                className="flex cursor-pointer items-center gap-2 rounded-xl border-2 border-secondary-300 px-3 py-2 text-center text-base font-bold leading-loose tracking-wider text-primary-700 transition-colors duration-300 ease-out hover:border-primary-600 hover:bg-white largeTablet:px-5 largeTablet:py-2.5 largeTablet:text-lg desktop:px-7 desktop:py-[18px] desktop:text-xl"
               >
                 My Work
                 <img src={moveIcon} alt="Move down icon" className="h-6 w-6" />
@@ -52,7 +52,7 @@ const Cta: React.FC<CtaProps> = ({ type, projectCtaText, onClick }) => {
             return (
               <button
                 onClick={onClick}
-                className="largeTable:px-5 largeTablet:py-3 largeTablet:text-lg flex cursor-pointer items-center gap-2 rounded-xl bg-primary-700 px-3 py-2.5 text-center text-base font-bold leading-loose tracking-wider text-gray-50 transition-colors duration-300 ease-out hover:bg-primary-600 desktop:px-7 desktop:py-5 desktop:text-xl"
+                className="largeTable:px-5 flex cursor-pointer items-center gap-2 rounded-xl bg-primary-700 px-3 py-2.5 text-center text-base font-bold leading-loose tracking-wider text-gray-50 transition-colors duration-300 ease-out hover:bg-primary-600 largeTablet:py-3 largeTablet:text-lg desktop:px-7 desktop:py-5 desktop:text-xl"
               >
                 Let's Talk!
               </button>
