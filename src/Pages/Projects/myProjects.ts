@@ -1,16 +1,16 @@
-// import projectifyLogo from "../../assets/Images/ProjectifyApp/projectify-logo.png";
-// import projectify1 from "../../assets/Images/ProjectifyApp/projectify1.webp";
-// import projectify2 from "../../assets/Images/ProjectifyApp/projectify2.webp";
-// import projectify3 from "../../assets/Images/ProjectifyApp/projectify3.webp";
-// import projectify4 from "../../assets/Images/ProjectifyApp/projectify4.webp";
-// import projectify5 from "../../assets/Images/ProjectifyApp/projectify5.webp";
-// import projectify6 from "../../assets/Images/ProjectifyApp/projectify6.webp";
-// import projectify7 from "../../assets/Images/ProjectifyApp/projectify7.webp";
-// import projectify8 from "../../assets/Images/ProjectifyApp/projectify8.webp";
-// import projectify9 from "../../assets/Images/ProjectifyApp/projectify9.webp";
-// import projectify10 from "../../assets/Images/ProjectifyApp/projectify10.webp";
-// import projectify11 from "../../assets/Images/ProjectifyApp/projectify11.webp";
-// import projectify12 from "../../assets/Images/ProjectifyApp/projectify12.webp";
+import projectifyLogo from "../../assets/Images/ProjectifyApp/projectify-logo.png";
+import projectify1 from "../../assets/Images/ProjectifyApp/projectify1.webp";
+import projectify2 from "../../assets/Images/ProjectifyApp/projectify2.webp";
+import projectify3 from "../../assets/Images/ProjectifyApp/projectify3.webp";
+import projectify4 from "../../assets/Images/ProjectifyApp/projectify4.webp";
+import projectify5 from "../../assets/Images/ProjectifyApp/projectify5.webp";
+import projectify6 from "../../assets/Images/ProjectifyApp/projectify6.webp";
+import projectify7 from "../../assets/Images/ProjectifyApp/projectify7.webp";
+import projectify8 from "../../assets/Images/ProjectifyApp/projectify8.webp";
+import projectify9 from "../../assets/Images/ProjectifyApp/projectify9.webp";
+import projectify10 from "../../assets/Images/ProjectifyApp/projectify10.webp";
+import projectify11 from "../../assets/Images/ProjectifyApp/projectify11.webp";
+import projectify12 from "../../assets/Images/ProjectifyApp/projectify12.webp";
 
 import luceLogo from "../../assets/Images/LuceNotte/luce-logo.png";
 import luce1 from "../../assets/Images/LuceNotte/luce1.webp";
@@ -97,13 +97,13 @@ import silkage16 from "../../assets/Images/Silkage/silkage16.webp";
 // import portfolio4 from "../../assets/Images/Portfolio/portfolio4.webp";
 // import portfolio5 from "../../assets/Images/Portfolio/portfolio5.webp";
 
-import moveLogo from "../../assets/Images/MoveCareers/move-logo.png";
-import move1 from "../../assets/Images/MoveCareers/move1.webp";
-import move2 from "../../assets/Images/MoveCareers/move2.webp";
-import move3 from "../../assets/Images/MoveCareers/move3.webp";
-import move4 from "../../assets/Images/MoveCareers/move4.webp";
-import move5 from "../../assets/Images/MoveCareers/move5.webp";
-import move6 from "../../assets/Images/MoveCareers/move6.webp";
+// import moveLogo from "../../assets/Images/MoveCareers/move-logo.png";
+// import move1 from "../../assets/Images/MoveCareers/move1.webp";
+// import move2 from "../../assets/Images/MoveCareers/move2.webp";
+// import move3 from "../../assets/Images/MoveCareers/move3.webp";
+// import move4 from "../../assets/Images/MoveCareers/move4.webp";
+// import move5 from "../../assets/Images/MoveCareers/move5.webp";
+// import move6 from "../../assets/Images/MoveCareers/move6.webp";
 
 // import socialMediaLogo from "../../assets/Images/SocialMediaApp/social-media-logo.png";
 // import social1 from "../../assets/Images/SocialMediaApp/social-media1.webp";
@@ -170,37 +170,6 @@ import convertkit from "../../assets/TechStackIcons/convertkit.svg";
 // import mongoDB from "../../assets/TechStackIcons/mongodb.svg";
 
 const myProjects = [
-  // {
-  //   projectName: "Projectify App",
-  //   category: "Full-Stack",
-  //   github: "https://github.com/kulievdev/projectify-app-ui",
-  //   website: "https://projectify.tech/",
-  //   images: [
-  //     { url: projectify1, alt: "Projectify App Image" },
-  //     { url: projectify2, alt: "Projectify App  Image" },
-  //     { url: projectify3, alt: "Projectify App  Image" },
-  //     { url: projectify4, alt: "Projectify App  Image" },
-  //     { url: projectify5, alt: "Projectify App  Image" },
-  //     { url: projectify6, alt: "Projectify App  Image" },
-  //     { url: projectify7, alt: "Projectify App  Image" },
-  //     { url: projectify8, alt: "Projectify App  Image" },
-  //     { url: projectify9, alt: "Projectify App  Image" },
-  //     { url: projectify10, alt: "Projectify App  Image" },
-  //     { url: projectify11, alt: "Projectify App  Image" },
-  //     { url: projectify12, alt: "Projectify App  Image" },
-  //   ],
-  //   logo: projectifyLogo,
-  //   description:
-  //     "A project management app that is built for developers and designers. It was inspired by apps like Jira. Projectify offers a comprehensive set of features designed to enhance productivity, foster collaboration, and streamline project management processes.",
-  //   stacks: [
-  //     reactLogo,
-  //     typescriptLogo,
-  //     styledComp,
-  //     nodeLogo,
-  //     expressLogo,
-  //     mongoDB,
-  //   ],
-  // },
   {
     projectName: "Luce Notte Restaurant",
     category: "Landing-Page",
@@ -222,23 +191,48 @@ const myProjects = [
     stacks: [reactLogo, javascriptLogo, styledComp],
   },
   {
-    projectName: "Move Careers",
+    projectName: "Projectify App",
     category: "Landing-Page",
-    github: "https://github.com/kulievdev/career-website",
-    website: "https://move-careers.onrender.com/",
+    github: "https://github.com/kulievdev/projectify-app-ui",
+    website: "https://projectify.tech/",
     images: [
-      { url: move1, alt: "Move Careers Website Image" },
-      { url: move2, alt: "Move Careers Website Image" },
-      { url: move3, alt: "Move Careers Website Image" },
-      { url: move4, alt: "Move Careers Website Image" },
-      { url: move5, alt: "Move Careers Website Image" },
-      { url: move6, alt: "Move Careers Website Image" },
+      { url: projectify1, alt: "Projectify App Image" },
+      { url: projectify2, alt: "Projectify App  Image" },
+      { url: projectify3, alt: "Projectify App  Image" },
+      { url: projectify4, alt: "Projectify App  Image" },
+      { url: projectify5, alt: "Projectify App  Image" },
+      { url: projectify6, alt: "Projectify App  Image" },
+      { url: projectify7, alt: "Projectify App  Image" },
+      { url: projectify8, alt: "Projectify App  Image" },
+      { url: projectify9, alt: "Projectify App  Image" },
+      { url: projectify10, alt: "Projectify App  Image" },
+      { url: projectify11, alt: "Projectify App  Image" },
+      { url: projectify12, alt: "Projectify App  Image" },
     ],
-    logo: moveLogo,
+    logo: projectifyLogo,
     description:
-      "The job search website landing page presents a comprehensive platform for exploring diverse job opportunities. It features a clean layout with easy navigation, personalized job recommendations, and options for resume uploads and real-time notifications. Designed for an efficient job-hunting experience, the page emphasizes user-friendly interactions and quick access to relevant listings. This project highlights my ability to create engaging and functional web interfaces, tailored to enhance the user’s job search journey.",
-    stacks: [htmlLogo, cssLogo],
+      "Projectify is a cutting-edge project management app tailored for developers and designers, delivering a streamlined experience akin to Jira. The app’s sleek interface includes a user-friendly dashboard, an extensive array of project tracking tools, and customizable workflows that enhance productivity. Its intuitive design features detailed task management, real-time collaboration capabilities, and insightful progress reports, ensuring efficient project execution and team cohesion.",
+    stacks: [reactLogo, htmlLogo, cssLogo],
   },
+
+  // {
+  //   projectName: "Move Careers",
+  //   category: "Landing-Page",
+  //   github: "https://github.com/kulievdev/career-website",
+  //   website: "https://move-careers.onrender.com/",
+  //   images: [
+  //     { url: move1, alt: "Move Careers Website Image" },
+  //     { url: move2, alt: "Move Careers Website Image" },
+  //     { url: move3, alt: "Move Careers Website Image" },
+  //     { url: move4, alt: "Move Careers Website Image" },
+  //     { url: move5, alt: "Move Careers Website Image" },
+  //     { url: move6, alt: "Move Careers Website Image" },
+  //   ],
+  //   logo: moveLogo,
+  //   description:
+  //     "The job search website landing page presents a comprehensive platform for exploring diverse job opportunities. It features a clean layout with easy navigation, personalized job recommendations, and options for resume uploads and real-time notifications. Designed for an efficient job-hunting experience, the page emphasizes user-friendly interactions and quick access to relevant listings. This project highlights my ability to create engaging and functional web interfaces, tailored to enhance the user’s job search journey.",
+  //   stacks: [htmlLogo, cssLogo],
+  // },
   {
     projectName: "Pulse Fitness",
     category: "Wordpress",
