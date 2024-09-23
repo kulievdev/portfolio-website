@@ -11,10 +11,6 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import Form from "../Pages/Contact/Form";
-import ContactIcon from "./ContactIcon";
-import mySocials from "../utils/socials";
-import emailIcon from "../assets/SocialMediaIcons/email.svg";
-import phoneIcon from "../assets/SocialMediaIcons/phone.svg";
 import Cta from "./Cta";
 
 const ContactModal = () => {
@@ -41,32 +37,7 @@ const ContactModal = () => {
           <ModalBody pb={6}>
             <Form onClose={onClose} />
           </ModalBody>
-          <ModalFooter justifyContent="space-between">
-            <div className="flex flex-row gap-4 ">
-              {mySocials.map((mySocial, idx) => {
-                return (
-                  <ContactIcon
-                    type="socialMedia"
-                    socialLink={mySocial.link}
-                    key={idx}
-                    imageSrc={mySocial.src}
-                    altText={mySocial.alt}
-                  />
-                );
-              })}
-              <ContactIcon
-                contactLink="mailto:kulievdev@gmail.com"
-                type="contactInfo"
-                imageSrc={emailIcon}
-                altText="My Email Icon"
-              />
-              <ContactIcon
-                type="contactInfo"
-                contactLink="tel:6466636636"
-                imageSrc={phoneIcon}
-                altText="My Email Icon"
-              />
-            </div>
+          <ModalFooter justifyContent="end">
             <Button onClick={onClose}>Cancel</Button>
           </ModalFooter>
         </ModalContent>
