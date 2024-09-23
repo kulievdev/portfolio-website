@@ -52,7 +52,7 @@ const Cta: React.FC<CtaProps> = ({ type, projectCtaText, onClick }) => {
             return (
               <button
                 onClick={onClick}
-                className="largeTable:px-5 flex cursor-pointer items-center gap-2 rounded-xl bg-primary-700 px-3 py-2.5 text-center text-base font-bold leading-loose tracking-wider text-gray-50 transition-colors duration-300 ease-out hover:bg-primary-600 largeTablet:py-3 largeTablet:text-lg desktop:px-7 desktop:py-5 desktop:text-xl"
+                className="largeTable:px-5 flex cursor-pointer items-center gap-2 rounded-xl bg-primary-600 px-3 py-2.5 text-center text-base font-bold leading-loose tracking-wider text-gray-50 transition-colors duration-300 ease-out hover:bg-primary-700 largeTablet:py-3 largeTablet:text-lg desktop:px-7 desktop:py-5 desktop:text-xl"
               >
                 Let's Talk!
               </button>

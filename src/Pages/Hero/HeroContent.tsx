@@ -2,11 +2,13 @@ import Cta from "../../Components/Cta";
 import { motion } from "framer-motion";
 import ContactModal from "../../Components/ContactModal";
 import { Typewriter } from "react-simple-typewriter";
+import mySocials from "../../utils/socials";
+import ContactIcon from "../../Components/ContactIcon";
 
 const HeroContent = () => {
   return (
     <div
-      className="inline-flex flex-col items-start justify-center gap-6 pt-6 sm:pt-4 desktop:gap-16 desktop:pt-0"
+      className="inline-flex flex-col items-start justify-center gap-12 pt-6 sm:pt-4 desktop:pt-0"
       role="banner"
     >
       <motion.header
@@ -50,7 +52,7 @@ const HeroContent = () => {
         </p>
       </motion.header>
       <motion.nav
-        className="inline-flex w-full items-start items-center justify-center space-x-4 largeTablet:justify-start desktop:space-x-8"
+        className="inline-flex w-full justify-center space-x-4 largeTablet:justify-start desktop:space-x-8"
         initial={{ opacity: 0, y: 40, scale: 0.9, x: "-10%" }}
         animate={{ opacity: 1, y: 0, scale: 1, x: 0 }}
         transition={{ duration: 0.6 }}
@@ -58,6 +60,24 @@ const HeroContent = () => {
         <ContactModal />
         <Cta type="my work" />
       </motion.nav>
+      <motion.div
+        className="flex w-full justify-center gap-8 largeTablet:justify-start"
+        initial={{ opacity: 0, y: 40, scale: 0.9, x: "-10%" }}
+        animate={{ opacity: 1, y: 0, scale: 1, x: 0 }}
+        transition={{ duration: 0.6 }}
+      >
+        {mySocials.map((mySocial, idx) => {
+          return (
+            <ContactIcon
+              type="socialMedia"
+              socialLink={mySocial.link}
+              key={idx}
+              imageSrc={mySocial.src}
+              altText={mySocial.alt}
+            />
+          );
+        })}
+      </motion.div>
     </div>
   );
 };
