@@ -1,7 +1,7 @@
-import logo from "../assets/Images/logo.webp";
+import logo from "../assets/Images/logo.png";
 
 const Logo = () => {
-  return <img alt="Logo" src={logo} className="w-36 cursor-pointer sm:w-48" />;
+  return <img alt="Logo" src={logo} className="w-20 cursor-pointer" />;
 };
 
 export default Logo;
