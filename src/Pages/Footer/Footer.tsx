@@ -33,7 +33,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="w-full border-t border-gray-300"></div>
-        <p className="text-base font-bold text-gray-700">
+        <p className="text-center text-base font-bold text-gray-700">
           Copyright © 2024 KulievDev. All Rights Reserved.
         </p>
       </div>
