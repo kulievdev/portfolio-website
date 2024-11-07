@@ -44,7 +44,7 @@ const Message = () => {
             </a>
           </div>
         </div>
-        <div className="w-max">
+        {/* <div className="w-max">
           <p className="mb-4 text-left text-base font-medium leading-normal text-gray-900 sm:text-lg bigDesktop:text-2xl">
             Phone Number
           </p>
@@ -63,7 +63,7 @@ const Message = () => {
               646-663-6636
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="flex justify-center gap-8">
         {mySocials.map((mySocial, idx) => {
