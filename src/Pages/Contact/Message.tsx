@@ -44,26 +44,6 @@ const Message = () => {
             </a>
           </div>
         </div>
-        {/* <div className="w-max">
-          <p className="mb-4 text-left text-base font-medium leading-normal text-gray-900 sm:text-lg bigDesktop:text-2xl">
-            Phone Number
-          </p>
-          <div className="flex items-center gap-4">
-            <ContactIcon
-              type="contactInfo"
-              contactLink="tel:6466636636"
-              imageSrc={phoneIcon}
-              altText="My Email Icon"
-            />
-            <a
-              href="tel:6466636636"
-              aria-label="Call me"
-              className="cursor-pointer text-left text-sm font-medium text-primary-700 bigDesktop:text-xl"
-            >
-              646-663-6636
-            </a>
-          </div>
-        </div> */}
       </div>
       <div className="flex justify-center gap-8">
         {mySocials.map((mySocial, idx) => {
