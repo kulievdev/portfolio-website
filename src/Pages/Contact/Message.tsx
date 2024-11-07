@@ -1,6 +1,6 @@
 import ContactIcon from "../../Components/ContactIcon";
 import emailIcon from "../../assets/SocialMediaIcons/email.svg";
-import phoneIcon from "../../assets/SocialMediaIcons/phone.svg";
+// import phoneIcon from "../../assets/SocialMediaIcons/phone.svg";
 import AnimateOnScroll from "../../animation/AnimateOnScroll";
 import mySocials from "../../utils/socials";
 
